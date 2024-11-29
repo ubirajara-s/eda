@@ -1,0 +1,9 @@
+name: eda
+channels:
+  - conda-forge
+dependencies:
+  - prov
+  - pandas 
+  - jupyterlab
+  - python=3.12
+  - matplotlib
