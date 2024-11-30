@@ -1,5 +1,9 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<prov:document xmlns:void="http://vocab.deri.ie/void#" xmlns:ufrj="https://www.ufrj.br" xmlns:ex="http://example.org/" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:ufrj-ppgi="http://www.ufrj.br/ppgi/" xmlns:anp="https://www.gov.br/anp/pt-br" xmlns:anp-dados_tec="https://www.gov.br/anp/pt-br/centrais-de-conteudo/dados-abertos/acervo-de-dados-tecnicos" xmlns:petrobras="https://petrobras.com.br/" xmlns:prov="http://www.w3.org/ns/prov#" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+<prov:document xmlns:void="http://vocab.deri.ie/void#" xmlns:ufrj="https://www.ufrj.br" xmlns:ex="http://example.org/" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:ufrj-ppgi="http://www.ufrj.br/ppgi/" xmlns:anp="https://www.gov.br/anp/pt-br" xmlns:anp-dados_tec="https://www.gov.br/anp/pt-br/centrais-de-conteudo/dados-abertos/acervo-de-dados-tecnicos" xmlns:petrobras="https://petrobras.com.br/" xmlns:br="http://br.org/ns/" xmlns:prov="http://www.w3.org/ns/prov#" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <prov:agent prov:id="br:orgBr">
+    <prov:type>prov:Organization</prov:type>
+    <foaf:name>Oraganiza&amp;#231;&amp;#245;es Brasileiras</foaf:name>
+  </prov:agent>
   <prov:agent prov:id="anp:ANP">
     <prov:type>prov:Organization</prov:type>
     <foaf:name>Ag&amp;#234;ncia Nacional do Petr&amp;#243;leo, G&amp;#225;s Natural e Biocombust&amp;#237;veis</foaf:name>
@@ -125,6 +129,18 @@
     <prov:type>prov:Collection</prov:type>
   </prov:entity>
   <prov:actedOnBehalfOf>
+    <prov:delegate prov:ref="anp:ANP"/>
+    <prov:responsible prov:ref="br:orgBr"/>
+  </prov:actedOnBehalfOf>
+  <prov:actedOnBehalfOf>
+    <prov:delegate prov:ref="petrobras:Petrobras"/>
+    <prov:responsible prov:ref="br:orgBr"/>
+  </prov:actedOnBehalfOf>
+  <prov:actedOnBehalfOf>
+    <prov:delegate prov:ref="ufrj:UFRJ"/>
+    <prov:responsible prov:ref="br:orgBr"/>
+  </prov:actedOnBehalfOf>
+  <prov:actedOnBehalfOf>
     <prov:delegate prov:ref="ufrj:PPGI"/>
     <prov:responsible prov:ref="ufrj:UFRJ"/>
   </prov:actedOnBehalfOf>
@@ -213,88 +229,100 @@
     <prov:activity prov:ref="ufrj:save-ipynb"/>
   </prov:wasGeneratedBy>
   <prov:activity prov:id="ufrj:carga_levantamento_sismico_2023">
-    <prov:startTime>2024-11-30T14:13:45.550377</prov:startTime>
-    <prov:endTime>2024-11-30T14:13:45.641045</prov:endTime>
+    <prov:startTime>2024-11-30T16:12:39.898836</prov:startTime>
+    <prov:endTime>2024-11-30T16:12:39.982037</prov:endTime>
   </prov:activity>
   <prov:wasAssociatedWith>
     <prov:activity prov:ref="ufrj:carga_levantamento_sismico_2023"/>
     <prov:agent prov:ref="ufrj:eda.ipynb"/>
   </prov:wasAssociatedWith>
-  <prov:entity prov:id="ufrj:ent-levantamento_sismico_2023">
+  <prov:entity prov:id="ufrj:levantamento_sismico_2023">
     <prov:label>Dataset carregado: levantamento_sismico_2023</prov:label>
     <prov:type xsi:type="xsd:string">void:Dataset</prov:type>
-    <prov:generatedAtTime>2024-11-30T14:13:45.641045</prov:generatedAtTime>
+    <prov:generatedAtTime>2024-11-30T16:12:39.982037</prov:generatedAtTime>
   </prov:entity>
   <prov:wasGeneratedBy>
-    <prov:entity prov:ref="ufrj:ent-levantamento_sismico_2023"/>
+    <prov:entity prov:ref="ufrj:levantamento_sismico_2023"/>
     <prov:activity prov:ref="ufrj:carga_levantamento_sismico_2023"/>
   </prov:wasGeneratedBy>
+  <prov:used>
+    <prov:activity prov:ref="ufrj:carga_levantamento_sismico_2023"/>
+    <prov:entity prov:ref="anp:levantamento_sismico_2023"/>
+  </prov:used>
   <prov:activity prov:id="ufrj:carga_tabela_pocos_2024">
-    <prov:startTime>2024-11-30T14:13:45.642046</prov:startTime>
-    <prov:endTime>2024-11-30T14:13:45.927623</prov:endTime>
+    <prov:startTime>2024-11-30T16:12:39.982037</prov:startTime>
+    <prov:endTime>2024-11-30T16:12:40.291415</prov:endTime>
   </prov:activity>
   <prov:wasAssociatedWith>
     <prov:activity prov:ref="ufrj:carga_tabela_pocos_2024"/>
     <prov:agent prov:ref="ufrj:eda.ipynb"/>
   </prov:wasAssociatedWith>
-  <prov:entity prov:id="ufrj:ent-tabela_pocos_2024">
+  <prov:entity prov:id="ufrj:tabela_pocos_2024">
     <prov:label>Dataset carregado: tabela_pocos_2024</prov:label>
     <prov:type xsi:type="xsd:string">void:Dataset</prov:type>
-    <prov:generatedAtTime>2024-11-30T14:13:45.927623</prov:generatedAtTime>
+    <prov:generatedAtTime>2024-11-30T16:12:40.291415</prov:generatedAtTime>
   </prov:entity>
   <prov:wasGeneratedBy>
-    <prov:entity prov:ref="ufrj:ent-tabela_pocos_2024"/>
+    <prov:entity prov:ref="ufrj:tabela_pocos_2024"/>
     <prov:activity prov:ref="ufrj:carga_tabela_pocos_2024"/>
   </prov:wasGeneratedBy>
+  <prov:used>
+    <prov:activity prov:ref="ufrj:carga_tabela_pocos_2024"/>
+    <prov:entity prov:ref="anp:tabela_pocos_2024"/>
+  </prov:used>
   <prov:activity prov:id="ufrj:carga_tabela_levantamentos_geoquimica">
-    <prov:startTime>2024-11-30T14:13:45.927623</prov:startTime>
-    <prov:endTime>2024-11-30T14:13:46.008328</prov:endTime>
+    <prov:startTime>2024-11-30T16:12:40.291415</prov:startTime>
+    <prov:endTime>2024-11-30T16:12:40.369008</prov:endTime>
   </prov:activity>
   <prov:wasAssociatedWith>
     <prov:activity prov:ref="ufrj:carga_tabela_levantamentos_geoquimica"/>
     <prov:agent prov:ref="ufrj:eda.ipynb"/>
   </prov:wasAssociatedWith>
-  <prov:entity prov:id="ufrj:ent-tabela_levantamentos_geoquimica">
+  <prov:entity prov:id="ufrj:tabela_levantamentos_geoquimica">
     <prov:label>Dataset carregado: tabela_levantamentos_geoquimica</prov:label>
     <prov:type xsi:type="xsd:string">void:Dataset</prov:type>
-    <prov:generatedAtTime>2024-11-30T14:13:46.008328</prov:generatedAtTime>
+    <prov:generatedAtTime>2024-11-30T16:12:40.369008</prov:generatedAtTime>
   </prov:entity>
   <prov:wasGeneratedBy>
-    <prov:entity prov:ref="ufrj:ent-tabela_levantamentos_geoquimica"/>
+    <prov:entity prov:ref="ufrj:tabela_levantamentos_geoquimica"/>
     <prov:activity prov:ref="ufrj:carga_tabela_levantamentos_geoquimica"/>
   </prov:wasGeneratedBy>
   <prov:activity prov:id="ufrj:carga_tabela_dados_geoquimica">
-    <prov:startTime>2024-11-30T14:13:46.009326</prov:startTime>
-    <prov:endTime>2024-11-30T14:13:46.307768</prov:endTime>
+    <prov:startTime>2024-11-30T16:12:40.369008</prov:startTime>
+    <prov:endTime>2024-11-30T16:12:40.715450</prov:endTime>
   </prov:activity>
   <prov:wasAssociatedWith>
     <prov:activity prov:ref="ufrj:carga_tabela_dados_geoquimica"/>
     <prov:agent prov:ref="ufrj:eda.ipynb"/>
   </prov:wasAssociatedWith>
-  <prov:entity prov:id="ufrj:ent-tabela_dados_geoquimica">
+  <prov:entity prov:id="ufrj:tabela_dados_geoquimica">
     <prov:label>Dataset carregado: tabela_dados_geoquimica</prov:label>
     <prov:type xsi:type="xsd:string">void:Dataset</prov:type>
-    <prov:generatedAtTime>2024-11-30T14:13:46.307768</prov:generatedAtTime>
+    <prov:generatedAtTime>2024-11-30T16:12:40.715450</prov:generatedAtTime>
   </prov:entity>
   <prov:wasGeneratedBy>
-    <prov:entity prov:ref="ufrj:ent-tabela_dados_geoquimica"/>
+    <prov:entity prov:ref="ufrj:tabela_dados_geoquimica"/>
     <prov:activity prov:ref="ufrj:carga_tabela_dados_geoquimica"/>
   </prov:wasGeneratedBy>
   <prov:activity prov:id="ufrj:carga_reservas_nacionais_hc">
-    <prov:startTime>2024-11-30T14:13:46.307768</prov:startTime>
-    <prov:endTime>2024-11-30T14:13:46.509428</prov:endTime>
+    <prov:startTime>2024-11-30T16:12:40.715450</prov:startTime>
+    <prov:endTime>2024-11-30T16:12:40.996654</prov:endTime>
   </prov:activity>
   <prov:wasAssociatedWith>
     <prov:activity prov:ref="ufrj:carga_reservas_nacionais_hc"/>
     <prov:agent prov:ref="ufrj:eda.ipynb"/>
   </prov:wasAssociatedWith>
-  <prov:entity prov:id="ufrj:ent-reservas_nacionais_hc">
+  <prov:entity prov:id="ufrj:reservas_nacionais_hc">
     <prov:label>Dataset carregado: reservas_nacionais_hc</prov:label>
     <prov:type xsi:type="xsd:string">void:Dataset</prov:type>
-    <prov:generatedAtTime>2024-11-30T14:13:46.509428</prov:generatedAtTime>
+    <prov:generatedAtTime>2024-11-30T16:12:40.996654</prov:generatedAtTime>
   </prov:entity>
   <prov:wasGeneratedBy>
-    <prov:entity prov:ref="ufrj:ent-reservas_nacionais_hc"/>
+    <prov:entity prov:ref="ufrj:reservas_nacionais_hc"/>
     <prov:activity prov:ref="ufrj:carga_reservas_nacionais_hc"/>
   </prov:wasGeneratedBy>
+  <prov:used>
+    <prov:activity prov:ref="ufrj:carga_reservas_nacionais_hc"/>
+    <prov:entity prov:ref="anp:reservas_nacionais_hc"/>
+  </prov:used>
 </prov:document>

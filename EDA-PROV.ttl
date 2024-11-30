@@ -1,5 +1,6 @@
 @prefix anp: <https://www.gov.br/anp/pt-br> .
 @prefix anp-dados_tec: <https://www.gov.br/anp/pt-br/centrais-de-conteudo/dados-abertos/acervo-de-dados-tecnicos> .
+@prefix br: <http://br.org/ns/> .
 @prefix foaf: <http://xmlns.com/foaf/0.1/> .
 @prefix petrobras: <https://petrobras.com.br/> .
 @prefix prov: <http://www.w3.org/ns/prov#> .
@@ -47,25 +48,11 @@ anp:levantamento_geoquimica a prov:Entity,
     prov:format "csv"^^xsd:string ;
     prov:wasGeneratedBy anp:create-dataset .
 
-anp:levantamento_sismico_2023 a prov:Entity,
-        "void:Dataset"^^xsd:string ;
-    rdfs:label "Levantamento S&#237;smico - 2023"^^xsd:string ;
-    prov:description "CSV com dados de levantamentos s&#237;smicos p&#250;blicos."^^xsd:string ;
-    prov:format "csv"^^xsd:string ;
-    prov:wasGeneratedBy anp:create-dataset .
-
 anp:pocos_perfurados_2023 a prov:Entity,
         "void:Dataset"^^xsd:string ;
     rdfs:label "Po&#231;os perfurados - 2023"^^xsd:string ;
     prov:description "CSV com os po&#231;os perfurados no ano de 2023."^^xsd:string ;
     prov:format "csv"^^xsd:string ;
-    prov:wasGeneratedBy anp:create-dataset .
-
-anp:reservas_nacionais_hc a prov:Entity,
-        "void:Dataset"^^xsd:string ;
-    rdfs:label "Reservas Nacionais de Hidrocarbonetos"^^xsd:string ;
-    prov:description "Tabela com dados sobre reservas nacionais."^^xsd:string ;
-    prov:format "xlsx"^^xsd:string ;
     prov:wasGeneratedBy anp:create-dataset .
 
 anp:setores_sirgas a prov:Entity,
@@ -79,13 +66,6 @@ anp:tabela_geoquimica a prov:Entity,
         "void:Dataset"^^xsd:string ;
     rdfs:label "Tabela_dados_geoquimica 06/08/2021"^^xsd:string ;
     prov:description "Dados geoqu&#237;micos."^^xsd:string ;
-    prov:format "csv"^^xsd:string ;
-    prov:wasGeneratedBy anp:create-dataset .
-
-anp:tabela_pocos_2024 a prov:Entity,
-        "void:Dataset"^^xsd:string ;
-    rdfs:label "Tabela de Po&#231;os - 2024"^^xsd:string ;
-    prov:description "Tabela CSV com dados atualizados de po&#231;os para 2024."^^xsd:string ;
     prov:format "csv"^^xsd:string ;
     prov:wasGeneratedBy anp:create-dataset .
 
@@ -110,45 +90,68 @@ ufrj:eda-ipyn a prov:Entity,
         "foaf:Document"^^xsd:string ;
     rdfs:label "Notebook Python utilizado no trabalho"^^xsd:string .
 
-ufrj:ent-levantamento_sismico_2023 a prov:Entity,
+ufrj:levantamento_sismico_2023 a prov:Entity,
         "void:Dataset"^^xsd:string ;
     rdfs:label "Dataset carregado: levantamento_sismico_2023"^^xsd:string ;
-    prov:generatedAtTime "2024-11-30T14:13:45.641045"^^xsd:string ;
+    prov:generatedAtTime "2024-11-30T16:12:39.982037"^^xsd:string ;
     prov:wasGeneratedBy ufrj:carga_levantamento_sismico_2023 .
-
-ufrj:ent-reservas_nacionais_hc a prov:Entity,
-        "void:Dataset"^^xsd:string ;
-    rdfs:label "Dataset carregado: reservas_nacionais_hc"^^xsd:string ;
-    prov:generatedAtTime "2024-11-30T14:13:46.509428"^^xsd:string ;
-    prov:wasGeneratedBy ufrj:carga_reservas_nacionais_hc .
-
-ufrj:ent-tabela_dados_geoquimica a prov:Entity,
-        "void:Dataset"^^xsd:string ;
-    rdfs:label "Dataset carregado: tabela_dados_geoquimica"^^xsd:string ;
-    prov:generatedAtTime "2024-11-30T14:13:46.307768"^^xsd:string ;
-    prov:wasGeneratedBy ufrj:carga_tabela_dados_geoquimica .
-
-ufrj:ent-tabela_levantamentos_geoquimica a prov:Entity,
-        "void:Dataset"^^xsd:string ;
-    rdfs:label "Dataset carregado: tabela_levantamentos_geoquimica"^^xsd:string ;
-    prov:generatedAtTime "2024-11-30T14:13:46.008328"^^xsd:string ;
-    prov:wasGeneratedBy ufrj:carga_tabela_levantamentos_geoquimica .
-
-ufrj:ent-tabela_pocos_2024 a prov:Entity,
-        "void:Dataset"^^xsd:string ;
-    rdfs:label "Dataset carregado: tabela_pocos_2024"^^xsd:string ;
-    prov:generatedAtTime "2024-11-30T14:13:45.927623"^^xsd:string ;
-    prov:wasGeneratedBy ufrj:carga_tabela_pocos_2024 .
 
 ufrj:load-ds-eda a prov:Activity .
 
+ufrj:reservas_nacionais_hc a prov:Entity,
+        "void:Dataset"^^xsd:string ;
+    rdfs:label "Dataset carregado: reservas_nacionais_hc"^^xsd:string ;
+    prov:generatedAtTime "2024-11-30T16:12:40.996654"^^xsd:string ;
+    prov:wasGeneratedBy ufrj:carga_reservas_nacionais_hc .
+
+ufrj:tabela_dados_geoquimica a prov:Entity,
+        "void:Dataset"^^xsd:string ;
+    rdfs:label "Dataset carregado: tabela_dados_geoquimica"^^xsd:string ;
+    prov:generatedAtTime "2024-11-30T16:12:40.715450"^^xsd:string ;
+    prov:wasGeneratedBy ufrj:carga_tabela_dados_geoquimica .
+
+ufrj:tabela_levantamentos_geoquimica a prov:Entity,
+        "void:Dataset"^^xsd:string ;
+    rdfs:label "Dataset carregado: tabela_levantamentos_geoquimica"^^xsd:string ;
+    prov:generatedAtTime "2024-11-30T16:12:40.369008"^^xsd:string ;
+    prov:wasGeneratedBy ufrj:carga_tabela_levantamentos_geoquimica .
+
+ufrj:tabela_pocos_2024 a prov:Entity,
+        "void:Dataset"^^xsd:string ;
+    rdfs:label "Dataset carregado: tabela_pocos_2024"^^xsd:string ;
+    prov:generatedAtTime "2024-11-30T16:12:40.291415"^^xsd:string ;
+    prov:wasGeneratedBy ufrj:carga_tabela_pocos_2024 .
+
 petrobras:Petrobras a prov:Agent,
         "prov:Organization"^^xsd:string ;
+    prov:actedOnBehalfOf br:orgBr ;
     foaf:name "Petr&#243;leo Brasiliero S.A"^^xsd:string .
 
 anp:ANP a prov:Agent,
         "prov:Organization"^^xsd:string ;
+    prov:actedOnBehalfOf br:orgBr ;
     foaf:name "Ag&#234;ncia Nacional do Petr&#243;leo, G&#225;s Natural e Biocombust&#237;veis"^^xsd:string .
+
+anp:levantamento_sismico_2023 a prov:Entity,
+        "void:Dataset"^^xsd:string ;
+    rdfs:label "Levantamento S&#237;smico - 2023"^^xsd:string ;
+    prov:description "CSV com dados de levantamentos s&#237;smicos p&#250;blicos."^^xsd:string ;
+    prov:format "csv"^^xsd:string ;
+    prov:wasGeneratedBy anp:create-dataset .
+
+anp:reservas_nacionais_hc a prov:Entity,
+        "void:Dataset"^^xsd:string ;
+    rdfs:label "Reservas Nacionais de Hidrocarbonetos"^^xsd:string ;
+    prov:description "Tabela com dados sobre reservas nacionais."^^xsd:string ;
+    prov:format "xlsx"^^xsd:string ;
+    prov:wasGeneratedBy anp:create-dataset .
+
+anp:tabela_pocos_2024 a prov:Entity,
+        "void:Dataset"^^xsd:string ;
+    rdfs:label "Tabela de Po&#231;os - 2024"^^xsd:string ;
+    prov:description "Tabela CSV com dados atualizados de po&#231;os para 2024."^^xsd:string ;
+    prov:format "csv"^^xsd:string ;
+    prov:wasGeneratedBy anp:create-dataset .
 
 ufrj:GRECO a prov:Agent,
         "prov:Organization"^^xsd:string ;
@@ -157,6 +160,7 @@ ufrj:GRECO a prov:Agent,
 
 ufrj:UFRJ a prov:Agent,
         "prov:Organization"^^xsd:string ;
+    prov:actedOnBehalfOf br:orgBr ;
     foaf:name "Universidade Federal do Rio de Janeiro"^^xsd:string .
 
 ufrj:Ubirajara a prov:Agent,
@@ -167,32 +171,39 @@ ufrj:Ubirajara a prov:Agent,
     foaf:name "Ubirajara Sim&#245;es Santos"^^xsd:string .
 
 ufrj:carga_levantamento_sismico_2023 a prov:Activity ;
-    prov:endedAtTime "2024-11-30T14:13:45.641045"^^xsd:dateTime ;
-    prov:startedAtTime "2024-11-30T14:13:45.550377"^^xsd:dateTime ;
+    prov:endedAtTime "2024-11-30T16:12:39.982037"^^xsd:dateTime ;
+    prov:startedAtTime "2024-11-30T16:12:39.898836"^^xsd:dateTime ;
+    prov:used anp:levantamento_sismico_2023 ;
     prov:wasAssociatedWith ufrj:eda.ipynb .
 
 ufrj:carga_reservas_nacionais_hc a prov:Activity ;
-    prov:endedAtTime "2024-11-30T14:13:46.509428"^^xsd:dateTime ;
-    prov:startedAtTime "2024-11-30T14:13:46.307768"^^xsd:dateTime ;
+    prov:endedAtTime "2024-11-30T16:12:40.996654"^^xsd:dateTime ;
+    prov:startedAtTime "2024-11-30T16:12:40.715450"^^xsd:dateTime ;
+    prov:used anp:reservas_nacionais_hc ;
     prov:wasAssociatedWith ufrj:eda.ipynb .
 
 ufrj:carga_tabela_dados_geoquimica a prov:Activity ;
-    prov:endedAtTime "2024-11-30T14:13:46.307768"^^xsd:dateTime ;
-    prov:startedAtTime "2024-11-30T14:13:46.009326"^^xsd:dateTime ;
+    prov:endedAtTime "2024-11-30T16:12:40.715450"^^xsd:dateTime ;
+    prov:startedAtTime "2024-11-30T16:12:40.369008"^^xsd:dateTime ;
     prov:wasAssociatedWith ufrj:eda.ipynb .
 
 ufrj:carga_tabela_levantamentos_geoquimica a prov:Activity ;
-    prov:endedAtTime "2024-11-30T14:13:46.008328"^^xsd:dateTime ;
-    prov:startedAtTime "2024-11-30T14:13:45.927623"^^xsd:dateTime ;
+    prov:endedAtTime "2024-11-30T16:12:40.369008"^^xsd:dateTime ;
+    prov:startedAtTime "2024-11-30T16:12:40.291415"^^xsd:dateTime ;
     prov:wasAssociatedWith ufrj:eda.ipynb .
 
 ufrj:carga_tabela_pocos_2024 a prov:Activity ;
-    prov:endedAtTime "2024-11-30T14:13:45.927623"^^xsd:dateTime ;
-    prov:startedAtTime "2024-11-30T14:13:45.642046"^^xsd:dateTime ;
+    prov:endedAtTime "2024-11-30T16:12:40.291415"^^xsd:dateTime ;
+    prov:startedAtTime "2024-11-30T16:12:39.982037"^^xsd:dateTime ;
+    prov:used anp:tabela_pocos_2024 ;
     prov:wasAssociatedWith ufrj:eda.ipynb .
 
 ufrj:save-ipynb a prov:Activity ;
     rdfs:label "Salvar notebook EDA"^^xsd:string .
+
+br:orgBr a prov:Agent,
+        "prov:Organization"^^xsd:string ;
+    foaf:name "Oraganiza&#231;&#245;es Brasileiras"^^xsd:string .
 
 ufrj:PPGI a prov:Agent,
         "prov:Organization"^^xsd:string ;
