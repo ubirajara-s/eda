@@ -9,4 +9,6 @@ dependencies:
   - matplotlib
   - openpyxl
   - geopandas
+  - pydot
   - chardet
+  - pygraphviz

@@ -1,0 +1,61 @@
+@prefix anp: <https://www.gov.br/anp/pt-br> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix petrobras: <https://petrobras.com.br/> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix ufrj: <https://www.ufrj.br> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+petrobras:Petrobras a prov:Agent,
+        "prov:Organization"^^xsd:string ;
+    foaf:name "Petróleo Brasiliero S.A"^^xsd:string .
+
+anp:ANP a prov:Agent,
+        "prov:Organization"^^xsd:string ;
+    foaf:name "Agência Nacional do Petróleo, Gás Natural e Biocombustíveis"^^xsd:string .
+
+anp:create-dataset a prov:Activity .
+
+ufrj:Jorge a prov:Agent,
+        "prov:Person"^^xsd:string ;
+    prov:actedOnBehalfOf ufrj:PPGI ;
+    foaf:mbox "zavaleta@pet-si.ufrrj.br"^^xsd:string ;
+    foaf:name "Jorge Zavaleta"^^xsd:string .
+
+ufrj:Sergio a prov:Agent,
+        "prov:Person"^^xsd:string ;
+    prov:actedOnBehalfOf ufrj:PPGI ;
+    foaf:mbox "serra@ppgi.ufrj.br"^^xsd:string ;
+    foaf:name "Sergio Serra"^^xsd:string .
+
+ufrj:Ubirajara a prov:Agent,
+        "prov:Person"^^xsd:string ;
+    prov:actedOnBehalfOf ufrj:GRECO ;
+    foaf:mbox "ubirajas@hotmail.com"^^xsd:string ;
+    foaf:name "Ubirajara Simões Santos"^^xsd:string .
+
+ufrj:carga_levantamento_sismico_2023 a prov:Activity ;
+    prov:endedAtTime "2024-11-29T23:37:41.389638"^^xsd:dateTime ;
+    prov:startedAtTime "2024-11-29T23:37:40.893123"^^xsd:dateTime ;
+    prov:wasAssociatedWith ufrj:eda.ipynb .
+
+ufrj:GRECO a prov:Agent,
+        "prov:Organization"^^xsd:string ;
+    prov:actedOnBehalfOf ufrj:PPGI ;
+    foaf:name "Grupo de Engenharia do Conhecimento"^^xsd:string .
+
+ufrj:UFRJ a prov:Agent,
+        "prov:Organization"^^xsd:string ;
+    foaf:name "Universidade Federal do Rio de Janeiro"^^xsd:string .
+
+ufrj:eda.ipynb a prov:Agent,
+        "prov:SoftwareAgent"^^xsd:string ;
+    rdfs:label "Notebook Python utilizado no trabalho"^^xsd:string ;
+    prov:actedOnBehalfOf ufrj:PPGI ;
+    foaf:name "eda.ipynb"^^xsd:string .
+
+ufrj:PPGI a prov:Agent,
+        "prov:Organization"^^xsd:string ;
+    prov:actedOnBehalfOf ufrj:UFRJ ;
+    foaf:name "Programa de Pós Graduação em Informática"^^xsd:string .
+

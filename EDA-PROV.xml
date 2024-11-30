@@ -1,0 +1,76 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<prov:document xmlns:void="http://vocab.deri.ie/void#" xmlns:ufrj="https://www.ufrj.br" xmlns:ex="http://example.org/" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:ufrj-ppgi="http://www.ufrj.br/ppgi/" xmlns:anp="https://www.gov.br/anp/pt-br" xmlns:anp-dados_tec="https://www.gov.br/anp/pt-br/centrais-de-conteudo/dados-abertos/acervo-de-dados-tecnicos" xmlns:petrobras="https://petrobras.com.br/" xmlns:prov="http://www.w3.org/ns/prov#" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <prov:agent prov:id="anp:ANP">
+    <prov:type>prov:Organization</prov:type>
+    <foaf:name>Agência Nacional do Petróleo, Gás Natural e Biocombustíveis</foaf:name>
+  </prov:agent>
+  <prov:agent prov:id="ufrj:UFRJ">
+    <prov:type>prov:Organization</prov:type>
+    <foaf:name>Universidade Federal do Rio de Janeiro</foaf:name>
+  </prov:agent>
+  <prov:agent prov:id="ufrj:PPGI">
+    <prov:type>prov:Organization</prov:type>
+    <foaf:name>Programa de Pós Graduação em Informática</foaf:name>
+  </prov:agent>
+  <prov:agent prov:id="ufrj:GRECO">
+    <prov:type>prov:Organization</prov:type>
+    <foaf:name>Grupo de Engenharia do Conhecimento</foaf:name>
+  </prov:agent>
+  <prov:agent prov:id="ufrj:Ubirajara">
+    <prov:type>prov:Person</prov:type>
+    <foaf:mbox>ubirajas@hotmail.com</foaf:mbox>
+    <foaf:name>Ubirajara Simões Santos</foaf:name>
+  </prov:agent>
+  <prov:agent prov:id="ufrj:Sergio">
+    <prov:type>prov:Person</prov:type>
+    <foaf:mbox>serra@ppgi.ufrj.br</foaf:mbox>
+    <foaf:name>Sergio Serra</foaf:name>
+  </prov:agent>
+  <prov:agent prov:id="ufrj:Jorge">
+    <prov:type>prov:Person</prov:type>
+    <foaf:mbox>zavaleta@pet-si.ufrrj.br</foaf:mbox>
+    <foaf:name>Jorge Zavaleta</foaf:name>
+  </prov:agent>
+  <prov:agent prov:id="petrobras:Petrobras">
+    <prov:type>prov:Organization</prov:type>
+    <foaf:name>Petróleo Brasiliero S.A</foaf:name>
+  </prov:agent>
+  <prov:agent prov:id="ufrj:eda.ipynb">
+    <prov:label>Notebook Python utilizado no trabalho</prov:label>
+    <prov:type>prov:SoftwareAgent</prov:type>
+    <foaf:name>eda.ipynb</foaf:name>
+  </prov:agent>
+  <prov:actedOnBehalfOf>
+    <prov:delegate prov:ref="ufrj:PPGI"/>
+    <prov:responsible prov:ref="ufrj:UFRJ"/>
+  </prov:actedOnBehalfOf>
+  <prov:actedOnBehalfOf>
+    <prov:delegate prov:ref="ufrj:GRECO"/>
+    <prov:responsible prov:ref="ufrj:PPGI"/>
+  </prov:actedOnBehalfOf>
+  <prov:actedOnBehalfOf>
+    <prov:delegate prov:ref="ufrj:Ubirajara"/>
+    <prov:responsible prov:ref="ufrj:GRECO"/>
+  </prov:actedOnBehalfOf>
+  <prov:actedOnBehalfOf>
+    <prov:delegate prov:ref="ufrj:Sergio"/>
+    <prov:responsible prov:ref="ufrj:PPGI"/>
+  </prov:actedOnBehalfOf>
+  <prov:actedOnBehalfOf>
+    <prov:delegate prov:ref="ufrj:Jorge"/>
+    <prov:responsible prov:ref="ufrj:PPGI"/>
+  </prov:actedOnBehalfOf>
+  <prov:actedOnBehalfOf>
+    <prov:delegate prov:ref="ufrj:eda.ipynb"/>
+    <prov:responsible prov:ref="ufrj:PPGI"/>
+  </prov:actedOnBehalfOf>
+  <prov:activity prov:id="anp:create-dataset"/>
+  <prov:activity prov:id="ufrj:carga_levantamento_sismico_2023">
+    <prov:startTime>2024-11-29T23:37:40.893123</prov:startTime>
+    <prov:endTime>2024-11-29T23:37:41.389638</prov:endTime>
+  </prov:activity>
+  <prov:wasAssociatedWith>
+    <prov:activity prov:ref="ufrj:carga_levantamento_sismico_2023"/>
+    <prov:agent prov:ref="ufrj:eda.ipynb"/>
+  </prov:wasAssociatedWith>
+</prov:document>
