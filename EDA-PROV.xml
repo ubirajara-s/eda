@@ -2,7 +2,7 @@
 <prov:document xmlns:void="http://vocab.deri.ie/void#" xmlns:ufrj="https://www.ufrj.br" xmlns:ex="http://example.org/" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:ufrj-ppgi="http://www.ufrj.br/ppgi/" xmlns:anp="https://www.gov.br/anp/pt-br" xmlns:anp-dados_tec="https://www.gov.br/anp/pt-br/centrais-de-conteudo/dados-abertos/acervo-de-dados-tecnicos" xmlns:petrobras="https://petrobras.com.br/" xmlns:prov="http://www.w3.org/ns/prov#" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
   <prov:agent prov:id="anp:ANP">
     <prov:type>prov:Organization</prov:type>
-    <foaf:name>Agência Nacional do Petróleo, Gás Natural e Biocombustíveis</foaf:name>
+    <foaf:name>Ag&amp;#234;ncia Nacional do Petr&amp;#243;leo, G&amp;#225;s Natural e Biocombust&amp;#237;veis</foaf:name>
   </prov:agent>
   <prov:agent prov:id="ufrj:UFRJ">
     <prov:type>prov:Organization</prov:type>
@@ -10,7 +10,7 @@
   </prov:agent>
   <prov:agent prov:id="ufrj:PPGI">
     <prov:type>prov:Organization</prov:type>
-    <foaf:name>Programa de Pós Graduação em Informática</foaf:name>
+    <foaf:name>Programa de P&amp;#243;s Gradua&amp;#231;&amp;#227;o em Inform&amp;#225;tica</foaf:name>
   </prov:agent>
   <prov:agent prov:id="ufrj:GRECO">
     <prov:type>prov:Organization</prov:type>
@@ -19,7 +19,7 @@
   <prov:agent prov:id="ufrj:Ubirajara">
     <prov:type>prov:Person</prov:type>
     <foaf:mbox>ubirajas@hotmail.com</foaf:mbox>
-    <foaf:name>Ubirajara Simões Santos</foaf:name>
+    <foaf:name>Ubirajara Sim&amp;#245;es Santos</foaf:name>
   </prov:agent>
   <prov:agent prov:id="ufrj:Sergio">
     <prov:type>prov:Person</prov:type>
@@ -33,13 +33,97 @@
   </prov:agent>
   <prov:agent prov:id="petrobras:Petrobras">
     <prov:type>prov:Organization</prov:type>
-    <foaf:name>Petróleo Brasiliero S.A</foaf:name>
+    <foaf:name>Petr&amp;#243;leo Brasiliero S.A</foaf:name>
   </prov:agent>
   <prov:agent prov:id="ufrj:eda.ipynb">
     <prov:label>Notebook Python utilizado no trabalho</prov:label>
     <prov:type>prov:SoftwareAgent</prov:type>
     <foaf:name>eda.ipynb</foaf:name>
   </prov:agent>
+  <prov:activity prov:id="anp:create-dataset">
+    <prov:label>Cria&amp;#231;&amp;#227;o de datasets pela ANP</prov:label>
+  </prov:activity>
+  <prov:activity prov:id="ufrj:create-ds-eda">
+    <prov:label>Cria&amp;#231;&amp;#227;o de datasets para EDA</prov:label>
+  </prov:activity>
+  <prov:activity prov:id="ufrj:load-ds-eda"/>
+  <prov:activity prov:id="ufrj:save-ipynb">
+    <prov:label>Salvar notebook EDA</prov:label>
+  </prov:activity>
+  <prov:entity prov:id="anp:amostras_rochas_fluidos">
+    <prov:label>Dataset com amostras de rochas e fluidos</prov:label>
+    <prov:type xsi:type="xsd:string">void:Dataset</prov:type>
+    <prov:description>Consolidado 2023 de amostras dispon&amp;#237;veis.</prov:description>
+    <prov:format>zip</prov:format>
+  </prov:entity>
+  <prov:entity prov:id="anp:setores_sirgas">
+    <prov:label>Setores SIRGAS</prov:label>
+    <prov:type xsi:type="xsd:string">void:Dataset</prov:type>
+    <prov:description>Modelos explorat&amp;#243;rios em formato SIRGAS.</prov:description>
+    <prov:format>zip</prov:format>
+  </prov:entity>
+  <prov:entity prov:id="anp:blocos_exploratorios">
+    <prov:label>Blocos explorat&amp;#243;rios</prov:label>
+    <prov:type xsi:type="xsd:string">void:Dataset</prov:type>
+    <prov:description>Blocos explorat&amp;#243;rios com dados geoespaciais.</prov:description>
+    <prov:format>zip</prov:format>
+  </prov:entity>
+  <prov:entity prov:id="anp:campos_producao">
+    <prov:label>Campos de Produ&amp;#231;&amp;#227;o</prov:label>
+    <prov:type xsi:type="xsd:string">void:Dataset</prov:type>
+    <prov:description>Dados dos campos de produ&amp;#231;&amp;#227;o em formato SIRGAS.</prov:description>
+    <prov:format>zip</prov:format>
+  </prov:entity>
+  <prov:entity prov:id="anp:reservas_nacionais_hc">
+    <prov:label>Reservas Nacionais de Hidrocarbonetos</prov:label>
+    <prov:type xsi:type="xsd:string">void:Dataset</prov:type>
+    <prov:description>Tabela com dados sobre reservas nacionais.</prov:description>
+    <prov:format>xlsx</prov:format>
+  </prov:entity>
+  <prov:entity prov:id="anp:pocos_perfurados_2023">
+    <prov:label>Po&amp;#231;os perfurados - 2023</prov:label>
+    <prov:type xsi:type="xsd:string">void:Dataset</prov:type>
+    <prov:description>CSV com os po&amp;#231;os perfurados no ano de 2023.</prov:description>
+    <prov:format>csv</prov:format>
+  </prov:entity>
+  <prov:entity prov:id="anp:levantamento_geoquimica">
+    <prov:label>Tabela de levantamentos geoqu&amp;#237;micos 20/04/2022</prov:label>
+    <prov:type xsi:type="xsd:string">void:Dataset</prov:type>
+    <prov:description>Dados sobre levantamentos geoqu&amp;#237;micos.</prov:description>
+    <prov:format>csv</prov:format>
+  </prov:entity>
+  <prov:entity prov:id="anp:tabela_geoquimica">
+    <prov:label>Tabela_dados_geoquimica 06/08/2021</prov:label>
+    <prov:type xsi:type="xsd:string">void:Dataset</prov:type>
+    <prov:description>Dados geoqu&amp;#237;micos.</prov:description>
+    <prov:format>csv</prov:format>
+  </prov:entity>
+  <prov:entity prov:id="anp:levantamento_sismico_2023">
+    <prov:label>Levantamento S&amp;#237;smico - 2023</prov:label>
+    <prov:type xsi:type="xsd:string">void:Dataset</prov:type>
+    <prov:description>CSV com dados de levantamentos s&amp;#237;smicos p&amp;#250;blicos.</prov:description>
+    <prov:format>csv</prov:format>
+  </prov:entity>
+  <prov:entity prov:id="anp:tabela_pocos_2024">
+    <prov:label>Tabela de Po&amp;#231;os - 2024</prov:label>
+    <prov:type xsi:type="xsd:string">void:Dataset</prov:type>
+    <prov:description>Tabela CSV com dados atualizados de po&amp;#231;os para 2024.</prov:description>
+    <prov:format>csv</prov:format>
+  </prov:entity>
+  <prov:entity prov:id="anp-dados_tec:dataset">
+    <prov:label>ANP Dataset de Dados T&amp;#233;cnicos</prov:label>
+    <prov:type xsi:type="xsd:string">void:Dataset</prov:type>
+    <prov:description>Dataset com dados t&amp;#233;cnicos dispon&amp;#237;veis publicamente.</prov:description>
+    <prov:format>csv</prov:format>
+  </prov:entity>
+  <prov:entity prov:id="ufrj:eda-ipyn">
+    <prov:label>Notebook Python utilizado no trabalho</prov:label>
+    <prov:type xsi:type="xsd:string">foaf:Document</prov:type>
+  </prov:entity>
+  <prov:entity prov:id="anp:github-eda">
+    <prov:label>Repositorio Eba da ANP</prov:label>
+    <prov:type>prov:Collection</prov:type>
+  </prov:entity>
   <prov:actedOnBehalfOf>
     <prov:delegate prov:ref="ufrj:PPGI"/>
     <prov:responsible prov:ref="ufrj:UFRJ"/>
@@ -68,90 +152,6 @@
     <prov:delegate prov:ref="ufrj:eda.ipynb"/>
     <prov:responsible prov:ref="ufrj:PPGI"/>
   </prov:actedOnBehalfOf>
-  <prov:activity prov:id="anp:create-dataset">
-    <prov:label>Criação de datasets pela ANP</prov:label>
-  </prov:activity>
-  <prov:activity prov:id="ufrj:create-ds-eda">
-    <prov:label>Criação de datasets para EDA</prov:label>
-  </prov:activity>
-  <prov:activity prov:id="ufrj:load-ds-eda"/>
-  <prov:activity prov:id="ufrj:save-ipynb">
-    <prov:label>Salvar notebook EDA</prov:label>
-  </prov:activity>
-  <prov:entity prov:id="anp:amostras_rochas_fluidos">
-    <prov:label>Dataset com amostras de rochas e fluidos</prov:label>
-    <prov:type xsi:type="xsd:string">void:Dataset</prov:type>
-    <prov:description>Consolidado 2023 de amostras disponíveis.</prov:description>
-    <prov:format>zip</prov:format>
-  </prov:entity>
-  <prov:entity prov:id="anp:setores_sirgas">
-    <prov:label>Setores SIRGAS</prov:label>
-    <prov:type xsi:type="xsd:string">void:Dataset</prov:type>
-    <prov:description>Modelos exploratórios em formato SIRGAS.</prov:description>
-    <prov:format>zip</prov:format>
-  </prov:entity>
-  <prov:entity prov:id="anp:blocos_exploratorios">
-    <prov:label>Blocos exploratórios</prov:label>
-    <prov:type xsi:type="xsd:string">void:Dataset</prov:type>
-    <prov:description>Blocos exploratórios com dados geoespaciais.</prov:description>
-    <prov:format>zip</prov:format>
-  </prov:entity>
-  <prov:entity prov:id="anp:campos_producao">
-    <prov:label>Campos de Produção</prov:label>
-    <prov:type xsi:type="xsd:string">void:Dataset</prov:type>
-    <prov:description>Dados dos campos de produção em formato SIRGAS.</prov:description>
-    <prov:format>zip</prov:format>
-  </prov:entity>
-  <prov:entity prov:id="anp:reservas_nacionais_hc">
-    <prov:label>Reservas Nacionais de Hidrocarbonetos</prov:label>
-    <prov:type xsi:type="xsd:string">void:Dataset</prov:type>
-    <prov:description>Tabela com dados sobre reservas nacionais.</prov:description>
-    <prov:format>xlsx</prov:format>
-  </prov:entity>
-  <prov:entity prov:id="anp:pocos_perfurados_2023">
-    <prov:label>Poços perfurados - 2023</prov:label>
-    <prov:type xsi:type="xsd:string">void:Dataset</prov:type>
-    <prov:description>CSV com os poços perfurados no ano de 2023.</prov:description>
-    <prov:format>csv</prov:format>
-  </prov:entity>
-  <prov:entity prov:id="anp:levantamento_geoquimica">
-    <prov:label>Tabela de levantamentos geoquímicos 20/04/2022</prov:label>
-    <prov:type xsi:type="xsd:string">void:Dataset</prov:type>
-    <prov:description>Dados sobre levantamentos geoquímicos.</prov:description>
-    <prov:format>csv</prov:format>
-  </prov:entity>
-  <prov:entity prov:id="anp:tabela_geoquimica">
-    <prov:label>Tabela_dados_geoquimica 06/08/2021</prov:label>
-    <prov:type xsi:type="xsd:string">void:Dataset</prov:type>
-    <prov:description>Dados geoquímicos.</prov:description>
-    <prov:format>csv</prov:format>
-  </prov:entity>
-  <prov:entity prov:id="anp:levantamento_sismico_2023">
-    <prov:label>Levantamento Sísmico - 2023</prov:label>
-    <prov:type xsi:type="xsd:string">void:Dataset</prov:type>
-    <prov:description>CSV com dados de levantamentos sísmicos públicos.</prov:description>
-    <prov:format>csv</prov:format>
-  </prov:entity>
-  <prov:entity prov:id="anp:tabela_pocos_2024">
-    <prov:label>Tabela de Poços - 2024</prov:label>
-    <prov:type xsi:type="xsd:string">void:Dataset</prov:type>
-    <prov:description>Tabela CSV com dados atualizados de poços para 2024.</prov:description>
-    <prov:format>csv</prov:format>
-  </prov:entity>
-  <prov:entity prov:id="anp-dados_tec:dataset">
-    <prov:label>ANP Dataset de Dados Técnicos</prov:label>
-    <prov:type xsi:type="xsd:string">void:Dataset</prov:type>
-    <prov:description>Dataset com dados técnicos disponíveis publicamente.</prov:description>
-    <prov:format>csv</prov:format>
-  </prov:entity>
-  <prov:entity prov:id="ufrj:eda-ipyn">
-    <prov:label>Notebook Python utilizado no trabalho</prov:label>
-    <prov:type xsi:type="xsd:string">foaf:Document</prov:type>
-  </prov:entity>
-  <prov:entity prov:id="anp:github-eda">
-    <prov:label>Repositorio Eba da ANP</prov:label>
-    <prov:type>prov:Collection</prov:type>
-  </prov:entity>
   <prov:wasAssociatedWith>
     <prov:activity prov:ref="anp:create-dataset"/>
     <prov:agent prov:ref="anp:ANP"/>
@@ -213,12 +213,8 @@
     <prov:activity prov:ref="ufrj:save-ipynb"/>
   </prov:wasGeneratedBy>
   <prov:activity prov:id="ufrj:carga_levantamento_sismico_2023">
-    <prov:startTime>2024-11-30T02:31:30.484917</prov:startTime>
-    <prov:endTime>2024-11-30T02:31:30.573000</prov:endTime>
-  </prov:activity>
-  <prov:activity prov:id="ufrj:carga_levantamento_sismico_2023">
-    <prov:startTime>2024-11-30T03:12:23.974649</prov:startTime>
-    <prov:endTime>2024-11-30T03:12:24.056219</prov:endTime>
+    <prov:startTime>2024-11-30T14:13:45.550377</prov:startTime>
+    <prov:endTime>2024-11-30T14:13:45.641045</prov:endTime>
   </prov:activity>
   <prov:wasAssociatedWith>
     <prov:activity prov:ref="ufrj:carga_levantamento_sismico_2023"/>
@@ -227,15 +223,15 @@
   <prov:entity prov:id="ufrj:ent-levantamento_sismico_2023">
     <prov:label>Dataset carregado: levantamento_sismico_2023</prov:label>
     <prov:type xsi:type="xsd:string">void:Dataset</prov:type>
-    <prov:generatedAtTime>2024-11-30T03:12:24.056219</prov:generatedAtTime>
+    <prov:generatedAtTime>2024-11-30T14:13:45.641045</prov:generatedAtTime>
   </prov:entity>
   <prov:wasGeneratedBy>
     <prov:entity prov:ref="ufrj:ent-levantamento_sismico_2023"/>
     <prov:activity prov:ref="ufrj:carga_levantamento_sismico_2023"/>
   </prov:wasGeneratedBy>
   <prov:activity prov:id="ufrj:carga_tabela_pocos_2024">
-    <prov:startTime>2024-11-30T03:12:24.056219</prov:startTime>
-    <prov:endTime>2024-11-30T03:12:24.365871</prov:endTime>
+    <prov:startTime>2024-11-30T14:13:45.642046</prov:startTime>
+    <prov:endTime>2024-11-30T14:13:45.927623</prov:endTime>
   </prov:activity>
   <prov:wasAssociatedWith>
     <prov:activity prov:ref="ufrj:carga_tabela_pocos_2024"/>
@@ -244,15 +240,15 @@
   <prov:entity prov:id="ufrj:ent-tabela_pocos_2024">
     <prov:label>Dataset carregado: tabela_pocos_2024</prov:label>
     <prov:type xsi:type="xsd:string">void:Dataset</prov:type>
-    <prov:generatedAtTime>2024-11-30T03:12:24.365871</prov:generatedAtTime>
+    <prov:generatedAtTime>2024-11-30T14:13:45.927623</prov:generatedAtTime>
   </prov:entity>
   <prov:wasGeneratedBy>
     <prov:entity prov:ref="ufrj:ent-tabela_pocos_2024"/>
     <prov:activity prov:ref="ufrj:carga_tabela_pocos_2024"/>
   </prov:wasGeneratedBy>
   <prov:activity prov:id="ufrj:carga_tabela_levantamentos_geoquimica">
-    <prov:startTime>2024-11-30T03:12:24.365871</prov:startTime>
-    <prov:endTime>2024-11-30T03:12:24.473676</prov:endTime>
+    <prov:startTime>2024-11-30T14:13:45.927623</prov:startTime>
+    <prov:endTime>2024-11-30T14:13:46.008328</prov:endTime>
   </prov:activity>
   <prov:wasAssociatedWith>
     <prov:activity prov:ref="ufrj:carga_tabela_levantamentos_geoquimica"/>
@@ -261,15 +257,15 @@
   <prov:entity prov:id="ufrj:ent-tabela_levantamentos_geoquimica">
     <prov:label>Dataset carregado: tabela_levantamentos_geoquimica</prov:label>
     <prov:type xsi:type="xsd:string">void:Dataset</prov:type>
-    <prov:generatedAtTime>2024-11-30T03:12:24.473676</prov:generatedAtTime>
+    <prov:generatedAtTime>2024-11-30T14:13:46.008328</prov:generatedAtTime>
   </prov:entity>
   <prov:wasGeneratedBy>
     <prov:entity prov:ref="ufrj:ent-tabela_levantamentos_geoquimica"/>
     <prov:activity prov:ref="ufrj:carga_tabela_levantamentos_geoquimica"/>
   </prov:wasGeneratedBy>
   <prov:activity prov:id="ufrj:carga_tabela_dados_geoquimica">
-    <prov:startTime>2024-11-30T03:12:24.474671</prov:startTime>
-    <prov:endTime>2024-11-30T03:12:25.028963</prov:endTime>
+    <prov:startTime>2024-11-30T14:13:46.009326</prov:startTime>
+    <prov:endTime>2024-11-30T14:13:46.307768</prov:endTime>
   </prov:activity>
   <prov:wasAssociatedWith>
     <prov:activity prov:ref="ufrj:carga_tabela_dados_geoquimica"/>
@@ -278,15 +274,15 @@
   <prov:entity prov:id="ufrj:ent-tabela_dados_geoquimica">
     <prov:label>Dataset carregado: tabela_dados_geoquimica</prov:label>
     <prov:type xsi:type="xsd:string">void:Dataset</prov:type>
-    <prov:generatedAtTime>2024-11-30T03:12:25.028963</prov:generatedAtTime>
+    <prov:generatedAtTime>2024-11-30T14:13:46.307768</prov:generatedAtTime>
   </prov:entity>
   <prov:wasGeneratedBy>
     <prov:entity prov:ref="ufrj:ent-tabela_dados_geoquimica"/>
     <prov:activity prov:ref="ufrj:carga_tabela_dados_geoquimica"/>
   </prov:wasGeneratedBy>
   <prov:activity prov:id="ufrj:carga_reservas_nacionais_hc">
-    <prov:startTime>2024-11-30T03:12:25.028963</prov:startTime>
-    <prov:endTime>2024-11-30T03:12:25.487685</prov:endTime>
+    <prov:startTime>2024-11-30T14:13:46.307768</prov:startTime>
+    <prov:endTime>2024-11-30T14:13:46.509428</prov:endTime>
   </prov:activity>
   <prov:wasAssociatedWith>
     <prov:activity prov:ref="ufrj:carga_reservas_nacionais_hc"/>
@@ -295,92 +291,7 @@
   <prov:entity prov:id="ufrj:ent-reservas_nacionais_hc">
     <prov:label>Dataset carregado: reservas_nacionais_hc</prov:label>
     <prov:type xsi:type="xsd:string">void:Dataset</prov:type>
-    <prov:generatedAtTime>2024-11-30T03:12:25.487685</prov:generatedAtTime>
-  </prov:entity>
-  <prov:wasGeneratedBy>
-    <prov:entity prov:ref="ufrj:ent-reservas_nacionais_hc"/>
-    <prov:activity prov:ref="ufrj:carga_reservas_nacionais_hc"/>
-  </prov:wasGeneratedBy>
-  <prov:activity prov:id="ufrj:carga_levantamento_sismico_2023">
-    <prov:startTime>2024-11-30T03:23:27.195452</prov:startTime>
-    <prov:endTime>2024-11-30T03:23:27.303914</prov:endTime>
-  </prov:activity>
-  <prov:wasAssociatedWith>
-    <prov:activity prov:ref="ufrj:carga_levantamento_sismico_2023"/>
-    <prov:agent prov:ref="ufrj:eda.ipynb"/>
-  </prov:wasAssociatedWith>
-  <prov:entity prov:id="ufrj:ent-levantamento_sismico_2023">
-    <prov:label>Dataset carregado: levantamento_sismico_2023</prov:label>
-    <prov:type xsi:type="xsd:string">void:Dataset</prov:type>
-    <prov:generatedAtTime>2024-11-30T03:23:27.303914</prov:generatedAtTime>
-  </prov:entity>
-  <prov:wasGeneratedBy>
-    <prov:entity prov:ref="ufrj:ent-levantamento_sismico_2023"/>
-    <prov:activity prov:ref="ufrj:carga_levantamento_sismico_2023"/>
-  </prov:wasGeneratedBy>
-  <prov:activity prov:id="ufrj:carga_tabela_pocos_2024">
-    <prov:startTime>2024-11-30T03:23:27.304915</prov:startTime>
-    <prov:endTime>2024-11-30T03:23:27.652752</prov:endTime>
-  </prov:activity>
-  <prov:wasAssociatedWith>
-    <prov:activity prov:ref="ufrj:carga_tabela_pocos_2024"/>
-    <prov:agent prov:ref="ufrj:eda.ipynb"/>
-  </prov:wasAssociatedWith>
-  <prov:entity prov:id="ufrj:ent-tabela_pocos_2024">
-    <prov:label>Dataset carregado: tabela_pocos_2024</prov:label>
-    <prov:type xsi:type="xsd:string">void:Dataset</prov:type>
-    <prov:generatedAtTime>2024-11-30T03:23:27.652752</prov:generatedAtTime>
-  </prov:entity>
-  <prov:wasGeneratedBy>
-    <prov:entity prov:ref="ufrj:ent-tabela_pocos_2024"/>
-    <prov:activity prov:ref="ufrj:carga_tabela_pocos_2024"/>
-  </prov:wasGeneratedBy>
-  <prov:activity prov:id="ufrj:carga_tabela_levantamentos_geoquimica">
-    <prov:startTime>2024-11-30T03:23:27.652752</prov:startTime>
-    <prov:endTime>2024-11-30T03:23:27.730907</prov:endTime>
-  </prov:activity>
-  <prov:wasAssociatedWith>
-    <prov:activity prov:ref="ufrj:carga_tabela_levantamentos_geoquimica"/>
-    <prov:agent prov:ref="ufrj:eda.ipynb"/>
-  </prov:wasAssociatedWith>
-  <prov:entity prov:id="ufrj:ent-tabela_levantamentos_geoquimica">
-    <prov:label>Dataset carregado: tabela_levantamentos_geoquimica</prov:label>
-    <prov:type xsi:type="xsd:string">void:Dataset</prov:type>
-    <prov:generatedAtTime>2024-11-30T03:23:27.730907</prov:generatedAtTime>
-  </prov:entity>
-  <prov:wasGeneratedBy>
-    <prov:entity prov:ref="ufrj:ent-tabela_levantamentos_geoquimica"/>
-    <prov:activity prov:ref="ufrj:carga_tabela_levantamentos_geoquimica"/>
-  </prov:wasGeneratedBy>
-  <prov:activity prov:id="ufrj:carga_tabela_dados_geoquimica">
-    <prov:startTime>2024-11-30T03:23:27.730907</prov:startTime>
-    <prov:endTime>2024-11-30T03:23:28.161887</prov:endTime>
-  </prov:activity>
-  <prov:wasAssociatedWith>
-    <prov:activity prov:ref="ufrj:carga_tabela_dados_geoquimica"/>
-    <prov:agent prov:ref="ufrj:eda.ipynb"/>
-  </prov:wasAssociatedWith>
-  <prov:entity prov:id="ufrj:ent-tabela_dados_geoquimica">
-    <prov:label>Dataset carregado: tabela_dados_geoquimica</prov:label>
-    <prov:type xsi:type="xsd:string">void:Dataset</prov:type>
-    <prov:generatedAtTime>2024-11-30T03:23:28.161887</prov:generatedAtTime>
-  </prov:entity>
-  <prov:wasGeneratedBy>
-    <prov:entity prov:ref="ufrj:ent-tabela_dados_geoquimica"/>
-    <prov:activity prov:ref="ufrj:carga_tabela_dados_geoquimica"/>
-  </prov:wasGeneratedBy>
-  <prov:activity prov:id="ufrj:carga_reservas_nacionais_hc">
-    <prov:startTime>2024-11-30T03:23:28.161887</prov:startTime>
-    <prov:endTime>2024-11-30T03:23:28.482524</prov:endTime>
-  </prov:activity>
-  <prov:wasAssociatedWith>
-    <prov:activity prov:ref="ufrj:carga_reservas_nacionais_hc"/>
-    <prov:agent prov:ref="ufrj:eda.ipynb"/>
-  </prov:wasAssociatedWith>
-  <prov:entity prov:id="ufrj:ent-reservas_nacionais_hc">
-    <prov:label>Dataset carregado: reservas_nacionais_hc</prov:label>
-    <prov:type xsi:type="xsd:string">void:Dataset</prov:type>
-    <prov:generatedAtTime>2024-11-30T03:23:28.482524</prov:generatedAtTime>
+    <prov:generatedAtTime>2024-11-30T14:13:46.509428</prov:generatedAtTime>
   </prov:entity>
   <prov:wasGeneratedBy>
     <prov:entity prov:ref="ufrj:ent-reservas_nacionais_hc"/>

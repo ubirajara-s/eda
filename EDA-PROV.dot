@@ -9,7 +9,7 @@ ann1 [label=<<TABLE cellpadding="0" border="0">
     </TR>
     <TR>
         <TD align="left" href="http://xmlns.com/foaf/0.1/name">foaf:name</TD>
-        <TD align="left">Ag&amp;#234;ncia Nacional do Petr&amp;#243;leo, G&amp;#225;s Natural e Biocombust&amp;#237;veis</TD>
+        <TD align="left">Agencia Nacional do Petroleo, Gas Natural e Biocombustiveis</TD>
     </TR>
     </TABLE>>, shape=note, color=gray, fontcolor=black, fontsize=10];
 ann1 -> n1 [arrowhead=none, style=dashed, color=gray];
@@ -33,7 +33,7 @@ ann3 [label=<<TABLE cellpadding="0" border="0">
     </TR>
     <TR>
         <TD align="left" href="http://xmlns.com/foaf/0.1/name">foaf:name</TD>
-        <TD align="left">Programa de P&amp;#243;s Gradua&amp;#231;&amp;#227;o em Inform&amp;#225;tica</TD>
+        <TD align="left">Programa de Pos Graduacao em Informatica</TD>
     </TR>
     </TABLE>>, shape=note, color=gray, fontcolor=black, fontsize=10];
 ann3 -> n3 [arrowhead=none, style=dashed, color=gray];
@@ -61,7 +61,7 @@ ann5 [label=<<TABLE cellpadding="0" border="0">
     </TR>
     <TR>
         <TD align="left" href="http://xmlns.com/foaf/0.1/name">foaf:name</TD>
-        <TD align="left">Ubirajara Sim&amp;#245;es Santos</TD>
+        <TD align="left">Ubirajara Simoes Santos</TD>
     </TR>
     </TABLE>>, shape=note, color=gray, fontcolor=black, fontsize=10];
 ann5 -> n5 [arrowhead=none, style=dashed, color=gray];
@@ -105,7 +105,7 @@ ann8 [label=<<TABLE cellpadding="0" border="0">
     </TR>
     <TR>
         <TD align="left" href="http://xmlns.com/foaf/0.1/name">foaf:name</TD>
-        <TD align="left">Petr&amp;#243;leo Brasiliero S.A</TD>
+        <TD align="left">Petroleo Brasiliero S.A</TD>
     </TR>
     </TABLE>>, shape=note, color=gray, fontcolor=black, fontsize=10];
 ann8 -> n8 [arrowhead=none, style=dashed, color=gray];
@@ -129,7 +129,7 @@ n10 [label="anp:create-dataset", URL="https://www.gov.br/anp/pt-brcreate-dataset
 ann10 [label=<<TABLE cellpadding="0" border="0">
     <TR>
         <TD align="left" href="http://www.w3.org/ns/prov#label">prov:label</TD>
-        <TD align="left">Cria&amp;#231;&amp;#227;o de datasets pela ANP</TD>
+        <TD align="left">Criacao de datasets pela ANP</TD>
     </TR>
     </TABLE>>, shape=note, color=gray, fontcolor=black, fontsize=10];
 ann10 -> n10 [arrowhead=none, style=dashed, color=gray];
@@ -137,7 +137,7 @@ n11 [label="ufrj:create-ds-eda", URL="https://www.ufrj.brcreate-ds-eda", shape=b
 ann11 [label=<<TABLE cellpadding="0" border="0">
     <TR>
         <TD align="left" href="http://www.w3.org/ns/prov#label">prov:label</TD>
-        <TD align="left">Cria&amp;#231;&amp;#227;o de datasets para EDA</TD>
+        <TD align="left">Criacao de datasets para EDA</TD>
     </TR>
     </TABLE>>, shape=note, color=gray, fontcolor=black, fontsize=10];
 ann11 -> n11 [arrowhead=none, style=dashed, color=gray];
@@ -162,7 +162,7 @@ ann13 [label=<<TABLE cellpadding="0" border="0">
     </TR>
     <TR>
         <TD align="left" href="http://www.w3.org/ns/prov#description">prov:description</TD>
-        <TD align="left">Consolidado 2023 de amostras disponíveis.</TD>
+        <TD align="left">Consolidado 2023 de amostras disponÃ­veis.</TD>
     </TR>
     <TR>
         <TD align="left" href="http://www.w3.org/ns/prov#format">prov:format</TD>
@@ -182,7 +182,7 @@ ann14 [label=<<TABLE cellpadding="0" border="0">
     </TR>
     <TR>
         <TD align="left" href="http://www.w3.org/ns/prov#description">prov:description</TD>
-        <TD align="left">Modelos exploratórios em formato SIRGAS.</TD>
+        <TD align="left">Modelos exploratÃ³rios em formato SIRGAS.</TD>
     </TR>
     <TR>
         <TD align="left" href="http://www.w3.org/ns/prov#format">prov:format</TD>
@@ -194,7 +194,7 @@ n16 [label="anp:blocos_exploratorios", URL="https://www.gov.br/anp/pt-brblocos_e
 ann15 [label=<<TABLE cellpadding="0" border="0">
     <TR>
         <TD align="left" href="http://www.w3.org/ns/prov#label">prov:label</TD>
-        <TD align="left">Blocos explorat&amp;#243;rios</TD>
+        <TD align="left">Blocos exploratorios</TD>
     </TR>
     <TR>
         <TD align="left" href="http://www.w3.org/ns/prov#type">prov:type</TD>
@@ -202,7 +202,7 @@ ann15 [label=<<TABLE cellpadding="0" border="0">
     </TR>
     <TR>
         <TD align="left" href="http://www.w3.org/ns/prov#description">prov:description</TD>
-        <TD align="left">Blocos exploratórios com dados geoespaciais.</TD>
+        <TD align="left">Blocos exploratÃ³rios com dados geoespaciais.</TD>
     </TR>
     <TR>
         <TD align="left" href="http://www.w3.org/ns/prov#format">prov:format</TD>
@@ -214,7 +214,7 @@ n17 [label="anp:campos_producao", URL="https://www.gov.br/anp/pt-brcampos_produc
 ann16 [label=<<TABLE cellpadding="0" border="0">
     <TR>
         <TD align="left" href="http://www.w3.org/ns/prov#label">prov:label</TD>
-        <TD align="left">Campos de Produ&amp;#231;&amp;#227;o</TD>
+        <TD align="left">Campos de Producao</TD>
     </TR>
     <TR>
         <TD align="left" href="http://www.w3.org/ns/prov#type">prov:type</TD>
@@ -222,7 +222,7 @@ ann16 [label=<<TABLE cellpadding="0" border="0">
     </TR>
     <TR>
         <TD align="left" href="http://www.w3.org/ns/prov#description">prov:description</TD>
-        <TD align="left">Dados dos campos de produção em formato SIRGAS.</TD>
+        <TD align="left">Dados dos campos de produÃ§Ã£o em formato SIRGAS.</TD>
     </TR>
     <TR>
         <TD align="left" href="http://www.w3.org/ns/prov#format">prov:format</TD>
@@ -254,7 +254,7 @@ n19 [label="anp:pocos_perfurados_2023", URL="https://www.gov.br/anp/pt-brpocos_p
 ann18 [label=<<TABLE cellpadding="0" border="0">
     <TR>
         <TD align="left" href="http://www.w3.org/ns/prov#label">prov:label</TD>
-        <TD align="left">Po&amp;#231;os perfurados - 2023</TD>
+        <TD align="left">Pocos perfurados - 2023</TD>
     </TR>
     <TR>
         <TD align="left" href="http://www.w3.org/ns/prov#type">prov:type</TD>
@@ -262,7 +262,7 @@ ann18 [label=<<TABLE cellpadding="0" border="0">
     </TR>
     <TR>
         <TD align="left" href="http://www.w3.org/ns/prov#description">prov:description</TD>
-        <TD align="left">CSV com os poços perfurados no ano de 2023.</TD>
+        <TD align="left">CSV com os poÃ§os perfurados no ano de 2023.</TD>
     </TR>
     <TR>
         <TD align="left" href="http://www.w3.org/ns/prov#format">prov:format</TD>
@@ -274,7 +274,7 @@ n20 [label="anp:levantamento_geoquimica", URL="https://www.gov.br/anp/pt-brlevan
 ann19 [label=<<TABLE cellpadding="0" border="0">
     <TR>
         <TD align="left" href="http://www.w3.org/ns/prov#label">prov:label</TD>
-        <TD align="left">Tabela de levantamentos geoqu&amp;#237;micos 20/04/2022</TD>
+        <TD align="left">Tabela de levantamentos geoquimicos 20/04/2022</TD>
     </TR>
     <TR>
         <TD align="left" href="http://www.w3.org/ns/prov#type">prov:type</TD>
@@ -282,7 +282,7 @@ ann19 [label=<<TABLE cellpadding="0" border="0">
     </TR>
     <TR>
         <TD align="left" href="http://www.w3.org/ns/prov#description">prov:description</TD>
-        <TD align="left">Dados sobre levantamentos geoquímicos.</TD>
+        <TD align="left">Dados sobre levantamentos geoquÃ­micos.</TD>
     </TR>
     <TR>
         <TD align="left" href="http://www.w3.org/ns/prov#format">prov:format</TD>
@@ -302,7 +302,7 @@ ann20 [label=<<TABLE cellpadding="0" border="0">
     </TR>
     <TR>
         <TD align="left" href="http://www.w3.org/ns/prov#description">prov:description</TD>
-        <TD align="left">Dados geoquímicos.</TD>
+        <TD align="left">Dados geoquÃ­micos.</TD>
     </TR>
     <TR>
         <TD align="left" href="http://www.w3.org/ns/prov#format">prov:format</TD>
@@ -314,7 +314,7 @@ n22 [label="anp:levantamento_sismico_2023", URL="https://www.gov.br/anp/pt-brlev
 ann21 [label=<<TABLE cellpadding="0" border="0">
     <TR>
         <TD align="left" href="http://www.w3.org/ns/prov#label">prov:label</TD>
-        <TD align="left">Levantamento S&amp;#237;smico - 2023</TD>
+        <TD align="left">Levantamento Sismico - 2023</TD>
     </TR>
     <TR>
         <TD align="left" href="http://www.w3.org/ns/prov#type">prov:type</TD>
@@ -322,7 +322,7 @@ ann21 [label=<<TABLE cellpadding="0" border="0">
     </TR>
     <TR>
         <TD align="left" href="http://www.w3.org/ns/prov#description">prov:description</TD>
-        <TD align="left">CSV com dados de levantamentos sísmicos públicos.</TD>
+        <TD align="left">CSV com dados de levantamentos sÃ­smicos pÃºblicos.</TD>
     </TR>
     <TR>
         <TD align="left" href="http://www.w3.org/ns/prov#format">prov:format</TD>
@@ -334,7 +334,7 @@ n23 [label="anp:tabela_pocos_2024", URL="https://www.gov.br/anp/pt-brtabela_poco
 ann22 [label=<<TABLE cellpadding="0" border="0">
     <TR>
         <TD align="left" href="http://www.w3.org/ns/prov#label">prov:label</TD>
-        <TD align="left">Tabela de Po&amp;#231;os - 2024</TD>
+        <TD align="left">Tabela de Pocos - 2024</TD>
     </TR>
     <TR>
         <TD align="left" href="http://www.w3.org/ns/prov#type">prov:type</TD>
@@ -342,7 +342,7 @@ ann22 [label=<<TABLE cellpadding="0" border="0">
     </TR>
     <TR>
         <TD align="left" href="http://www.w3.org/ns/prov#description">prov:description</TD>
-        <TD align="left">Tabela CSV com dados atualizados de poços para 2024.</TD>
+        <TD align="left">Tabela CSV com dados atualizados de poÃ§os para 2024.</TD>
     </TR>
     <TR>
         <TD align="left" href="http://www.w3.org/ns/prov#format">prov:format</TD>
@@ -354,7 +354,7 @@ n24 [label="anp-dados_tec:dataset", URL="https://www.gov.br/anp/pt-br/centrais-d
 ann23 [label=<<TABLE cellpadding="0" border="0">
     <TR>
         <TD align="left" href="http://www.w3.org/ns/prov#label">prov:label</TD>
-        <TD align="left">ANP Dataset de Dados T&amp;#233;cnicos</TD>
+        <TD align="left">ANP Dataset de Dados Tecnicos</TD>
     </TR>
     <TR>
         <TD align="left" href="http://www.w3.org/ns/prov#type">prov:type</TD>
@@ -362,7 +362,7 @@ ann23 [label=<<TABLE cellpadding="0" border="0">
     </TR>
     <TR>
         <TD align="left" href="http://www.w3.org/ns/prov#description">prov:description</TD>
-        <TD align="left">Dataset com dados técnicos disponíveis publicamente.</TD>
+        <TD align="left">Dataset com dados tÃ©cnicos disponÃ­veis publicamente.</TD>
     </TR>
     <TR>
         <TD align="left" href="http://www.w3.org/ns/prov#format">prov:format</TD>
@@ -398,11 +398,11 @@ n27 [label="ufrj:carga_levantamento_sismico_2023", URL="https://www.ufrj.brcarga
 ann26 [label=<<TABLE cellpadding="0" border="0">
     <TR>
         <TD align="left" href="http://www.w3.org/ns/prov#startTime">prov:startTime</TD>
-        <TD align="left">2024-11-30T14:07:59.991652</TD>
+        <TD align="left">2024-11-30T13:25:04.276454</TD>
     </TR>
     <TR>
         <TD align="left" href="http://www.w3.org/ns/prov#endTime">prov:endTime</TD>
-        <TD align="left">2024-11-30T14:08:00.074264</TD>
+        <TD align="left">2024-11-30T13:25:04.366651</TD>
     </TR>
     </TABLE>>, shape=note, color=gray, fontcolor=black, fontsize=10];
 ann26 -> n27 [arrowhead=none, style=dashed, color=gray];
@@ -418,7 +418,7 @@ ann27 [label=<<TABLE cellpadding="0" border="0">
     </TR>
     <TR>
         <TD align="left" href="http://www.w3.org/ns/prov#generatedAtTime">prov:generatedAtTime</TD>
-        <TD align="left">2024-11-30T14:08:00.074264</TD>
+        <TD align="left">2024-11-30T13:25:04.366651</TD>
     </TR>
     </TABLE>>, shape=note, color=gray, fontcolor=black, fontsize=10];
 ann27 -> n28 [arrowhead=none, style=dashed, color=gray];
@@ -426,11 +426,11 @@ n29 [label="ufrj:carga_tabela_pocos_2024", URL="https://www.ufrj.brcarga_tabela_
 ann28 [label=<<TABLE cellpadding="0" border="0">
     <TR>
         <TD align="left" href="http://www.w3.org/ns/prov#startTime">prov:startTime</TD>
-        <TD align="left">2024-11-30T14:08:00.074264</TD>
+        <TD align="left">2024-11-30T13:25:04.366651</TD>
     </TR>
     <TR>
         <TD align="left" href="http://www.w3.org/ns/prov#endTime">prov:endTime</TD>
-        <TD align="left">2024-11-30T14:08:00.423415</TD>
+        <TD align="left">2024-11-30T13:25:04.644085</TD>
     </TR>
     </TABLE>>, shape=note, color=gray, fontcolor=black, fontsize=10];
 ann28 -> n29 [arrowhead=none, style=dashed, color=gray];
@@ -446,7 +446,7 @@ ann29 [label=<<TABLE cellpadding="0" border="0">
     </TR>
     <TR>
         <TD align="left" href="http://www.w3.org/ns/prov#generatedAtTime">prov:generatedAtTime</TD>
-        <TD align="left">2024-11-30T14:08:00.423415</TD>
+        <TD align="left">2024-11-30T13:25:04.644085</TD>
     </TR>
     </TABLE>>, shape=note, color=gray, fontcolor=black, fontsize=10];
 ann29 -> n30 [arrowhead=none, style=dashed, color=gray];
@@ -454,11 +454,11 @@ n31 [label="ufrj:carga_tabela_levantamentos_geoquimica", URL="https://www.ufrj.b
 ann30 [label=<<TABLE cellpadding="0" border="0">
     <TR>
         <TD align="left" href="http://www.w3.org/ns/prov#startTime">prov:startTime</TD>
-        <TD align="left">2024-11-30T14:08:00.423415</TD>
+        <TD align="left">2024-11-30T13:25:04.644085</TD>
     </TR>
     <TR>
         <TD align="left" href="http://www.w3.org/ns/prov#endTime">prov:endTime</TD>
-        <TD align="left">2024-11-30T14:08:00.502065</TD>
+        <TD align="left">2024-11-30T13:25:04.723905</TD>
     </TR>
     </TABLE>>, shape=note, color=gray, fontcolor=black, fontsize=10];
 ann30 -> n31 [arrowhead=none, style=dashed, color=gray];
@@ -474,7 +474,7 @@ ann31 [label=<<TABLE cellpadding="0" border="0">
     </TR>
     <TR>
         <TD align="left" href="http://www.w3.org/ns/prov#generatedAtTime">prov:generatedAtTime</TD>
-        <TD align="left">2024-11-30T14:08:00.502065</TD>
+        <TD align="left">2024-11-30T13:25:04.723905</TD>
     </TR>
     </TABLE>>, shape=note, color=gray, fontcolor=black, fontsize=10];
 ann31 -> n32 [arrowhead=none, style=dashed, color=gray];
@@ -482,11 +482,11 @@ n33 [label="ufrj:carga_tabela_dados_geoquimica", URL="https://www.ufrj.brcarga_t
 ann32 [label=<<TABLE cellpadding="0" border="0">
     <TR>
         <TD align="left" href="http://www.w3.org/ns/prov#startTime">prov:startTime</TD>
-        <TD align="left">2024-11-30T14:08:00.502065</TD>
+        <TD align="left">2024-11-30T13:25:04.723905</TD>
     </TR>
     <TR>
         <TD align="left" href="http://www.w3.org/ns/prov#endTime">prov:endTime</TD>
-        <TD align="left">2024-11-30T14:08:00.853053</TD>
+        <TD align="left">2024-11-30T13:25:05.138953</TD>
     </TR>
     </TABLE>>, shape=note, color=gray, fontcolor=black, fontsize=10];
 ann32 -> n33 [arrowhead=none, style=dashed, color=gray];
@@ -502,7 +502,7 @@ ann33 [label=<<TABLE cellpadding="0" border="0">
     </TR>
     <TR>
         <TD align="left" href="http://www.w3.org/ns/prov#generatedAtTime">prov:generatedAtTime</TD>
-        <TD align="left">2024-11-30T14:08:00.853053</TD>
+        <TD align="left">2024-11-30T13:25:05.138953</TD>
     </TR>
     </TABLE>>, shape=note, color=gray, fontcolor=black, fontsize=10];
 ann33 -> n34 [arrowhead=none, style=dashed, color=gray];
@@ -510,11 +510,11 @@ n35 [label="ufrj:carga_reservas_nacionais_hc", URL="https://www.ufrj.brcarga_res
 ann34 [label=<<TABLE cellpadding="0" border="0">
     <TR>
         <TD align="left" href="http://www.w3.org/ns/prov#startTime">prov:startTime</TD>
-        <TD align="left">2024-11-30T14:08:00.854050</TD>
+        <TD align="left">2024-11-30T13:25:05.138953</TD>
     </TR>
     <TR>
         <TD align="left" href="http://www.w3.org/ns/prov#endTime">prov:endTime</TD>
-        <TD align="left">2024-11-30T14:08:01.118632</TD>
+        <TD align="left">2024-11-30T13:25:05.392497</TD>
     </TR>
     </TABLE>>, shape=note, color=gray, fontcolor=black, fontsize=10];
 ann34 -> n35 [arrowhead=none, style=dashed, color=gray];
@@ -530,7 +530,7 @@ ann35 [label=<<TABLE cellpadding="0" border="0">
     </TR>
     <TR>
         <TD align="left" href="http://www.w3.org/ns/prov#generatedAtTime">prov:generatedAtTime</TD>
-        <TD align="left">2024-11-30T14:08:01.118632</TD>
+        <TD align="left">2024-11-30T13:25:05.392497</TD>
     </TR>
     </TABLE>>, shape=note, color=gray, fontcolor=black, fontsize=10];
 ann35 -> n36 [arrowhead=none, style=dashed, color=gray];
