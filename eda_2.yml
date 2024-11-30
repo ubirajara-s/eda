@@ -12,3 +12,6 @@ dependencies:
   - pydot
   - chardet
   - pygraphviz
+  - plotly
+  - seaborn
+  - numpy
