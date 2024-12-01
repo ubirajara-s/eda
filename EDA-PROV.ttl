@@ -9,20 +9,8 @@
 @prefix ufrj: <https://www.ufrj.br> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
-schema1:Brotli a prov:Entity ;
-    prov:value "1.1.0"^^xsd:string ;
-    prov:wasGeneratedBy ufrj:track_system_and_packages .
-
 schema1:Current_Working_Directory a prov:Entity ;
     prov:value "C:\\Users\\ubira\\eda"^^xsd:string ;
-    prov:wasGeneratedBy ufrj:track_system_and_packages .
-
-schema1:Jinja2 a prov:Entity ;
-    prov:value "3.1.4"^^xsd:string ;
-    prov:wasGeneratedBy ufrj:track_system_and_packages .
-
-schema1:MarkupSafe a prov:Entity ;
-    prov:value "3.0.2"^^xsd:string ;
     prov:wasGeneratedBy ufrj:track_system_and_packages .
 
 schema1:OS a prov:Entity ;
@@ -37,22 +25,6 @@ schema1:OS_Version a prov:Entity ;
     prov:value "10.0.26100"^^xsd:string ;
     prov:wasGeneratedBy ufrj:track_system_and_packages .
 
-schema1:PySide6 a prov:Entity ;
-    prov:value "6.8.0.2 "^^xsd:string ;
-    prov:wasGeneratedBy ufrj:track_system_and_packages .
-
-schema1:PySocks a prov:Entity ;
-    prov:value "1.7.1"^^xsd:string ;
-    prov:wasGeneratedBy ufrj:track_system_and_packages .
-
-schema1:PyYAML a prov:Entity ;
-    prov:value "6.0.2"^^xsd:string ;
-    prov:wasGeneratedBy ufrj:track_system_and_packages .
-
-schema1:Pygments a prov:Entity ;
-    prov:value "2.18.0"^^xsd:string ;
-    prov:wasGeneratedBy ufrj:track_system_and_packages .
-
 schema1:Python_Executable a prov:Entity ;
     prov:value "C:\\Users\\ubira\\.julia\\conda\\3\\x86_64\\envs\\eda_2\\python.exe"^^xsd:string ;
     prov:wasGeneratedBy ufrj:track_system_and_packages .
@@ -61,304 +33,16 @@ schema1:Python_Version a prov:Entity ;
     prov:value "3.12.7 | packaged by conda-forge | (main, Oct  4 2024, 15:47:54) [MSC v.1941 64 bit (AMD64)]"^^xsd:string ;
     prov:wasGeneratedBy ufrj:track_system_and_packages .
 
-schema1:Send2Trash a prov:Entity ;
-    prov:value "1.8.3"^^xsd:string ;
-    prov:wasGeneratedBy ufrj:track_system_and_packages .
-
-schema1:anyio a prov:Entity ;
-    prov:value "4.6.2.post1"^^xsd:string ;
-    prov:wasGeneratedBy ufrj:track_system_and_packages .
-
-schema1:argon2-cffi a prov:Entity ;
-    prov:value "23.1.0"^^xsd:string ;
-    prov:wasGeneratedBy ufrj:track_system_and_packages .
-
-schema1:argon2-cffi-bindings a prov:Entity ;
-    prov:value "21.2.0"^^xsd:string ;
-    prov:wasGeneratedBy ufrj:track_system_and_packages .
-
-schema1:arrow a prov:Entity ;
-    prov:value "1.3.0"^^xsd:string ;
-    prov:wasGeneratedBy ufrj:track_system_and_packages .
-
-schema1:asttokens a prov:Entity ;
-    prov:value "2.4.1"^^xsd:string ;
-    prov:wasGeneratedBy ufrj:track_system_and_packages .
-
-schema1:async-lru a prov:Entity ;
-    prov:value "2.0.4"^^xsd:string ;
-    prov:wasGeneratedBy ufrj:track_system_and_packages .
-
-schema1:attrs a prov:Entity ;
-    prov:value "24.2.0"^^xsd:string ;
-    prov:wasGeneratedBy ufrj:track_system_and_packages .
-
-schema1:babel a prov:Entity ;
-    prov:value "2.16.0"^^xsd:string ;
-    prov:wasGeneratedBy ufrj:track_system_and_packages .
-
-schema1:beautifulsoup4 a prov:Entity ;
-    prov:value "4.12.3"^^xsd:string ;
-    prov:wasGeneratedBy ufrj:track_system_and_packages .
-
-schema1:bleach a prov:Entity ;
-    prov:value "6.2.0"^^xsd:string ;
-    prov:wasGeneratedBy ufrj:track_system_and_packages .
-
-schema1:branca a prov:Entity ;
-    prov:value "0.7.2"^^xsd:string ;
-    prov:wasGeneratedBy ufrj:track_system_and_packages .
-
-schema1:cached-property a prov:Entity ;
-    prov:value "1.5.2"^^xsd:string ;
-    prov:wasGeneratedBy ufrj:track_system_and_packages .
-
-schema1:certifi a prov:Entity ;
-    prov:value "2024.8.30"^^xsd:string ;
-    prov:wasGeneratedBy ufrj:track_system_and_packages .
-
-schema1:cffi a prov:Entity ;
-    prov:value "1.17.1"^^xsd:string ;
-    prov:wasGeneratedBy ufrj:track_system_and_packages .
-
-schema1:chardet a prov:Entity ;
-    prov:value "5.2.0"^^xsd:string ;
-    prov:wasGeneratedBy ufrj:track_system_and_packages .
-
-schema1:charset-normalizer a prov:Entity ;
-    prov:value "3.4.0"^^xsd:string ;
-    prov:wasGeneratedBy ufrj:track_system_and_packages .
-
-schema1:colorama a prov:Entity ;
-    prov:value "0.4.6"^^xsd:string ;
-    prov:wasGeneratedBy ufrj:track_system_and_packages .
-
-schema1:comm a prov:Entity ;
-    prov:value "0.2.2"^^xsd:string ;
-    prov:wasGeneratedBy ufrj:track_system_and_packages .
-
-schema1:contourpy a prov:Entity ;
-    prov:value "1.3.1"^^xsd:string ;
-    prov:wasGeneratedBy ufrj:track_system_and_packages .
-
-schema1:cycler a prov:Entity ;
-    prov:value "0.12.1"^^xsd:string ;
-    prov:wasGeneratedBy ufrj:track_system_and_packages .
-
-schema1:debugpy a prov:Entity ;
-    prov:value "1.8.9"^^xsd:string ;
-    prov:wasGeneratedBy ufrj:track_system_and_packages .
-
-schema1:decorator a prov:Entity ;
-    prov:value "5.1.1"^^xsd:string ;
-    prov:wasGeneratedBy ufrj:track_system_and_packages .
-
-schema1:defusedxml a prov:Entity ;
-    prov:value "0.7.1"^^xsd:string ;
-    prov:wasGeneratedBy ufrj:track_system_and_packages .
-
-schema1:entrypoints a prov:Entity ;
-    prov:value "0.4"^^xsd:string ;
-    prov:wasGeneratedBy ufrj:track_system_and_packages .
-
-schema1:et_xmlfile a prov:Entity ;
-    prov:value "2.0.0"^^xsd:string ;
-    prov:wasGeneratedBy ufrj:track_system_and_packages .
-
-schema1:exceptiongroup a prov:Entity ;
-    prov:value "1.2.2"^^xsd:string ;
-    prov:wasGeneratedBy ufrj:track_system_and_packages .
-
-schema1:executing a prov:Entity ;
-    prov:value "2.1.0"^^xsd:string ;
-    prov:wasGeneratedBy ufrj:track_system_and_packages .
-
-schema1:fastjsonschema a prov:Entity ;
-    prov:value "2.21.0"^^xsd:string ;
-    prov:wasGeneratedBy ufrj:track_system_and_packages .
-
 schema1:folium a prov:Entity ;
     prov:value "0.18.0"^^xsd:string ;
-    prov:wasGeneratedBy ufrj:track_system_and_packages .
-
-schema1:fonttools a prov:Entity ;
-    prov:value "4.55.0"^^xsd:string ;
-    prov:wasGeneratedBy ufrj:track_system_and_packages .
-
-schema1:fqdn a prov:Entity ;
-    prov:value "1.5.1"^^xsd:string ;
-    prov:wasGeneratedBy ufrj:track_system_and_packages .
-
-schema1:geopandas a prov:Entity ;
-    prov:value "1.0.1"^^xsd:string ;
     prov:wasGeneratedBy ufrj:track_system_and_packages .
 
 schema1:graphviz a prov:Entity ;
     prov:value "0.20.3"^^xsd:string ;
     prov:wasGeneratedBy ufrj:track_system_and_packages .
 
-schema1:h11 a prov:Entity ;
-    prov:value "0.14.0"^^xsd:string ;
-    prov:wasGeneratedBy ufrj:track_system_and_packages .
-
-schema1:h2 a prov:Entity ;
-    prov:value "4.1.0"^^xsd:string ;
-    prov:wasGeneratedBy ufrj:track_system_and_packages .
-
-schema1:hpack a prov:Entity ;
-    prov:value "4.0.0"^^xsd:string ;
-    prov:wasGeneratedBy ufrj:track_system_and_packages .
-
-schema1:httpcore a prov:Entity ;
-    prov:value "1.0.7"^^xsd:string ;
-    prov:wasGeneratedBy ufrj:track_system_and_packages .
-
-schema1:httpx a prov:Entity ;
-    prov:value "0.28.0"^^xsd:string ;
-    prov:wasGeneratedBy ufrj:track_system_and_packages .
-
-schema1:hyperframe a prov:Entity ;
-    prov:value "6.0.1"^^xsd:string ;
-    prov:wasGeneratedBy ufrj:track_system_and_packages .
-
-schema1:idna a prov:Entity ;
-    prov:value "3.10"^^xsd:string ;
-    prov:wasGeneratedBy ufrj:track_system_and_packages .
-
-schema1:importlib_metadata a prov:Entity ;
-    prov:value "8.5.0"^^xsd:string ;
-    prov:wasGeneratedBy ufrj:track_system_and_packages .
-
-schema1:importlib_resources a prov:Entity ;
-    prov:value "6.4.5"^^xsd:string ;
-    prov:wasGeneratedBy ufrj:track_system_and_packages .
-
-schema1:ipykernel a prov:Entity ;
-    prov:value "6.29.5"^^xsd:string ;
-    prov:wasGeneratedBy ufrj:track_system_and_packages .
-
-schema1:ipython a prov:Entity ;
-    prov:value "8.30.0"^^xsd:string ;
-    prov:wasGeneratedBy ufrj:track_system_and_packages .
-
-schema1:isodate a prov:Entity ;
-    prov:value "0.7.2"^^xsd:string ;
-    prov:wasGeneratedBy ufrj:track_system_and_packages .
-
-schema1:isoduration a prov:Entity ;
-    prov:value "20.11.0"^^xsd:string ;
-    prov:wasGeneratedBy ufrj:track_system_and_packages .
-
-schema1:jedi a prov:Entity ;
-    prov:value "0.19.2"^^xsd:string ;
-    prov:wasGeneratedBy ufrj:track_system_and_packages .
-
-schema1:joblib a prov:Entity ;
-    prov:value "1.4.2"^^xsd:string ;
-    prov:wasGeneratedBy ufrj:track_system_and_packages .
-
-schema1:json5 a prov:Entity ;
-    prov:value "0.10.0"^^xsd:string ;
-    prov:wasGeneratedBy ufrj:track_system_and_packages .
-
-schema1:jsonpointer a prov:Entity ;
-    prov:value "3.0.0"^^xsd:string ;
-    prov:wasGeneratedBy ufrj:track_system_and_packages .
-
-schema1:jsonschema a prov:Entity ;
-    prov:value "4.23.0"^^xsd:string ;
-    prov:wasGeneratedBy ufrj:track_system_and_packages .
-
-schema1:jsonschema-specifications a prov:Entity ;
-    prov:value "2024.10.1"^^xsd:string ;
-    prov:wasGeneratedBy ufrj:track_system_and_packages .
-
-schema1:jupyter-events a prov:Entity ;
-    prov:value "0.10.0"^^xsd:string ;
-    prov:wasGeneratedBy ufrj:track_system_and_packages .
-
-schema1:jupyter-lsp a prov:Entity ;
-    prov:value "2.2.5"^^xsd:string ;
-    prov:wasGeneratedBy ufrj:track_system_and_packages .
-
-schema1:jupyter_client a prov:Entity ;
-    prov:value "8.6.3"^^xsd:string ;
-    prov:wasGeneratedBy ufrj:track_system_and_packages .
-
-schema1:jupyter_core a prov:Entity ;
-    prov:value "5.7.2"^^xsd:string ;
-    prov:wasGeneratedBy ufrj:track_system_and_packages .
-
-schema1:jupyter_server a prov:Entity ;
-    prov:value "2.14.2"^^xsd:string ;
-    prov:wasGeneratedBy ufrj:track_system_and_packages .
-
-schema1:jupyter_server_terminals a prov:Entity ;
-    prov:value "0.5.3"^^xsd:string ;
-    prov:wasGeneratedBy ufrj:track_system_and_packages .
-
-schema1:jupyterlab a prov:Entity ;
-    prov:value "4.3.1"^^xsd:string ;
-    prov:wasGeneratedBy ufrj:track_system_and_packages .
-
-schema1:jupyterlab_pygments a prov:Entity ;
-    prov:value "0.3.0"^^xsd:string ;
-    prov:wasGeneratedBy ufrj:track_system_and_packages .
-
-schema1:jupyterlab_server a prov:Entity ;
-    prov:value "2.27.3"^^xsd:string ;
-    prov:wasGeneratedBy ufrj:track_system_and_packages .
-
-schema1:kiwisolver a prov:Entity ;
-    prov:value "1.4.7"^^xsd:string ;
-    prov:wasGeneratedBy ufrj:track_system_and_packages .
-
-schema1:lxml a prov:Entity ;
-    prov:value "5.3.0"^^xsd:string ;
-    prov:wasGeneratedBy ufrj:track_system_and_packages .
-
-schema1:mapclassify a prov:Entity ;
-    prov:value "2.8.1"^^xsd:string ;
-    prov:wasGeneratedBy ufrj:track_system_and_packages .
-
 schema1:matplotlib a prov:Entity ;
     prov:value "3.9.2"^^xsd:string ;
-    prov:wasGeneratedBy ufrj:track_system_and_packages .
-
-schema1:matplotlib-inline a prov:Entity ;
-    prov:value "0.1.7"^^xsd:string ;
-    prov:wasGeneratedBy ufrj:track_system_and_packages .
-
-schema1:mistune a prov:Entity ;
-    prov:value "3.0.2"^^xsd:string ;
-    prov:wasGeneratedBy ufrj:track_system_and_packages .
-
-schema1:munkres a prov:Entity ;
-    prov:value "1.1.4"^^xsd:string ;
-    prov:wasGeneratedBy ufrj:track_system_and_packages .
-
-schema1:nbclient a prov:Entity ;
-    prov:value "0.10.1"^^xsd:string ;
-    prov:wasGeneratedBy ufrj:track_system_and_packages .
-
-schema1:nbconvert a prov:Entity ;
-    prov:value "7.16.4"^^xsd:string ;
-    prov:wasGeneratedBy ufrj:track_system_and_packages .
-
-schema1:nbformat a prov:Entity ;
-    prov:value "5.10.4"^^xsd:string ;
-    prov:wasGeneratedBy ufrj:track_system_and_packages .
-
-schema1:nest_asyncio a prov:Entity ;
-    prov:value "1.6.0"^^xsd:string ;
-    prov:wasGeneratedBy ufrj:track_system_and_packages .
-
-schema1:networkx a prov:Entity ;
-    prov:value "3.4.2"^^xsd:string ;
-    prov:wasGeneratedBy ufrj:track_system_and_packages .
-
-schema1:notebook_shim a prov:Entity ;
-    prov:value "0.2.4"^^xsd:string ;
     prov:wasGeneratedBy ufrj:track_system_and_packages .
 
 schema1:numpy a prov:Entity ;
@@ -369,280 +53,28 @@ schema1:openpyxl a prov:Entity ;
     prov:value "3.1.5"^^xsd:string ;
     prov:wasGeneratedBy ufrj:track_system_and_packages .
 
-schema1:overrides a prov:Entity ;
-    prov:value "7.7.0"^^xsd:string ;
-    prov:wasGeneratedBy ufrj:track_system_and_packages .
-
-schema1:packaging a prov:Entity ;
-    prov:value "24.2"^^xsd:string ;
-    prov:wasGeneratedBy ufrj:track_system_and_packages .
-
 schema1:pandas a prov:Entity ;
     prov:value "2.2.3"^^xsd:string ;
-    prov:wasGeneratedBy ufrj:track_system_and_packages .
-
-schema1:pandocfilters a prov:Entity ;
-    prov:value "1.5.0"^^xsd:string ;
-    prov:wasGeneratedBy ufrj:track_system_and_packages .
-
-schema1:parso a prov:Entity ;
-    prov:value "0.8.4"^^xsd:string ;
-    prov:wasGeneratedBy ufrj:track_system_and_packages .
-
-schema1:patsy a prov:Entity ;
-    prov:value "1.0.1"^^xsd:string ;
-    prov:wasGeneratedBy ufrj:track_system_and_packages .
-
-schema1:pickleshare a prov:Entity ;
-    prov:value "0.7.5"^^xsd:string ;
-    prov:wasGeneratedBy ufrj:track_system_and_packages .
-
-schema1:pillow a prov:Entity ;
-    prov:value "11.0.0"^^xsd:string ;
-    prov:wasGeneratedBy ufrj:track_system_and_packages .
-
-schema1:pip a prov:Entity ;
-    prov:value "24.3.1"^^xsd:string ;
-    prov:wasGeneratedBy ufrj:track_system_and_packages .
-
-schema1:pkgutil_resolve_name a prov:Entity ;
-    prov:value "1.3.10"^^xsd:string ;
-    prov:wasGeneratedBy ufrj:track_system_and_packages .
-
-schema1:platformdirs a prov:Entity ;
-    prov:value "4.3.6"^^xsd:string ;
-    prov:wasGeneratedBy ufrj:track_system_and_packages .
-
-schema1:plotly a prov:Entity ;
-    prov:value "5.24.1"^^xsd:string ;
-    prov:wasGeneratedBy ufrj:track_system_and_packages .
-
-schema1:prometheus_client a prov:Entity ;
-    prov:value "0.21.0"^^xsd:string ;
-    prov:wasGeneratedBy ufrj:track_system_and_packages .
-
-schema1:prompt_toolkit a prov:Entity ;
-    prov:value "3.0.48"^^xsd:string ;
     prov:wasGeneratedBy ufrj:track_system_and_packages .
 
 schema1:prov a prov:Entity ;
     prov:value "2.0.0"^^xsd:string ;
     prov:wasGeneratedBy ufrj:track_system_and_packages .
 
-schema1:psutil a prov:Entity ;
-    prov:value "6.1.0"^^xsd:string ;
-    prov:wasGeneratedBy ufrj:track_system_and_packages .
-
-schema1:pure_eval a prov:Entity ;
-    prov:value "0.2.3"^^xsd:string ;
-    prov:wasGeneratedBy ufrj:track_system_and_packages .
-
-schema1:pycparser a prov:Entity ;
-    prov:value "2.22"^^xsd:string ;
-    prov:wasGeneratedBy ufrj:track_system_and_packages .
-
 schema1:pydot a prov:Entity ;
     prov:value "3.0.2"^^xsd:string ;
-    prov:wasGeneratedBy ufrj:track_system_and_packages .
-
-schema1:pygraphviz a prov:Entity ;
-    prov:value "1.14"^^xsd:string ;
-    prov:wasGeneratedBy ufrj:track_system_and_packages .
-
-schema1:pyogrio a prov:Entity ;
-    prov:value "0.10.0"^^xsd:string ;
-    prov:wasGeneratedBy ufrj:track_system_and_packages .
-
-schema1:pyparsing a prov:Entity ;
-    prov:value "3.2.0"^^xsd:string ;
-    prov:wasGeneratedBy ufrj:track_system_and_packages .
-
-schema1:pyproj a prov:Entity ;
-    prov:value "3.7.0"^^xsd:string ;
-    prov:wasGeneratedBy ufrj:track_system_and_packages .
-
-schema1:python-dateutil a prov:Entity ;
-    prov:value "2.9.0.post0"^^xsd:string ;
-    prov:wasGeneratedBy ufrj:track_system_and_packages .
-
-schema1:python-json-logger a prov:Entity ;
-    prov:value "2.0.7"^^xsd:string ;
-    prov:wasGeneratedBy ufrj:track_system_and_packages .
-
-schema1:pytz a prov:Entity ;
-    prov:value "2024.1"^^xsd:string ;
-    prov:wasGeneratedBy ufrj:track_system_and_packages .
-
-schema1:pywin32 a prov:Entity ;
-    prov:value "307"^^xsd:string ;
-    prov:wasGeneratedBy ufrj:track_system_and_packages .
-
-schema1:pywinpty a prov:Entity ;
-    prov:value "2.0.14"^^xsd:string ;
-    prov:wasGeneratedBy ufrj:track_system_and_packages .
-
-schema1:pyzmq a prov:Entity ;
-    prov:value "26.2.0"^^xsd:string ;
     prov:wasGeneratedBy ufrj:track_system_and_packages .
 
 schema1:rdflib a prov:Entity ;
     prov:value "7.1.1"^^xsd:string ;
     prov:wasGeneratedBy ufrj:track_system_and_packages .
 
-schema1:referencing a prov:Entity ;
-    prov:value "0.35.1"^^xsd:string ;
-    prov:wasGeneratedBy ufrj:track_system_and_packages .
-
 schema1:requests a prov:Entity ;
     prov:value "2.32.3"^^xsd:string ;
     prov:wasGeneratedBy ufrj:track_system_and_packages .
 
-schema1:rfc3339-validator a prov:Entity ;
-    prov:value "0.1.4"^^xsd:string ;
-    prov:wasGeneratedBy ufrj:track_system_and_packages .
-
-schema1:rfc3986-validator a prov:Entity ;
-    prov:value "0.1.1"^^xsd:string ;
-    prov:wasGeneratedBy ufrj:track_system_and_packages .
-
-schema1:rpds-py a prov:Entity ;
-    prov:value "0.21.0"^^xsd:string ;
-    prov:wasGeneratedBy ufrj:track_system_and_packages .
-
-schema1:scikit-learn a prov:Entity ;
-    prov:value "1.5.2"^^xsd:string ;
-    prov:wasGeneratedBy ufrj:track_system_and_packages .
-
-schema1:scipy a prov:Entity ;
-    prov:value "1.14.1"^^xsd:string ;
-    prov:wasGeneratedBy ufrj:track_system_and_packages .
-
 schema1:seaborn a prov:Entity ;
     prov:value "0.13.2"^^xsd:string ;
-    prov:wasGeneratedBy ufrj:track_system_and_packages .
-
-schema1:setuptools a prov:Entity ;
-    prov:value "75.6.0"^^xsd:string ;
-    prov:wasGeneratedBy ufrj:track_system_and_packages .
-
-schema1:shapely a prov:Entity ;
-    prov:value "2.0.6"^^xsd:string ;
-    prov:wasGeneratedBy ufrj:track_system_and_packages .
-
-schema1:shiboken6 a prov:Entity ;
-    prov:value "6.8.0.2 "^^xsd:string ;
-    prov:wasGeneratedBy ufrj:track_system_and_packages .
-
-schema1:six a prov:Entity ;
-    prov:value "1.16.0"^^xsd:string ;
-    prov:wasGeneratedBy ufrj:track_system_and_packages .
-
-schema1:sniffio a prov:Entity ;
-    prov:value "1.3.1"^^xsd:string ;
-    prov:wasGeneratedBy ufrj:track_system_and_packages .
-
-schema1:soupsieve a prov:Entity ;
-    prov:value "2.5"^^xsd:string ;
-    prov:wasGeneratedBy ufrj:track_system_and_packages .
-
-schema1:stack-data a prov:Entity ;
-    prov:value "0.6.2"^^xsd:string ;
-    prov:wasGeneratedBy ufrj:track_system_and_packages .
-
-schema1:statsmodels a prov:Entity ;
-    prov:value "0.14.4"^^xsd:string ;
-    prov:wasGeneratedBy ufrj:track_system_and_packages .
-
-schema1:tenacity a prov:Entity ;
-    prov:value "9.0.0"^^xsd:string ;
-    prov:wasGeneratedBy ufrj:track_system_and_packages .
-
-schema1:terminado a prov:Entity ;
-    prov:value "0.18.1"^^xsd:string ;
-    prov:wasGeneratedBy ufrj:track_system_and_packages .
-
-schema1:threadpoolctl a prov:Entity ;
-    prov:value "3.5.0"^^xsd:string ;
-    prov:wasGeneratedBy ufrj:track_system_and_packages .
-
-schema1:tinycss2 a prov:Entity ;
-    prov:value "1.4.0"^^xsd:string ;
-    prov:wasGeneratedBy ufrj:track_system_and_packages .
-
-schema1:tomli a prov:Entity ;
-    prov:value "2.1.0"^^xsd:string ;
-    prov:wasGeneratedBy ufrj:track_system_and_packages .
-
-schema1:tornado a prov:Entity ;
-    prov:value "6.4.2"^^xsd:string ;
-    prov:wasGeneratedBy ufrj:track_system_and_packages .
-
-schema1:traitlets a prov:Entity ;
-    prov:value "5.14.3"^^xsd:string ;
-    prov:wasGeneratedBy ufrj:track_system_and_packages .
-
-schema1:types-python-dateutil a prov:Entity ;
-    prov:value "2.9.0.20241003"^^xsd:string ;
-    prov:wasGeneratedBy ufrj:track_system_and_packages .
-
-schema1:typing-utils a prov:Entity ;
-    prov:value "0.1.0"^^xsd:string ;
-    prov:wasGeneratedBy ufrj:track_system_and_packages .
-
-schema1:typing_extensions a prov:Entity ;
-    prov:value "4.12.2"^^xsd:string ;
-    prov:wasGeneratedBy ufrj:track_system_and_packages .
-
-schema1:tzdata a prov:Entity ;
-    prov:value "2024.2"^^xsd:string ;
-    prov:wasGeneratedBy ufrj:track_system_and_packages .
-
-schema1:unicodedata2 a prov:Entity ;
-    prov:value "15.1.0"^^xsd:string ;
-    prov:wasGeneratedBy ufrj:track_system_and_packages .
-
-schema1:uri-template a prov:Entity ;
-    prov:value "1.3.0"^^xsd:string ;
-    prov:wasGeneratedBy ufrj:track_system_and_packages .
-
-schema1:urllib3 a prov:Entity ;
-    prov:value "2.2.3"^^xsd:string ;
-    prov:wasGeneratedBy ufrj:track_system_and_packages .
-
-schema1:wcwidth a prov:Entity ;
-    prov:value "0.2.13"^^xsd:string ;
-    prov:wasGeneratedBy ufrj:track_system_and_packages .
-
-schema1:webcolors a prov:Entity ;
-    prov:value "24.8.0"^^xsd:string ;
-    prov:wasGeneratedBy ufrj:track_system_and_packages .
-
-schema1:webencodings a prov:Entity ;
-    prov:value "0.5.1"^^xsd:string ;
-    prov:wasGeneratedBy ufrj:track_system_and_packages .
-
-schema1:websocket-client a prov:Entity ;
-    prov:value "1.8.0"^^xsd:string ;
-    prov:wasGeneratedBy ufrj:track_system_and_packages .
-
-schema1:wheel a prov:Entity ;
-    prov:value "0.45.1"^^xsd:string ;
-    prov:wasGeneratedBy ufrj:track_system_and_packages .
-
-schema1:win_inet_pton a prov:Entity ;
-    prov:value "1.1.0"^^xsd:string ;
-    prov:wasGeneratedBy ufrj:track_system_and_packages .
-
-schema1:xyzservices a prov:Entity ;
-    prov:value "2024.9.0"^^xsd:string ;
-    prov:wasGeneratedBy ufrj:track_system_and_packages .
-
-schema1:zipp a prov:Entity ;
-    prov:value "3.21.0"^^xsd:string ;
-    prov:wasGeneratedBy ufrj:track_system_and_packages .
-
-schema1:zstandard a prov:Entity ;
-    prov:value "0.23.0"^^xsd:string ;
     prov:wasGeneratedBy ufrj:track_system_and_packages .
 
 anp-dados_tec:dataset a prov:Entity,
@@ -706,45 +138,44 @@ ufrj:Sergio a prov:Agent,
 
 ufrj:create-ds-eda a prov:Activity ;
     rdfs:label "Cria&#231;&#227;o de datasets para EDA"^^xsd:string ;
-    prov:endedAtTime "2024-11-30T21:23:54.900821"^^xsd:dateTime ;
-    prov:startedAtTime "2024-11-30T21:23:53.848330"^^xsd:dateTime ;
+    prov:endedAtTime "2024-11-30T22:27:13.352983"^^xsd:dateTime ;
+    prov:startedAtTime "2024-11-30T22:27:12.331941"^^xsd:dateTime ;
     prov:wasAssociatedWith ufrj:Ubirajara,
         ufrj:eda.ipynb .
 
 ufrj:eda-ipyn a prov:Entity,
         "foaf:Document"^^xsd:string ;
-    rdfs:label "Notebook Python utilizado no trabalho"^^xsd:string .
+    rdfs:label "Notebook Python utilizado no trabalho"^^xsd:string ;
+    prov:wasGeneratedBy ufrj:save-ipynb .
 
 ufrj:levantamento_sismico_2023 a prov:Entity,
         "void:Dataset"^^xsd:string ;
     rdfs:label "Dataset carregado: levantamento_sismico_2023"^^xsd:string ;
-    prov:generatedAtTime "2024-11-30T21:23:53.934480"^^xsd:string ;
+    prov:generatedAtTime "2024-11-30T22:27:12.415995"^^xsd:string ;
     prov:wasGeneratedBy ufrj:carga_levantamento_sismico_2023 .
-
-ufrj:load-ds-eda a prov:Activity .
 
 ufrj:reservas_nacionais_hc a prov:Entity,
         "void:Dataset"^^xsd:string ;
     rdfs:label "Dataset carregado: reservas_nacionais_hc"^^xsd:string ;
-    prov:generatedAtTime "2024-11-30T21:23:54.900821"^^xsd:string ;
+    prov:generatedAtTime "2024-11-30T22:27:13.352983"^^xsd:string ;
     prov:wasGeneratedBy ufrj:carga_reservas_nacionais_hc .
 
 ufrj:tabela_dados_geoquimica a prov:Entity,
         "void:Dataset"^^xsd:string ;
     rdfs:label "Dataset carregado: tabela_dados_geoquimica"^^xsd:string ;
-    prov:generatedAtTime "2024-11-30T21:23:54.649614"^^xsd:string ;
+    prov:generatedAtTime "2024-11-30T22:27:13.089139"^^xsd:string ;
     prov:wasGeneratedBy ufrj:carga_tabela_dados_geoquimica .
 
 ufrj:tabela_levantamentos_geoquimica a prov:Entity,
         "void:Dataset"^^xsd:string ;
     rdfs:label "Dataset carregado: tabela_levantamentos_geoquimica"^^xsd:string ;
-    prov:generatedAtTime "2024-11-30T21:23:54.299908"^^xsd:string ;
+    prov:generatedAtTime "2024-11-30T22:27:12.772085"^^xsd:string ;
     prov:wasGeneratedBy ufrj:carga_tabela_levantamentos_geoquimica .
 
 ufrj:tabela_pocos_2024 a prov:Entity,
         "void:Dataset"^^xsd:string ;
     rdfs:label "Dataset carregado: tabela_pocos_2024"^^xsd:string ;
-    prov:generatedAtTime "2024-11-30T21:23:54.219186"^^xsd:string ;
+    prov:generatedAtTime "2024-11-30T22:27:12.691938"^^xsd:string ;
     prov:wasGeneratedBy ufrj:carga_tabela_pocos_2024 .
 
 petrobras:Petrobras a prov:Agent,
@@ -810,37 +241,39 @@ ufrj:Ubirajara a prov:Agent,
     foaf:name "Ubirajara Sim&#245;es Santos"^^xsd:string .
 
 ufrj:carga_levantamento_sismico_2023 a prov:Activity ;
-    prov:endedAtTime "2024-11-30T21:23:53.934480"^^xsd:dateTime ;
-    prov:startedAtTime "2024-11-30T21:23:53.848330"^^xsd:dateTime ;
+    prov:endedAtTime "2024-11-30T22:27:12.415995"^^xsd:dateTime ;
+    prov:startedAtTime "2024-11-30T22:27:12.331941"^^xsd:dateTime ;
     prov:used anp:levantamento_sismico_2023 ;
     prov:wasAssociatedWith ufrj:eda.ipynb .
 
 ufrj:carga_reservas_nacionais_hc a prov:Activity ;
-    prov:endedAtTime "2024-11-30T21:23:54.900821"^^xsd:dateTime ;
-    prov:startedAtTime "2024-11-30T21:23:54.649614"^^xsd:dateTime ;
+    prov:endedAtTime "2024-11-30T22:27:13.352983"^^xsd:dateTime ;
+    prov:startedAtTime "2024-11-30T22:27:13.090134"^^xsd:dateTime ;
     prov:used anp:reservas_nacionais_hc ;
     prov:wasAssociatedWith ufrj:eda.ipynb .
 
 ufrj:carga_tabela_dados_geoquimica a prov:Activity ;
-    prov:endedAtTime "2024-11-30T21:23:54.649614"^^xsd:dateTime ;
-    prov:startedAtTime "2024-11-30T21:23:54.299908"^^xsd:dateTime ;
+    prov:endedAtTime "2024-11-30T22:27:13.089139"^^xsd:dateTime ;
+    prov:startedAtTime "2024-11-30T22:27:12.772085"^^xsd:dateTime ;
     prov:used anp:tabela_dados_geoquimica ;
     prov:wasAssociatedWith ufrj:eda.ipynb .
 
 ufrj:carga_tabela_levantamentos_geoquimica a prov:Activity ;
-    prov:endedAtTime "2024-11-30T21:23:54.299908"^^xsd:dateTime ;
-    prov:startedAtTime "2024-11-30T21:23:54.219186"^^xsd:dateTime ;
+    prov:endedAtTime "2024-11-30T22:27:12.772085"^^xsd:dateTime ;
+    prov:startedAtTime "2024-11-30T22:27:12.692854"^^xsd:dateTime ;
     prov:used anp:tabela_levantamentos_geoquimica ;
     prov:wasAssociatedWith ufrj:eda.ipynb .
 
 ufrj:carga_tabela_pocos_2024 a prov:Activity ;
-    prov:endedAtTime "2024-11-30T21:23:54.219186"^^xsd:dateTime ;
-    prov:startedAtTime "2024-11-30T21:23:53.935477"^^xsd:dateTime ;
+    prov:endedAtTime "2024-11-30T22:27:12.691938"^^xsd:dateTime ;
+    prov:startedAtTime "2024-11-30T22:27:12.415995"^^xsd:dateTime ;
     prov:used anp:tabela_pocos_2024 ;
     prov:wasAssociatedWith ufrj:eda.ipynb .
 
 ufrj:save-ipynb a prov:Activity ;
-    rdfs:label "Salvar notebook EDA"^^xsd:string .
+    rdfs:label "Salvar notebook EDA"^^xsd:string ;
+    prov:startedAtTime "2024-11-30T22:27:12.331941"^^xsd:dateTime ;
+    prov:wasAssociatedWith ufrj:eda.ipynb .
 
 br:orgBr a prov:Agent,
         "prov:Organization"^^xsd:string ;
@@ -863,6 +296,6 @@ anp:create-dataset a prov:Activity ;
 
 ufrj:track_system_and_packages a prov:Activity ;
     rdfs:label "Track system and package provenance"^^xsd:string ;
-    prov:startedAtTime "2024-11-30T21:23:53.699692"^^xsd:dateTime ;
+    prov:startedAtTime "2024-11-30T22:27:12.318616"^^xsd:dateTime ;
     prov:wasAssociatedWith ufrj:eda.ipynb .
 

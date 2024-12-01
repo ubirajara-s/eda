@@ -50,7 +50,6 @@
   <prov:activity prov:id="ufrj:create-ds-eda">
     <prov:label>Cria&amp;#231;&amp;#227;o de datasets para EDA</prov:label>
   </prov:activity>
-  <prov:activity prov:id="ufrj:load-ds-eda"/>
   <prov:activity prov:id="ufrj:save-ipynb">
     <prov:label>Salvar notebook EDA</prov:label>
   </prov:activity>
@@ -229,7 +228,7 @@
     <prov:activity prov:ref="ufrj:save-ipynb"/>
   </prov:wasGeneratedBy>
   <prov:activity prov:id="ufrj:track_system_and_packages">
-    <prov:startTime>2024-11-30T21:23:53.699692</prov:startTime>
+    <prov:startTime>2024-11-30T22:27:12.318616</prov:startTime>
     <prov:label>Track system and package provenance</prov:label>
   </prov:activity>
   <prov:wasAssociatedWith>
@@ -278,571 +277,11 @@
     <prov:entity prov:ref="schema:Current_Working_Directory"/>
     <prov:activity prov:ref="ufrj:track_system_and_packages"/>
   </prov:wasGeneratedBy>
-  <prov:entity prov:id="schema:anyio">
-    <prov:value xsi:type="xsd:string">4.6.2.post1</prov:value>
-  </prov:entity>
-  <prov:wasGeneratedBy>
-    <prov:entity prov:ref="schema:anyio"/>
-    <prov:activity prov:ref="ufrj:track_system_and_packages"/>
-  </prov:wasGeneratedBy>
-  <prov:entity prov:id="schema:argon2-cffi">
-    <prov:value xsi:type="xsd:string">23.1.0</prov:value>
-  </prov:entity>
-  <prov:wasGeneratedBy>
-    <prov:entity prov:ref="schema:argon2-cffi"/>
-    <prov:activity prov:ref="ufrj:track_system_and_packages"/>
-  </prov:wasGeneratedBy>
-  <prov:entity prov:id="schema:argon2-cffi-bindings">
-    <prov:value xsi:type="xsd:string">21.2.0</prov:value>
-  </prov:entity>
-  <prov:wasGeneratedBy>
-    <prov:entity prov:ref="schema:argon2-cffi-bindings"/>
-    <prov:activity prov:ref="ufrj:track_system_and_packages"/>
-  </prov:wasGeneratedBy>
-  <prov:entity prov:id="schema:arrow">
-    <prov:value xsi:type="xsd:string">1.3.0</prov:value>
-  </prov:entity>
-  <prov:wasGeneratedBy>
-    <prov:entity prov:ref="schema:arrow"/>
-    <prov:activity prov:ref="ufrj:track_system_and_packages"/>
-  </prov:wasGeneratedBy>
-  <prov:entity prov:id="schema:asttokens">
-    <prov:value xsi:type="xsd:string">2.4.1</prov:value>
-  </prov:entity>
-  <prov:wasGeneratedBy>
-    <prov:entity prov:ref="schema:asttokens"/>
-    <prov:activity prov:ref="ufrj:track_system_and_packages"/>
-  </prov:wasGeneratedBy>
-  <prov:entity prov:id="schema:async-lru">
-    <prov:value xsi:type="xsd:string">2.0.4</prov:value>
-  </prov:entity>
-  <prov:wasGeneratedBy>
-    <prov:entity prov:ref="schema:async-lru"/>
-    <prov:activity prov:ref="ufrj:track_system_and_packages"/>
-  </prov:wasGeneratedBy>
-  <prov:entity prov:id="schema:attrs">
-    <prov:value xsi:type="xsd:string">24.2.0</prov:value>
-  </prov:entity>
-  <prov:wasGeneratedBy>
-    <prov:entity prov:ref="schema:attrs"/>
-    <prov:activity prov:ref="ufrj:track_system_and_packages"/>
-  </prov:wasGeneratedBy>
-  <prov:entity prov:id="schema:babel">
-    <prov:value xsi:type="xsd:string">2.16.0</prov:value>
-  </prov:entity>
-  <prov:wasGeneratedBy>
-    <prov:entity prov:ref="schema:babel"/>
-    <prov:activity prov:ref="ufrj:track_system_and_packages"/>
-  </prov:wasGeneratedBy>
-  <prov:entity prov:id="schema:beautifulsoup4">
-    <prov:value xsi:type="xsd:string">4.12.3</prov:value>
-  </prov:entity>
-  <prov:wasGeneratedBy>
-    <prov:entity prov:ref="schema:beautifulsoup4"/>
-    <prov:activity prov:ref="ufrj:track_system_and_packages"/>
-  </prov:wasGeneratedBy>
-  <prov:entity prov:id="schema:bleach">
-    <prov:value xsi:type="xsd:string">6.2.0</prov:value>
-  </prov:entity>
-  <prov:wasGeneratedBy>
-    <prov:entity prov:ref="schema:bleach"/>
-    <prov:activity prov:ref="ufrj:track_system_and_packages"/>
-  </prov:wasGeneratedBy>
-  <prov:entity prov:id="schema:branca">
-    <prov:value xsi:type="xsd:string">0.7.2</prov:value>
-  </prov:entity>
-  <prov:wasGeneratedBy>
-    <prov:entity prov:ref="schema:branca"/>
-    <prov:activity prov:ref="ufrj:track_system_and_packages"/>
-  </prov:wasGeneratedBy>
-  <prov:entity prov:id="schema:Brotli">
-    <prov:value xsi:type="xsd:string">1.1.0</prov:value>
-  </prov:entity>
-  <prov:wasGeneratedBy>
-    <prov:entity prov:ref="schema:Brotli"/>
-    <prov:activity prov:ref="ufrj:track_system_and_packages"/>
-  </prov:wasGeneratedBy>
-  <prov:entity prov:id="schema:cached-property">
-    <prov:value xsi:type="xsd:string">1.5.2</prov:value>
-  </prov:entity>
-  <prov:wasGeneratedBy>
-    <prov:entity prov:ref="schema:cached-property"/>
-    <prov:activity prov:ref="ufrj:track_system_and_packages"/>
-  </prov:wasGeneratedBy>
-  <prov:entity prov:id="schema:certifi">
-    <prov:value xsi:type="xsd:string">2024.8.30</prov:value>
-  </prov:entity>
-  <prov:wasGeneratedBy>
-    <prov:entity prov:ref="schema:certifi"/>
-    <prov:activity prov:ref="ufrj:track_system_and_packages"/>
-  </prov:wasGeneratedBy>
-  <prov:entity prov:id="schema:cffi">
-    <prov:value xsi:type="xsd:string">1.17.1</prov:value>
-  </prov:entity>
-  <prov:wasGeneratedBy>
-    <prov:entity prov:ref="schema:cffi"/>
-    <prov:activity prov:ref="ufrj:track_system_and_packages"/>
-  </prov:wasGeneratedBy>
-  <prov:entity prov:id="schema:chardet">
-    <prov:value xsi:type="xsd:string">5.2.0</prov:value>
-  </prov:entity>
-  <prov:wasGeneratedBy>
-    <prov:entity prov:ref="schema:chardet"/>
-    <prov:activity prov:ref="ufrj:track_system_and_packages"/>
-  </prov:wasGeneratedBy>
-  <prov:entity prov:id="schema:charset-normalizer">
-    <prov:value xsi:type="xsd:string">3.4.0</prov:value>
-  </prov:entity>
-  <prov:wasGeneratedBy>
-    <prov:entity prov:ref="schema:charset-normalizer"/>
-    <prov:activity prov:ref="ufrj:track_system_and_packages"/>
-  </prov:wasGeneratedBy>
-  <prov:entity prov:id="schema:colorama">
-    <prov:value xsi:type="xsd:string">0.4.6</prov:value>
-  </prov:entity>
-  <prov:wasGeneratedBy>
-    <prov:entity prov:ref="schema:colorama"/>
-    <prov:activity prov:ref="ufrj:track_system_and_packages"/>
-  </prov:wasGeneratedBy>
-  <prov:entity prov:id="schema:comm">
-    <prov:value xsi:type="xsd:string">0.2.2</prov:value>
-  </prov:entity>
-  <prov:wasGeneratedBy>
-    <prov:entity prov:ref="schema:comm"/>
-    <prov:activity prov:ref="ufrj:track_system_and_packages"/>
-  </prov:wasGeneratedBy>
-  <prov:entity prov:id="schema:contourpy">
-    <prov:value xsi:type="xsd:string">1.3.1</prov:value>
-  </prov:entity>
-  <prov:wasGeneratedBy>
-    <prov:entity prov:ref="schema:contourpy"/>
-    <prov:activity prov:ref="ufrj:track_system_and_packages"/>
-  </prov:wasGeneratedBy>
-  <prov:entity prov:id="schema:cycler">
-    <prov:value xsi:type="xsd:string">0.12.1</prov:value>
-  </prov:entity>
-  <prov:wasGeneratedBy>
-    <prov:entity prov:ref="schema:cycler"/>
-    <prov:activity prov:ref="ufrj:track_system_and_packages"/>
-  </prov:wasGeneratedBy>
-  <prov:entity prov:id="schema:debugpy">
-    <prov:value xsi:type="xsd:string">1.8.9</prov:value>
-  </prov:entity>
-  <prov:wasGeneratedBy>
-    <prov:entity prov:ref="schema:debugpy"/>
-    <prov:activity prov:ref="ufrj:track_system_and_packages"/>
-  </prov:wasGeneratedBy>
-  <prov:entity prov:id="schema:decorator">
-    <prov:value xsi:type="xsd:string">5.1.1</prov:value>
-  </prov:entity>
-  <prov:wasGeneratedBy>
-    <prov:entity prov:ref="schema:decorator"/>
-    <prov:activity prov:ref="ufrj:track_system_and_packages"/>
-  </prov:wasGeneratedBy>
-  <prov:entity prov:id="schema:defusedxml">
-    <prov:value xsi:type="xsd:string">0.7.1</prov:value>
-  </prov:entity>
-  <prov:wasGeneratedBy>
-    <prov:entity prov:ref="schema:defusedxml"/>
-    <prov:activity prov:ref="ufrj:track_system_and_packages"/>
-  </prov:wasGeneratedBy>
-  <prov:entity prov:id="schema:entrypoints">
-    <prov:value xsi:type="xsd:string">0.4</prov:value>
-  </prov:entity>
-  <prov:wasGeneratedBy>
-    <prov:entity prov:ref="schema:entrypoints"/>
-    <prov:activity prov:ref="ufrj:track_system_and_packages"/>
-  </prov:wasGeneratedBy>
-  <prov:entity prov:id="schema:et_xmlfile">
-    <prov:value xsi:type="xsd:string">2.0.0</prov:value>
-  </prov:entity>
-  <prov:wasGeneratedBy>
-    <prov:entity prov:ref="schema:et_xmlfile"/>
-    <prov:activity prov:ref="ufrj:track_system_and_packages"/>
-  </prov:wasGeneratedBy>
-  <prov:entity prov:id="schema:exceptiongroup">
-    <prov:value xsi:type="xsd:string">1.2.2</prov:value>
-  </prov:entity>
-  <prov:wasGeneratedBy>
-    <prov:entity prov:ref="schema:exceptiongroup"/>
-    <prov:activity prov:ref="ufrj:track_system_and_packages"/>
-  </prov:wasGeneratedBy>
-  <prov:entity prov:id="schema:executing">
-    <prov:value xsi:type="xsd:string">2.1.0</prov:value>
-  </prov:entity>
-  <prov:wasGeneratedBy>
-    <prov:entity prov:ref="schema:executing"/>
-    <prov:activity prov:ref="ufrj:track_system_and_packages"/>
-  </prov:wasGeneratedBy>
-  <prov:entity prov:id="schema:fastjsonschema">
-    <prov:value xsi:type="xsd:string">2.21.0</prov:value>
-  </prov:entity>
-  <prov:wasGeneratedBy>
-    <prov:entity prov:ref="schema:fastjsonschema"/>
-    <prov:activity prov:ref="ufrj:track_system_and_packages"/>
-  </prov:wasGeneratedBy>
-  <prov:entity prov:id="schema:folium">
-    <prov:value xsi:type="xsd:string">0.18.0</prov:value>
-  </prov:entity>
-  <prov:wasGeneratedBy>
-    <prov:entity prov:ref="schema:folium"/>
-    <prov:activity prov:ref="ufrj:track_system_and_packages"/>
-  </prov:wasGeneratedBy>
-  <prov:entity prov:id="schema:fonttools">
-    <prov:value xsi:type="xsd:string">4.55.0</prov:value>
-  </prov:entity>
-  <prov:wasGeneratedBy>
-    <prov:entity prov:ref="schema:fonttools"/>
-    <prov:activity prov:ref="ufrj:track_system_and_packages"/>
-  </prov:wasGeneratedBy>
-  <prov:entity prov:id="schema:fqdn">
-    <prov:value xsi:type="xsd:string">1.5.1</prov:value>
-  </prov:entity>
-  <prov:wasGeneratedBy>
-    <prov:entity prov:ref="schema:fqdn"/>
-    <prov:activity prov:ref="ufrj:track_system_and_packages"/>
-  </prov:wasGeneratedBy>
-  <prov:entity prov:id="schema:geopandas">
-    <prov:value xsi:type="xsd:string">1.0.1</prov:value>
-  </prov:entity>
-  <prov:wasGeneratedBy>
-    <prov:entity prov:ref="schema:geopandas"/>
-    <prov:activity prov:ref="ufrj:track_system_and_packages"/>
-  </prov:wasGeneratedBy>
-  <prov:entity prov:id="schema:graphviz">
-    <prov:value xsi:type="xsd:string">0.20.3</prov:value>
-  </prov:entity>
-  <prov:wasGeneratedBy>
-    <prov:entity prov:ref="schema:graphviz"/>
-    <prov:activity prov:ref="ufrj:track_system_and_packages"/>
-  </prov:wasGeneratedBy>
-  <prov:entity prov:id="schema:h11">
-    <prov:value xsi:type="xsd:string">0.14.0</prov:value>
-  </prov:entity>
-  <prov:wasGeneratedBy>
-    <prov:entity prov:ref="schema:h11"/>
-    <prov:activity prov:ref="ufrj:track_system_and_packages"/>
-  </prov:wasGeneratedBy>
-  <prov:entity prov:id="schema:h2">
-    <prov:value xsi:type="xsd:string">4.1.0</prov:value>
-  </prov:entity>
-  <prov:wasGeneratedBy>
-    <prov:entity prov:ref="schema:h2"/>
-    <prov:activity prov:ref="ufrj:track_system_and_packages"/>
-  </prov:wasGeneratedBy>
-  <prov:entity prov:id="schema:hpack">
-    <prov:value xsi:type="xsd:string">4.0.0</prov:value>
-  </prov:entity>
-  <prov:wasGeneratedBy>
-    <prov:entity prov:ref="schema:hpack"/>
-    <prov:activity prov:ref="ufrj:track_system_and_packages"/>
-  </prov:wasGeneratedBy>
-  <prov:entity prov:id="schema:httpcore">
-    <prov:value xsi:type="xsd:string">1.0.7</prov:value>
-  </prov:entity>
-  <prov:wasGeneratedBy>
-    <prov:entity prov:ref="schema:httpcore"/>
-    <prov:activity prov:ref="ufrj:track_system_and_packages"/>
-  </prov:wasGeneratedBy>
-  <prov:entity prov:id="schema:httpx">
-    <prov:value xsi:type="xsd:string">0.28.0</prov:value>
-  </prov:entity>
-  <prov:wasGeneratedBy>
-    <prov:entity prov:ref="schema:httpx"/>
-    <prov:activity prov:ref="ufrj:track_system_and_packages"/>
-  </prov:wasGeneratedBy>
-  <prov:entity prov:id="schema:hyperframe">
-    <prov:value xsi:type="xsd:string">6.0.1</prov:value>
-  </prov:entity>
-  <prov:wasGeneratedBy>
-    <prov:entity prov:ref="schema:hyperframe"/>
-    <prov:activity prov:ref="ufrj:track_system_and_packages"/>
-  </prov:wasGeneratedBy>
-  <prov:entity prov:id="schema:idna">
-    <prov:value xsi:type="xsd:string">3.10</prov:value>
-  </prov:entity>
-  <prov:wasGeneratedBy>
-    <prov:entity prov:ref="schema:idna"/>
-    <prov:activity prov:ref="ufrj:track_system_and_packages"/>
-  </prov:wasGeneratedBy>
-  <prov:entity prov:id="schema:importlib_metadata">
-    <prov:value xsi:type="xsd:string">8.5.0</prov:value>
-  </prov:entity>
-  <prov:wasGeneratedBy>
-    <prov:entity prov:ref="schema:importlib_metadata"/>
-    <prov:activity prov:ref="ufrj:track_system_and_packages"/>
-  </prov:wasGeneratedBy>
-  <prov:entity prov:id="schema:importlib_resources">
-    <prov:value xsi:type="xsd:string">6.4.5</prov:value>
-  </prov:entity>
-  <prov:wasGeneratedBy>
-    <prov:entity prov:ref="schema:importlib_resources"/>
-    <prov:activity prov:ref="ufrj:track_system_and_packages"/>
-  </prov:wasGeneratedBy>
-  <prov:entity prov:id="schema:ipykernel">
-    <prov:value xsi:type="xsd:string">6.29.5</prov:value>
-  </prov:entity>
-  <prov:wasGeneratedBy>
-    <prov:entity prov:ref="schema:ipykernel"/>
-    <prov:activity prov:ref="ufrj:track_system_and_packages"/>
-  </prov:wasGeneratedBy>
-  <prov:entity prov:id="schema:ipython">
-    <prov:value xsi:type="xsd:string">8.30.0</prov:value>
-  </prov:entity>
-  <prov:wasGeneratedBy>
-    <prov:entity prov:ref="schema:ipython"/>
-    <prov:activity prov:ref="ufrj:track_system_and_packages"/>
-  </prov:wasGeneratedBy>
-  <prov:entity prov:id="schema:isodate">
-    <prov:value xsi:type="xsd:string">0.7.2</prov:value>
-  </prov:entity>
-  <prov:wasGeneratedBy>
-    <prov:entity prov:ref="schema:isodate"/>
-    <prov:activity prov:ref="ufrj:track_system_and_packages"/>
-  </prov:wasGeneratedBy>
-  <prov:entity prov:id="schema:isoduration">
-    <prov:value xsi:type="xsd:string">20.11.0</prov:value>
-  </prov:entity>
-  <prov:wasGeneratedBy>
-    <prov:entity prov:ref="schema:isoduration"/>
-    <prov:activity prov:ref="ufrj:track_system_and_packages"/>
-  </prov:wasGeneratedBy>
-  <prov:entity prov:id="schema:jedi">
-    <prov:value xsi:type="xsd:string">0.19.2</prov:value>
-  </prov:entity>
-  <prov:wasGeneratedBy>
-    <prov:entity prov:ref="schema:jedi"/>
-    <prov:activity prov:ref="ufrj:track_system_and_packages"/>
-  </prov:wasGeneratedBy>
-  <prov:entity prov:id="schema:Jinja2">
-    <prov:value xsi:type="xsd:string">3.1.4</prov:value>
-  </prov:entity>
-  <prov:wasGeneratedBy>
-    <prov:entity prov:ref="schema:Jinja2"/>
-    <prov:activity prov:ref="ufrj:track_system_and_packages"/>
-  </prov:wasGeneratedBy>
-  <prov:entity prov:id="schema:joblib">
-    <prov:value xsi:type="xsd:string">1.4.2</prov:value>
-  </prov:entity>
-  <prov:wasGeneratedBy>
-    <prov:entity prov:ref="schema:joblib"/>
-    <prov:activity prov:ref="ufrj:track_system_and_packages"/>
-  </prov:wasGeneratedBy>
-  <prov:entity prov:id="schema:json5">
-    <prov:value xsi:type="xsd:string">0.10.0</prov:value>
-  </prov:entity>
-  <prov:wasGeneratedBy>
-    <prov:entity prov:ref="schema:json5"/>
-    <prov:activity prov:ref="ufrj:track_system_and_packages"/>
-  </prov:wasGeneratedBy>
-  <prov:entity prov:id="schema:jsonpointer">
-    <prov:value xsi:type="xsd:string">3.0.0</prov:value>
-  </prov:entity>
-  <prov:wasGeneratedBy>
-    <prov:entity prov:ref="schema:jsonpointer"/>
-    <prov:activity prov:ref="ufrj:track_system_and_packages"/>
-  </prov:wasGeneratedBy>
-  <prov:entity prov:id="schema:jsonschema">
-    <prov:value xsi:type="xsd:string">4.23.0</prov:value>
-  </prov:entity>
-  <prov:wasGeneratedBy>
-    <prov:entity prov:ref="schema:jsonschema"/>
-    <prov:activity prov:ref="ufrj:track_system_and_packages"/>
-  </prov:wasGeneratedBy>
-  <prov:entity prov:id="schema:jsonschema-specifications">
-    <prov:value xsi:type="xsd:string">2024.10.1</prov:value>
-  </prov:entity>
-  <prov:wasGeneratedBy>
-    <prov:entity prov:ref="schema:jsonschema-specifications"/>
-    <prov:activity prov:ref="ufrj:track_system_and_packages"/>
-  </prov:wasGeneratedBy>
-  <prov:entity prov:id="schema:jupyterlab">
-    <prov:value xsi:type="xsd:string">4.3.1</prov:value>
-  </prov:entity>
-  <prov:wasGeneratedBy>
-    <prov:entity prov:ref="schema:jupyterlab"/>
-    <prov:activity prov:ref="ufrj:track_system_and_packages"/>
-  </prov:wasGeneratedBy>
-  <prov:entity prov:id="schema:jupyterlab_pygments">
-    <prov:value xsi:type="xsd:string">0.3.0</prov:value>
-  </prov:entity>
-  <prov:wasGeneratedBy>
-    <prov:entity prov:ref="schema:jupyterlab_pygments"/>
-    <prov:activity prov:ref="ufrj:track_system_and_packages"/>
-  </prov:wasGeneratedBy>
-  <prov:entity prov:id="schema:jupyterlab_server">
-    <prov:value xsi:type="xsd:string">2.27.3</prov:value>
-  </prov:entity>
-  <prov:wasGeneratedBy>
-    <prov:entity prov:ref="schema:jupyterlab_server"/>
-    <prov:activity prov:ref="ufrj:track_system_and_packages"/>
-  </prov:wasGeneratedBy>
-  <prov:entity prov:id="schema:jupyter_client">
-    <prov:value xsi:type="xsd:string">8.6.3</prov:value>
-  </prov:entity>
-  <prov:wasGeneratedBy>
-    <prov:entity prov:ref="schema:jupyter_client"/>
-    <prov:activity prov:ref="ufrj:track_system_and_packages"/>
-  </prov:wasGeneratedBy>
-  <prov:entity prov:id="schema:jupyter_core">
-    <prov:value xsi:type="xsd:string">5.7.2</prov:value>
-  </prov:entity>
-  <prov:wasGeneratedBy>
-    <prov:entity prov:ref="schema:jupyter_core"/>
-    <prov:activity prov:ref="ufrj:track_system_and_packages"/>
-  </prov:wasGeneratedBy>
-  <prov:entity prov:id="schema:jupyter-events">
-    <prov:value xsi:type="xsd:string">0.10.0</prov:value>
-  </prov:entity>
-  <prov:wasGeneratedBy>
-    <prov:entity prov:ref="schema:jupyter-events"/>
-    <prov:activity prov:ref="ufrj:track_system_and_packages"/>
-  </prov:wasGeneratedBy>
-  <prov:entity prov:id="schema:jupyter-lsp">
-    <prov:value xsi:type="xsd:string">2.2.5</prov:value>
-  </prov:entity>
-  <prov:wasGeneratedBy>
-    <prov:entity prov:ref="schema:jupyter-lsp"/>
-    <prov:activity prov:ref="ufrj:track_system_and_packages"/>
-  </prov:wasGeneratedBy>
-  <prov:entity prov:id="schema:jupyter_server">
-    <prov:value xsi:type="xsd:string">2.14.2</prov:value>
-  </prov:entity>
-  <prov:wasGeneratedBy>
-    <prov:entity prov:ref="schema:jupyter_server"/>
-    <prov:activity prov:ref="ufrj:track_system_and_packages"/>
-  </prov:wasGeneratedBy>
-  <prov:entity prov:id="schema:jupyter_server_terminals">
-    <prov:value xsi:type="xsd:string">0.5.3</prov:value>
-  </prov:entity>
-  <prov:wasGeneratedBy>
-    <prov:entity prov:ref="schema:jupyter_server_terminals"/>
-    <prov:activity prov:ref="ufrj:track_system_and_packages"/>
-  </prov:wasGeneratedBy>
-  <prov:entity prov:id="schema:kiwisolver">
-    <prov:value xsi:type="xsd:string">1.4.7</prov:value>
-  </prov:entity>
-  <prov:wasGeneratedBy>
-    <prov:entity prov:ref="schema:kiwisolver"/>
-    <prov:activity prov:ref="ufrj:track_system_and_packages"/>
-  </prov:wasGeneratedBy>
-  <prov:entity prov:id="schema:lxml">
-    <prov:value xsi:type="xsd:string">5.3.0</prov:value>
-  </prov:entity>
-  <prov:wasGeneratedBy>
-    <prov:entity prov:ref="schema:lxml"/>
-    <prov:activity prov:ref="ufrj:track_system_and_packages"/>
-  </prov:wasGeneratedBy>
-  <prov:entity prov:id="schema:mapclassify">
-    <prov:value xsi:type="xsd:string">2.8.1</prov:value>
-  </prov:entity>
-  <prov:wasGeneratedBy>
-    <prov:entity prov:ref="schema:mapclassify"/>
-    <prov:activity prov:ref="ufrj:track_system_and_packages"/>
-  </prov:wasGeneratedBy>
-  <prov:entity prov:id="schema:MarkupSafe">
-    <prov:value xsi:type="xsd:string">3.0.2</prov:value>
-  </prov:entity>
-  <prov:wasGeneratedBy>
-    <prov:entity prov:ref="schema:MarkupSafe"/>
-    <prov:activity prov:ref="ufrj:track_system_and_packages"/>
-  </prov:wasGeneratedBy>
-  <prov:entity prov:id="schema:matplotlib">
-    <prov:value xsi:type="xsd:string">3.9.2</prov:value>
-  </prov:entity>
-  <prov:wasGeneratedBy>
-    <prov:entity prov:ref="schema:matplotlib"/>
-    <prov:activity prov:ref="ufrj:track_system_and_packages"/>
-  </prov:wasGeneratedBy>
-  <prov:entity prov:id="schema:matplotlib-inline">
-    <prov:value xsi:type="xsd:string">0.1.7</prov:value>
-  </prov:entity>
-  <prov:wasGeneratedBy>
-    <prov:entity prov:ref="schema:matplotlib-inline"/>
-    <prov:activity prov:ref="ufrj:track_system_and_packages"/>
-  </prov:wasGeneratedBy>
-  <prov:entity prov:id="schema:mistune">
-    <prov:value xsi:type="xsd:string">3.0.2</prov:value>
-  </prov:entity>
-  <prov:wasGeneratedBy>
-    <prov:entity prov:ref="schema:mistune"/>
-    <prov:activity prov:ref="ufrj:track_system_and_packages"/>
-  </prov:wasGeneratedBy>
-  <prov:entity prov:id="schema:munkres">
-    <prov:value xsi:type="xsd:string">1.1.4</prov:value>
-  </prov:entity>
-  <prov:wasGeneratedBy>
-    <prov:entity prov:ref="schema:munkres"/>
-    <prov:activity prov:ref="ufrj:track_system_and_packages"/>
-  </prov:wasGeneratedBy>
-  <prov:entity prov:id="schema:nbclient">
-    <prov:value xsi:type="xsd:string">0.10.1</prov:value>
-  </prov:entity>
-  <prov:wasGeneratedBy>
-    <prov:entity prov:ref="schema:nbclient"/>
-    <prov:activity prov:ref="ufrj:track_system_and_packages"/>
-  </prov:wasGeneratedBy>
-  <prov:entity prov:id="schema:nbconvert">
-    <prov:value xsi:type="xsd:string">7.16.4</prov:value>
-  </prov:entity>
-  <prov:wasGeneratedBy>
-    <prov:entity prov:ref="schema:nbconvert"/>
-    <prov:activity prov:ref="ufrj:track_system_and_packages"/>
-  </prov:wasGeneratedBy>
-  <prov:entity prov:id="schema:nbformat">
-    <prov:value xsi:type="xsd:string">5.10.4</prov:value>
-  </prov:entity>
-  <prov:wasGeneratedBy>
-    <prov:entity prov:ref="schema:nbformat"/>
-    <prov:activity prov:ref="ufrj:track_system_and_packages"/>
-  </prov:wasGeneratedBy>
-  <prov:entity prov:id="schema:nest_asyncio">
-    <prov:value xsi:type="xsd:string">1.6.0</prov:value>
-  </prov:entity>
-  <prov:wasGeneratedBy>
-    <prov:entity prov:ref="schema:nest_asyncio"/>
-    <prov:activity prov:ref="ufrj:track_system_and_packages"/>
-  </prov:wasGeneratedBy>
-  <prov:entity prov:id="schema:networkx">
-    <prov:value xsi:type="xsd:string">3.4.2</prov:value>
-  </prov:entity>
-  <prov:wasGeneratedBy>
-    <prov:entity prov:ref="schema:networkx"/>
-    <prov:activity prov:ref="ufrj:track_system_and_packages"/>
-  </prov:wasGeneratedBy>
-  <prov:entity prov:id="schema:notebook_shim">
-    <prov:value xsi:type="xsd:string">0.2.4</prov:value>
-  </prov:entity>
-  <prov:wasGeneratedBy>
-    <prov:entity prov:ref="schema:notebook_shim"/>
-    <prov:activity prov:ref="ufrj:track_system_and_packages"/>
-  </prov:wasGeneratedBy>
   <prov:entity prov:id="schema:numpy">
     <prov:value xsi:type="xsd:string">2.1.3</prov:value>
   </prov:entity>
   <prov:wasGeneratedBy>
     <prov:entity prov:ref="schema:numpy"/>
-    <prov:activity prov:ref="ufrj:track_system_and_packages"/>
-  </prov:wasGeneratedBy>
-  <prov:entity prov:id="schema:openpyxl">
-    <prov:value xsi:type="xsd:string">3.1.5</prov:value>
-  </prov:entity>
-  <prov:wasGeneratedBy>
-    <prov:entity prov:ref="schema:openpyxl"/>
-    <prov:activity prov:ref="ufrj:track_system_and_packages"/>
-  </prov:wasGeneratedBy>
-  <prov:entity prov:id="schema:overrides">
-    <prov:value xsi:type="xsd:string">7.7.0</prov:value>
-  </prov:entity>
-  <prov:wasGeneratedBy>
-    <prov:entity prov:ref="schema:overrides"/>
-    <prov:activity prov:ref="ufrj:track_system_and_packages"/>
-  </prov:wasGeneratedBy>
-  <prov:entity prov:id="schema:packaging">
-    <prov:value xsi:type="xsd:string">24.2</prov:value>
-  </prov:entity>
-  <prov:wasGeneratedBy>
-    <prov:entity prov:ref="schema:packaging"/>
     <prov:activity prov:ref="ufrj:track_system_and_packages"/>
   </prov:wasGeneratedBy>
   <prov:entity prov:id="schema:pandas">
@@ -852,270 +291,11 @@
     <prov:entity prov:ref="schema:pandas"/>
     <prov:activity prov:ref="ufrj:track_system_and_packages"/>
   </prov:wasGeneratedBy>
-  <prov:entity prov:id="schema:pandocfilters">
-    <prov:value xsi:type="xsd:string">1.5.0</prov:value>
+  <prov:entity prov:id="schema:matplotlib">
+    <prov:value xsi:type="xsd:string">3.9.2</prov:value>
   </prov:entity>
   <prov:wasGeneratedBy>
-    <prov:entity prov:ref="schema:pandocfilters"/>
-    <prov:activity prov:ref="ufrj:track_system_and_packages"/>
-  </prov:wasGeneratedBy>
-  <prov:entity prov:id="schema:parso">
-    <prov:value xsi:type="xsd:string">0.8.4</prov:value>
-  </prov:entity>
-  <prov:wasGeneratedBy>
-    <prov:entity prov:ref="schema:parso"/>
-    <prov:activity prov:ref="ufrj:track_system_and_packages"/>
-  </prov:wasGeneratedBy>
-  <prov:entity prov:id="schema:patsy">
-    <prov:value xsi:type="xsd:string">1.0.1</prov:value>
-  </prov:entity>
-  <prov:wasGeneratedBy>
-    <prov:entity prov:ref="schema:patsy"/>
-    <prov:activity prov:ref="ufrj:track_system_and_packages"/>
-  </prov:wasGeneratedBy>
-  <prov:entity prov:id="schema:pickleshare">
-    <prov:value xsi:type="xsd:string">0.7.5</prov:value>
-  </prov:entity>
-  <prov:wasGeneratedBy>
-    <prov:entity prov:ref="schema:pickleshare"/>
-    <prov:activity prov:ref="ufrj:track_system_and_packages"/>
-  </prov:wasGeneratedBy>
-  <prov:entity prov:id="schema:pillow">
-    <prov:value xsi:type="xsd:string">11.0.0</prov:value>
-  </prov:entity>
-  <prov:wasGeneratedBy>
-    <prov:entity prov:ref="schema:pillow"/>
-    <prov:activity prov:ref="ufrj:track_system_and_packages"/>
-  </prov:wasGeneratedBy>
-  <prov:entity prov:id="schema:pip">
-    <prov:value xsi:type="xsd:string">24.3.1</prov:value>
-  </prov:entity>
-  <prov:wasGeneratedBy>
-    <prov:entity prov:ref="schema:pip"/>
-    <prov:activity prov:ref="ufrj:track_system_and_packages"/>
-  </prov:wasGeneratedBy>
-  <prov:entity prov:id="schema:pkgutil_resolve_name">
-    <prov:value xsi:type="xsd:string">1.3.10</prov:value>
-  </prov:entity>
-  <prov:wasGeneratedBy>
-    <prov:entity prov:ref="schema:pkgutil_resolve_name"/>
-    <prov:activity prov:ref="ufrj:track_system_and_packages"/>
-  </prov:wasGeneratedBy>
-  <prov:entity prov:id="schema:platformdirs">
-    <prov:value xsi:type="xsd:string">4.3.6</prov:value>
-  </prov:entity>
-  <prov:wasGeneratedBy>
-    <prov:entity prov:ref="schema:platformdirs"/>
-    <prov:activity prov:ref="ufrj:track_system_and_packages"/>
-  </prov:wasGeneratedBy>
-  <prov:entity prov:id="schema:plotly">
-    <prov:value xsi:type="xsd:string">5.24.1</prov:value>
-  </prov:entity>
-  <prov:wasGeneratedBy>
-    <prov:entity prov:ref="schema:plotly"/>
-    <prov:activity prov:ref="ufrj:track_system_and_packages"/>
-  </prov:wasGeneratedBy>
-  <prov:entity prov:id="schema:prometheus_client">
-    <prov:value xsi:type="xsd:string">0.21.0</prov:value>
-  </prov:entity>
-  <prov:wasGeneratedBy>
-    <prov:entity prov:ref="schema:prometheus_client"/>
-    <prov:activity prov:ref="ufrj:track_system_and_packages"/>
-  </prov:wasGeneratedBy>
-  <prov:entity prov:id="schema:prompt_toolkit">
-    <prov:value xsi:type="xsd:string">3.0.48</prov:value>
-  </prov:entity>
-  <prov:wasGeneratedBy>
-    <prov:entity prov:ref="schema:prompt_toolkit"/>
-    <prov:activity prov:ref="ufrj:track_system_and_packages"/>
-  </prov:wasGeneratedBy>
-  <prov:entity prov:id="schema:prov">
-    <prov:value xsi:type="xsd:string">2.0.0</prov:value>
-  </prov:entity>
-  <prov:wasGeneratedBy>
-    <prov:entity prov:ref="schema:prov"/>
-    <prov:activity prov:ref="ufrj:track_system_and_packages"/>
-  </prov:wasGeneratedBy>
-  <prov:entity prov:id="schema:psutil">
-    <prov:value xsi:type="xsd:string">6.1.0</prov:value>
-  </prov:entity>
-  <prov:wasGeneratedBy>
-    <prov:entity prov:ref="schema:psutil"/>
-    <prov:activity prov:ref="ufrj:track_system_and_packages"/>
-  </prov:wasGeneratedBy>
-  <prov:entity prov:id="schema:pure_eval">
-    <prov:value xsi:type="xsd:string">0.2.3</prov:value>
-  </prov:entity>
-  <prov:wasGeneratedBy>
-    <prov:entity prov:ref="schema:pure_eval"/>
-    <prov:activity prov:ref="ufrj:track_system_and_packages"/>
-  </prov:wasGeneratedBy>
-  <prov:entity prov:id="schema:pycparser">
-    <prov:value xsi:type="xsd:string">2.22</prov:value>
-  </prov:entity>
-  <prov:wasGeneratedBy>
-    <prov:entity prov:ref="schema:pycparser"/>
-    <prov:activity prov:ref="ufrj:track_system_and_packages"/>
-  </prov:wasGeneratedBy>
-  <prov:entity prov:id="schema:pydot">
-    <prov:value xsi:type="xsd:string">3.0.2</prov:value>
-  </prov:entity>
-  <prov:wasGeneratedBy>
-    <prov:entity prov:ref="schema:pydot"/>
-    <prov:activity prov:ref="ufrj:track_system_and_packages"/>
-  </prov:wasGeneratedBy>
-  <prov:entity prov:id="schema:Pygments">
-    <prov:value xsi:type="xsd:string">2.18.0</prov:value>
-  </prov:entity>
-  <prov:wasGeneratedBy>
-    <prov:entity prov:ref="schema:Pygments"/>
-    <prov:activity prov:ref="ufrj:track_system_and_packages"/>
-  </prov:wasGeneratedBy>
-  <prov:entity prov:id="schema:pygraphviz">
-    <prov:value xsi:type="xsd:string">1.14</prov:value>
-  </prov:entity>
-  <prov:wasGeneratedBy>
-    <prov:entity prov:ref="schema:pygraphviz"/>
-    <prov:activity prov:ref="ufrj:track_system_and_packages"/>
-  </prov:wasGeneratedBy>
-  <prov:entity prov:id="schema:pyogrio">
-    <prov:value xsi:type="xsd:string">0.10.0</prov:value>
-  </prov:entity>
-  <prov:wasGeneratedBy>
-    <prov:entity prov:ref="schema:pyogrio"/>
-    <prov:activity prov:ref="ufrj:track_system_and_packages"/>
-  </prov:wasGeneratedBy>
-  <prov:entity prov:id="schema:pyparsing">
-    <prov:value xsi:type="xsd:string">3.2.0</prov:value>
-  </prov:entity>
-  <prov:wasGeneratedBy>
-    <prov:entity prov:ref="schema:pyparsing"/>
-    <prov:activity prov:ref="ufrj:track_system_and_packages"/>
-  </prov:wasGeneratedBy>
-  <prov:entity prov:id="schema:pyproj">
-    <prov:value xsi:type="xsd:string">3.7.0</prov:value>
-  </prov:entity>
-  <prov:wasGeneratedBy>
-    <prov:entity prov:ref="schema:pyproj"/>
-    <prov:activity prov:ref="ufrj:track_system_and_packages"/>
-  </prov:wasGeneratedBy>
-  <prov:entity prov:id="schema:PySide6">
-    <prov:value xsi:type="xsd:string">6.8.0.2 </prov:value>
-  </prov:entity>
-  <prov:wasGeneratedBy>
-    <prov:entity prov:ref="schema:PySide6"/>
-    <prov:activity prov:ref="ufrj:track_system_and_packages"/>
-  </prov:wasGeneratedBy>
-  <prov:entity prov:id="schema:PySocks">
-    <prov:value xsi:type="xsd:string">1.7.1</prov:value>
-  </prov:entity>
-  <prov:wasGeneratedBy>
-    <prov:entity prov:ref="schema:PySocks"/>
-    <prov:activity prov:ref="ufrj:track_system_and_packages"/>
-  </prov:wasGeneratedBy>
-  <prov:entity prov:id="schema:python-dateutil">
-    <prov:value xsi:type="xsd:string">2.9.0.post0</prov:value>
-  </prov:entity>
-  <prov:wasGeneratedBy>
-    <prov:entity prov:ref="schema:python-dateutil"/>
-    <prov:activity prov:ref="ufrj:track_system_and_packages"/>
-  </prov:wasGeneratedBy>
-  <prov:entity prov:id="schema:python-json-logger">
-    <prov:value xsi:type="xsd:string">2.0.7</prov:value>
-  </prov:entity>
-  <prov:wasGeneratedBy>
-    <prov:entity prov:ref="schema:python-json-logger"/>
-    <prov:activity prov:ref="ufrj:track_system_and_packages"/>
-  </prov:wasGeneratedBy>
-  <prov:entity prov:id="schema:pytz">
-    <prov:value xsi:type="xsd:string">2024.1</prov:value>
-  </prov:entity>
-  <prov:wasGeneratedBy>
-    <prov:entity prov:ref="schema:pytz"/>
-    <prov:activity prov:ref="ufrj:track_system_and_packages"/>
-  </prov:wasGeneratedBy>
-  <prov:entity prov:id="schema:pywin32">
-    <prov:value xsi:type="xsd:string">307</prov:value>
-  </prov:entity>
-  <prov:wasGeneratedBy>
-    <prov:entity prov:ref="schema:pywin32"/>
-    <prov:activity prov:ref="ufrj:track_system_and_packages"/>
-  </prov:wasGeneratedBy>
-  <prov:entity prov:id="schema:pywinpty">
-    <prov:value xsi:type="xsd:string">2.0.14</prov:value>
-  </prov:entity>
-  <prov:wasGeneratedBy>
-    <prov:entity prov:ref="schema:pywinpty"/>
-    <prov:activity prov:ref="ufrj:track_system_and_packages"/>
-  </prov:wasGeneratedBy>
-  <prov:entity prov:id="schema:PyYAML">
-    <prov:value xsi:type="xsd:string">6.0.2</prov:value>
-  </prov:entity>
-  <prov:wasGeneratedBy>
-    <prov:entity prov:ref="schema:PyYAML"/>
-    <prov:activity prov:ref="ufrj:track_system_and_packages"/>
-  </prov:wasGeneratedBy>
-  <prov:entity prov:id="schema:pyzmq">
-    <prov:value xsi:type="xsd:string">26.2.0</prov:value>
-  </prov:entity>
-  <prov:wasGeneratedBy>
-    <prov:entity prov:ref="schema:pyzmq"/>
-    <prov:activity prov:ref="ufrj:track_system_and_packages"/>
-  </prov:wasGeneratedBy>
-  <prov:entity prov:id="schema:rdflib">
-    <prov:value xsi:type="xsd:string">7.1.1</prov:value>
-  </prov:entity>
-  <prov:wasGeneratedBy>
-    <prov:entity prov:ref="schema:rdflib"/>
-    <prov:activity prov:ref="ufrj:track_system_and_packages"/>
-  </prov:wasGeneratedBy>
-  <prov:entity prov:id="schema:referencing">
-    <prov:value xsi:type="xsd:string">0.35.1</prov:value>
-  </prov:entity>
-  <prov:wasGeneratedBy>
-    <prov:entity prov:ref="schema:referencing"/>
-    <prov:activity prov:ref="ufrj:track_system_and_packages"/>
-  </prov:wasGeneratedBy>
-  <prov:entity prov:id="schema:requests">
-    <prov:value xsi:type="xsd:string">2.32.3</prov:value>
-  </prov:entity>
-  <prov:wasGeneratedBy>
-    <prov:entity prov:ref="schema:requests"/>
-    <prov:activity prov:ref="ufrj:track_system_and_packages"/>
-  </prov:wasGeneratedBy>
-  <prov:entity prov:id="schema:rfc3339-validator">
-    <prov:value xsi:type="xsd:string">0.1.4</prov:value>
-  </prov:entity>
-  <prov:wasGeneratedBy>
-    <prov:entity prov:ref="schema:rfc3339-validator"/>
-    <prov:activity prov:ref="ufrj:track_system_and_packages"/>
-  </prov:wasGeneratedBy>
-  <prov:entity prov:id="schema:rfc3986-validator">
-    <prov:value xsi:type="xsd:string">0.1.1</prov:value>
-  </prov:entity>
-  <prov:wasGeneratedBy>
-    <prov:entity prov:ref="schema:rfc3986-validator"/>
-    <prov:activity prov:ref="ufrj:track_system_and_packages"/>
-  </prov:wasGeneratedBy>
-  <prov:entity prov:id="schema:rpds-py">
-    <prov:value xsi:type="xsd:string">0.21.0</prov:value>
-  </prov:entity>
-  <prov:wasGeneratedBy>
-    <prov:entity prov:ref="schema:rpds-py"/>
-    <prov:activity prov:ref="ufrj:track_system_and_packages"/>
-  </prov:wasGeneratedBy>
-  <prov:entity prov:id="schema:scikit-learn">
-    <prov:value xsi:type="xsd:string">1.5.2</prov:value>
-  </prov:entity>
-  <prov:wasGeneratedBy>
-    <prov:entity prov:ref="schema:scikit-learn"/>
-    <prov:activity prov:ref="ufrj:track_system_and_packages"/>
-  </prov:wasGeneratedBy>
-  <prov:entity prov:id="schema:scipy">
-    <prov:value xsi:type="xsd:string">1.14.1</prov:value>
-  </prov:entity>
-  <prov:wasGeneratedBy>
-    <prov:entity prov:ref="schema:scipy"/>
+    <prov:entity prov:ref="schema:matplotlib"/>
     <prov:activity prov:ref="ufrj:track_system_and_packages"/>
   </prov:wasGeneratedBy>
   <prov:entity prov:id="schema:seaborn">
@@ -1125,233 +305,70 @@
     <prov:entity prov:ref="schema:seaborn"/>
     <prov:activity prov:ref="ufrj:track_system_and_packages"/>
   </prov:wasGeneratedBy>
-  <prov:entity prov:id="schema:Send2Trash">
-    <prov:value xsi:type="xsd:string">1.8.3</prov:value>
+  <prov:entity prov:id="schema:rdflib">
+    <prov:value xsi:type="xsd:string">7.1.1</prov:value>
   </prov:entity>
   <prov:wasGeneratedBy>
-    <prov:entity prov:ref="schema:Send2Trash"/>
+    <prov:entity prov:ref="schema:rdflib"/>
     <prov:activity prov:ref="ufrj:track_system_and_packages"/>
   </prov:wasGeneratedBy>
-  <prov:entity prov:id="schema:setuptools">
-    <prov:value xsi:type="xsd:string">75.6.0</prov:value>
+  <prov:entity prov:id="schema:prov">
+    <prov:value xsi:type="xsd:string">2.0.0</prov:value>
   </prov:entity>
   <prov:wasGeneratedBy>
-    <prov:entity prov:ref="schema:setuptools"/>
+    <prov:entity prov:ref="schema:prov"/>
     <prov:activity prov:ref="ufrj:track_system_and_packages"/>
   </prov:wasGeneratedBy>
-  <prov:entity prov:id="schema:shapely">
-    <prov:value xsi:type="xsd:string">2.0.6</prov:value>
+  <prov:entity prov:id="schema:graphviz">
+    <prov:value xsi:type="xsd:string">0.20.3</prov:value>
   </prov:entity>
   <prov:wasGeneratedBy>
-    <prov:entity prov:ref="schema:shapely"/>
+    <prov:entity prov:ref="schema:graphviz"/>
     <prov:activity prov:ref="ufrj:track_system_and_packages"/>
   </prov:wasGeneratedBy>
-  <prov:entity prov:id="schema:shiboken6">
-    <prov:value xsi:type="xsd:string">6.8.0.2 </prov:value>
+  <prov:entity prov:id="schema:openpyxl">
+    <prov:value xsi:type="xsd:string">3.1.5</prov:value>
   </prov:entity>
   <prov:wasGeneratedBy>
-    <prov:entity prov:ref="schema:shiboken6"/>
+    <prov:entity prov:ref="schema:openpyxl"/>
     <prov:activity prov:ref="ufrj:track_system_and_packages"/>
   </prov:wasGeneratedBy>
-  <prov:entity prov:id="schema:six">
-    <prov:value xsi:type="xsd:string">1.16.0</prov:value>
+  <prov:entity prov:id="schema:folium">
+    <prov:value xsi:type="xsd:string">0.18.0</prov:value>
   </prov:entity>
   <prov:wasGeneratedBy>
-    <prov:entity prov:ref="schema:six"/>
+    <prov:entity prov:ref="schema:folium"/>
     <prov:activity prov:ref="ufrj:track_system_and_packages"/>
   </prov:wasGeneratedBy>
-  <prov:entity prov:id="schema:sniffio">
-    <prov:value xsi:type="xsd:string">1.3.1</prov:value>
+  <prov:entity prov:id="schema:pydot">
+    <prov:value xsi:type="xsd:string">3.0.2</prov:value>
   </prov:entity>
   <prov:wasGeneratedBy>
-    <prov:entity prov:ref="schema:sniffio"/>
+    <prov:entity prov:ref="schema:pydot"/>
     <prov:activity prov:ref="ufrj:track_system_and_packages"/>
   </prov:wasGeneratedBy>
-  <prov:entity prov:id="schema:soupsieve">
-    <prov:value xsi:type="xsd:string">2.5</prov:value>
+  <prov:entity prov:id="schema:requests">
+    <prov:value xsi:type="xsd:string">2.32.3</prov:value>
   </prov:entity>
   <prov:wasGeneratedBy>
-    <prov:entity prov:ref="schema:soupsieve"/>
+    <prov:entity prov:ref="schema:requests"/>
     <prov:activity prov:ref="ufrj:track_system_and_packages"/>
   </prov:wasGeneratedBy>
-  <prov:entity prov:id="schema:stack-data">
-    <prov:value xsi:type="xsd:string">0.6.2</prov:value>
-  </prov:entity>
+  <prov:activity prov:id="ufrj:save-ipynb">
+    <prov:startTime>2024-11-30T22:27:12.331941</prov:startTime>
+    <prov:label>Salvar notebook EDA</prov:label>
+  </prov:activity>
+  <prov:wasAssociatedWith>
+    <prov:activity prov:ref="ufrj:save-ipynb"/>
+    <prov:agent prov:ref="ufrj:eda.ipynb"/>
+  </prov:wasAssociatedWith>
   <prov:wasGeneratedBy>
-    <prov:entity prov:ref="schema:stack-data"/>
-    <prov:activity prov:ref="ufrj:track_system_and_packages"/>
-  </prov:wasGeneratedBy>
-  <prov:entity prov:id="schema:statsmodels">
-    <prov:value xsi:type="xsd:string">0.14.4</prov:value>
-  </prov:entity>
-  <prov:wasGeneratedBy>
-    <prov:entity prov:ref="schema:statsmodels"/>
-    <prov:activity prov:ref="ufrj:track_system_and_packages"/>
-  </prov:wasGeneratedBy>
-  <prov:entity prov:id="schema:tenacity">
-    <prov:value xsi:type="xsd:string">9.0.0</prov:value>
-  </prov:entity>
-  <prov:wasGeneratedBy>
-    <prov:entity prov:ref="schema:tenacity"/>
-    <prov:activity prov:ref="ufrj:track_system_and_packages"/>
-  </prov:wasGeneratedBy>
-  <prov:entity prov:id="schema:terminado">
-    <prov:value xsi:type="xsd:string">0.18.1</prov:value>
-  </prov:entity>
-  <prov:wasGeneratedBy>
-    <prov:entity prov:ref="schema:terminado"/>
-    <prov:activity prov:ref="ufrj:track_system_and_packages"/>
-  </prov:wasGeneratedBy>
-  <prov:entity prov:id="schema:threadpoolctl">
-    <prov:value xsi:type="xsd:string">3.5.0</prov:value>
-  </prov:entity>
-  <prov:wasGeneratedBy>
-    <prov:entity prov:ref="schema:threadpoolctl"/>
-    <prov:activity prov:ref="ufrj:track_system_and_packages"/>
-  </prov:wasGeneratedBy>
-  <prov:entity prov:id="schema:tinycss2">
-    <prov:value xsi:type="xsd:string">1.4.0</prov:value>
-  </prov:entity>
-  <prov:wasGeneratedBy>
-    <prov:entity prov:ref="schema:tinycss2"/>
-    <prov:activity prov:ref="ufrj:track_system_and_packages"/>
-  </prov:wasGeneratedBy>
-  <prov:entity prov:id="schema:tomli">
-    <prov:value xsi:type="xsd:string">2.1.0</prov:value>
-  </prov:entity>
-  <prov:wasGeneratedBy>
-    <prov:entity prov:ref="schema:tomli"/>
-    <prov:activity prov:ref="ufrj:track_system_and_packages"/>
-  </prov:wasGeneratedBy>
-  <prov:entity prov:id="schema:tornado">
-    <prov:value xsi:type="xsd:string">6.4.2</prov:value>
-  </prov:entity>
-  <prov:wasGeneratedBy>
-    <prov:entity prov:ref="schema:tornado"/>
-    <prov:activity prov:ref="ufrj:track_system_and_packages"/>
-  </prov:wasGeneratedBy>
-  <prov:entity prov:id="schema:traitlets">
-    <prov:value xsi:type="xsd:string">5.14.3</prov:value>
-  </prov:entity>
-  <prov:wasGeneratedBy>
-    <prov:entity prov:ref="schema:traitlets"/>
-    <prov:activity prov:ref="ufrj:track_system_and_packages"/>
-  </prov:wasGeneratedBy>
-  <prov:entity prov:id="schema:types-python-dateutil">
-    <prov:value xsi:type="xsd:string">2.9.0.20241003</prov:value>
-  </prov:entity>
-  <prov:wasGeneratedBy>
-    <prov:entity prov:ref="schema:types-python-dateutil"/>
-    <prov:activity prov:ref="ufrj:track_system_and_packages"/>
-  </prov:wasGeneratedBy>
-  <prov:entity prov:id="schema:typing_extensions">
-    <prov:value xsi:type="xsd:string">4.12.2</prov:value>
-  </prov:entity>
-  <prov:wasGeneratedBy>
-    <prov:entity prov:ref="schema:typing_extensions"/>
-    <prov:activity prov:ref="ufrj:track_system_and_packages"/>
-  </prov:wasGeneratedBy>
-  <prov:entity prov:id="schema:typing-utils">
-    <prov:value xsi:type="xsd:string">0.1.0</prov:value>
-  </prov:entity>
-  <prov:wasGeneratedBy>
-    <prov:entity prov:ref="schema:typing-utils"/>
-    <prov:activity prov:ref="ufrj:track_system_and_packages"/>
-  </prov:wasGeneratedBy>
-  <prov:entity prov:id="schema:tzdata">
-    <prov:value xsi:type="xsd:string">2024.2</prov:value>
-  </prov:entity>
-  <prov:wasGeneratedBy>
-    <prov:entity prov:ref="schema:tzdata"/>
-    <prov:activity prov:ref="ufrj:track_system_and_packages"/>
-  </prov:wasGeneratedBy>
-  <prov:entity prov:id="schema:unicodedata2">
-    <prov:value xsi:type="xsd:string">15.1.0</prov:value>
-  </prov:entity>
-  <prov:wasGeneratedBy>
-    <prov:entity prov:ref="schema:unicodedata2"/>
-    <prov:activity prov:ref="ufrj:track_system_and_packages"/>
-  </prov:wasGeneratedBy>
-  <prov:entity prov:id="schema:uri-template">
-    <prov:value xsi:type="xsd:string">1.3.0</prov:value>
-  </prov:entity>
-  <prov:wasGeneratedBy>
-    <prov:entity prov:ref="schema:uri-template"/>
-    <prov:activity prov:ref="ufrj:track_system_and_packages"/>
-  </prov:wasGeneratedBy>
-  <prov:entity prov:id="schema:urllib3">
-    <prov:value xsi:type="xsd:string">2.2.3</prov:value>
-  </prov:entity>
-  <prov:wasGeneratedBy>
-    <prov:entity prov:ref="schema:urllib3"/>
-    <prov:activity prov:ref="ufrj:track_system_and_packages"/>
-  </prov:wasGeneratedBy>
-  <prov:entity prov:id="schema:wcwidth">
-    <prov:value xsi:type="xsd:string">0.2.13</prov:value>
-  </prov:entity>
-  <prov:wasGeneratedBy>
-    <prov:entity prov:ref="schema:wcwidth"/>
-    <prov:activity prov:ref="ufrj:track_system_and_packages"/>
-  </prov:wasGeneratedBy>
-  <prov:entity prov:id="schema:webcolors">
-    <prov:value xsi:type="xsd:string">24.8.0</prov:value>
-  </prov:entity>
-  <prov:wasGeneratedBy>
-    <prov:entity prov:ref="schema:webcolors"/>
-    <prov:activity prov:ref="ufrj:track_system_and_packages"/>
-  </prov:wasGeneratedBy>
-  <prov:entity prov:id="schema:webencodings">
-    <prov:value xsi:type="xsd:string">0.5.1</prov:value>
-  </prov:entity>
-  <prov:wasGeneratedBy>
-    <prov:entity prov:ref="schema:webencodings"/>
-    <prov:activity prov:ref="ufrj:track_system_and_packages"/>
-  </prov:wasGeneratedBy>
-  <prov:entity prov:id="schema:websocket-client">
-    <prov:value xsi:type="xsd:string">1.8.0</prov:value>
-  </prov:entity>
-  <prov:wasGeneratedBy>
-    <prov:entity prov:ref="schema:websocket-client"/>
-    <prov:activity prov:ref="ufrj:track_system_and_packages"/>
-  </prov:wasGeneratedBy>
-  <prov:entity prov:id="schema:wheel">
-    <prov:value xsi:type="xsd:string">0.45.1</prov:value>
-  </prov:entity>
-  <prov:wasGeneratedBy>
-    <prov:entity prov:ref="schema:wheel"/>
-    <prov:activity prov:ref="ufrj:track_system_and_packages"/>
-  </prov:wasGeneratedBy>
-  <prov:entity prov:id="schema:win_inet_pton">
-    <prov:value xsi:type="xsd:string">1.1.0</prov:value>
-  </prov:entity>
-  <prov:wasGeneratedBy>
-    <prov:entity prov:ref="schema:win_inet_pton"/>
-    <prov:activity prov:ref="ufrj:track_system_and_packages"/>
-  </prov:wasGeneratedBy>
-  <prov:entity prov:id="schema:xyzservices">
-    <prov:value xsi:type="xsd:string">2024.9.0</prov:value>
-  </prov:entity>
-  <prov:wasGeneratedBy>
-    <prov:entity prov:ref="schema:xyzservices"/>
-    <prov:activity prov:ref="ufrj:track_system_and_packages"/>
-  </prov:wasGeneratedBy>
-  <prov:entity prov:id="schema:zipp">
-    <prov:value xsi:type="xsd:string">3.21.0</prov:value>
-  </prov:entity>
-  <prov:wasGeneratedBy>
-    <prov:entity prov:ref="schema:zipp"/>
-    <prov:activity prov:ref="ufrj:track_system_and_packages"/>
-  </prov:wasGeneratedBy>
-  <prov:entity prov:id="schema:zstandard">
-    <prov:value xsi:type="xsd:string">0.23.0</prov:value>
-  </prov:entity>
-  <prov:wasGeneratedBy>
-    <prov:entity prov:ref="schema:zstandard"/>
-    <prov:activity prov:ref="ufrj:track_system_and_packages"/>
+    <prov:entity prov:ref="ufrj:eda-ipyn"/>
+    <prov:activity prov:ref="ufrj:save-ipynb"/>
   </prov:wasGeneratedBy>
   <prov:activity prov:id="ufrj:carga_levantamento_sismico_2023">
-    <prov:startTime>2024-11-30T21:23:53.848330</prov:startTime>
-    <prov:endTime>2024-11-30T21:23:53.934480</prov:endTime>
+    <prov:startTime>2024-11-30T22:27:12.331941</prov:startTime>
+    <prov:endTime>2024-11-30T22:27:12.415995</prov:endTime>
   </prov:activity>
   <prov:wasAssociatedWith>
     <prov:activity prov:ref="ufrj:carga_levantamento_sismico_2023"/>
@@ -1360,7 +377,7 @@
   <prov:entity prov:id="ufrj:levantamento_sismico_2023">
     <prov:label>Dataset carregado: levantamento_sismico_2023</prov:label>
     <prov:type xsi:type="xsd:string">void:Dataset</prov:type>
-    <prov:generatedAtTime>2024-11-30T21:23:53.934480</prov:generatedAtTime>
+    <prov:generatedAtTime>2024-11-30T22:27:12.415995</prov:generatedAtTime>
   </prov:entity>
   <prov:wasGeneratedBy>
     <prov:entity prov:ref="ufrj:levantamento_sismico_2023"/>
@@ -1371,8 +388,8 @@
     <prov:entity prov:ref="anp:levantamento_sismico_2023"/>
   </prov:used>
   <prov:activity prov:id="ufrj:carga_tabela_pocos_2024">
-    <prov:startTime>2024-11-30T21:23:53.935477</prov:startTime>
-    <prov:endTime>2024-11-30T21:23:54.219186</prov:endTime>
+    <prov:startTime>2024-11-30T22:27:12.415995</prov:startTime>
+    <prov:endTime>2024-11-30T22:27:12.691938</prov:endTime>
   </prov:activity>
   <prov:wasAssociatedWith>
     <prov:activity prov:ref="ufrj:carga_tabela_pocos_2024"/>
@@ -1381,7 +398,7 @@
   <prov:entity prov:id="ufrj:tabela_pocos_2024">
     <prov:label>Dataset carregado: tabela_pocos_2024</prov:label>
     <prov:type xsi:type="xsd:string">void:Dataset</prov:type>
-    <prov:generatedAtTime>2024-11-30T21:23:54.219186</prov:generatedAtTime>
+    <prov:generatedAtTime>2024-11-30T22:27:12.691938</prov:generatedAtTime>
   </prov:entity>
   <prov:wasGeneratedBy>
     <prov:entity prov:ref="ufrj:tabela_pocos_2024"/>
@@ -1392,8 +409,8 @@
     <prov:entity prov:ref="anp:tabela_pocos_2024"/>
   </prov:used>
   <prov:activity prov:id="ufrj:carga_tabela_levantamentos_geoquimica">
-    <prov:startTime>2024-11-30T21:23:54.219186</prov:startTime>
-    <prov:endTime>2024-11-30T21:23:54.299908</prov:endTime>
+    <prov:startTime>2024-11-30T22:27:12.692854</prov:startTime>
+    <prov:endTime>2024-11-30T22:27:12.772085</prov:endTime>
   </prov:activity>
   <prov:wasAssociatedWith>
     <prov:activity prov:ref="ufrj:carga_tabela_levantamentos_geoquimica"/>
@@ -1402,7 +419,7 @@
   <prov:entity prov:id="ufrj:tabela_levantamentos_geoquimica">
     <prov:label>Dataset carregado: tabela_levantamentos_geoquimica</prov:label>
     <prov:type xsi:type="xsd:string">void:Dataset</prov:type>
-    <prov:generatedAtTime>2024-11-30T21:23:54.299908</prov:generatedAtTime>
+    <prov:generatedAtTime>2024-11-30T22:27:12.772085</prov:generatedAtTime>
   </prov:entity>
   <prov:wasGeneratedBy>
     <prov:entity prov:ref="ufrj:tabela_levantamentos_geoquimica"/>
@@ -1413,8 +430,8 @@
     <prov:entity prov:ref="anp:tabela_levantamentos_geoquimica"/>
   </prov:used>
   <prov:activity prov:id="ufrj:carga_tabela_dados_geoquimica">
-    <prov:startTime>2024-11-30T21:23:54.299908</prov:startTime>
-    <prov:endTime>2024-11-30T21:23:54.649614</prov:endTime>
+    <prov:startTime>2024-11-30T22:27:12.772085</prov:startTime>
+    <prov:endTime>2024-11-30T22:27:13.089139</prov:endTime>
   </prov:activity>
   <prov:wasAssociatedWith>
     <prov:activity prov:ref="ufrj:carga_tabela_dados_geoquimica"/>
@@ -1423,7 +440,7 @@
   <prov:entity prov:id="ufrj:tabela_dados_geoquimica">
     <prov:label>Dataset carregado: tabela_dados_geoquimica</prov:label>
     <prov:type xsi:type="xsd:string">void:Dataset</prov:type>
-    <prov:generatedAtTime>2024-11-30T21:23:54.649614</prov:generatedAtTime>
+    <prov:generatedAtTime>2024-11-30T22:27:13.089139</prov:generatedAtTime>
   </prov:entity>
   <prov:wasGeneratedBy>
     <prov:entity prov:ref="ufrj:tabela_dados_geoquimica"/>
@@ -1434,8 +451,8 @@
     <prov:entity prov:ref="anp:tabela_dados_geoquimica"/>
   </prov:used>
   <prov:activity prov:id="ufrj:carga_reservas_nacionais_hc">
-    <prov:startTime>2024-11-30T21:23:54.649614</prov:startTime>
-    <prov:endTime>2024-11-30T21:23:54.900821</prov:endTime>
+    <prov:startTime>2024-11-30T22:27:13.090134</prov:startTime>
+    <prov:endTime>2024-11-30T22:27:13.352983</prov:endTime>
   </prov:activity>
   <prov:wasAssociatedWith>
     <prov:activity prov:ref="ufrj:carga_reservas_nacionais_hc"/>
@@ -1444,7 +461,7 @@
   <prov:entity prov:id="ufrj:reservas_nacionais_hc">
     <prov:label>Dataset carregado: reservas_nacionais_hc</prov:label>
     <prov:type xsi:type="xsd:string">void:Dataset</prov:type>
-    <prov:generatedAtTime>2024-11-30T21:23:54.900821</prov:generatedAtTime>
+    <prov:generatedAtTime>2024-11-30T22:27:13.352983</prov:generatedAtTime>
   </prov:entity>
   <prov:wasGeneratedBy>
     <prov:entity prov:ref="ufrj:reservas_nacionais_hc"/>
@@ -1455,8 +472,8 @@
     <prov:entity prov:ref="anp:reservas_nacionais_hc"/>
   </prov:used>
   <prov:activity prov:id="ufrj:create-ds-eda">
-    <prov:startTime>2024-11-30T21:23:53.848330</prov:startTime>
-    <prov:endTime>2024-11-30T21:23:54.900821</prov:endTime>
+    <prov:startTime>2024-11-30T22:27:12.331941</prov:startTime>
+    <prov:endTime>2024-11-30T22:27:13.352983</prov:endTime>
     <prov:label>Cria&amp;#231;&amp;#227;o de datasets para EDA</prov:label>
   </prov:activity>
   <prov:wasAssociatedWith>
