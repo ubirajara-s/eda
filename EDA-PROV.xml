@@ -127,6 +127,80 @@
     <prov:label>Repositorio Eba da ANP</prov:label>
     <prov:type>prov:Collection</prov:type>
   </prov:entity>
+  <prov:entity prov:id="anp:amostras_rochas_fluidos">
+    <prov:label>Dataset com amostras de rochas e fluidos</prov:label>
+    <prov:type xsi:type="xsd:string">void:Dataset</prov:type>
+    <prov:description>Consolidado 2023 de amostras dispon&amp;#237;veis.</prov:description>
+    <prov:format>zip</prov:format>
+  </prov:entity>
+  <prov:entity prov:id="anp:setores_sirgas">
+    <prov:label>Setores SIRGAS</prov:label>
+    <prov:type xsi:type="xsd:string">void:Dataset</prov:type>
+    <prov:description>Modelos explorat&amp;#243;rios em formato SIRGAS.</prov:description>
+    <prov:format>zip</prov:format>
+  </prov:entity>
+  <prov:entity prov:id="anp:blocos_exploratorios">
+    <prov:label>Blocos explorat&amp;#243;rios</prov:label>
+    <prov:type xsi:type="xsd:string">void:Dataset</prov:type>
+    <prov:description>Blocos explorat&amp;#243;rios com dados geoespaciais.</prov:description>
+    <prov:format>zip</prov:format>
+  </prov:entity>
+  <prov:entity prov:id="anp:campos_producao">
+    <prov:label>Campos de Produ&amp;#231;&amp;#227;o</prov:label>
+    <prov:type xsi:type="xsd:string">void:Dataset</prov:type>
+    <prov:description>Dados dos campos de produ&amp;#231;&amp;#227;o em formato SIRGAS.</prov:description>
+    <prov:format>zip</prov:format>
+  </prov:entity>
+  <prov:entity prov:id="anp:reservas_nacionais_hc">
+    <prov:label>Reservas Nacionais de Hidrocarbonetos</prov:label>
+    <prov:type xsi:type="xsd:string">void:Dataset</prov:type>
+    <prov:description>Tabela com dados sobre reservas nacionais.</prov:description>
+    <prov:format>xlsx</prov:format>
+  </prov:entity>
+  <prov:entity prov:id="anp:pocos_perfurados_2023">
+    <prov:label>Po&amp;#231;os perfurados - 2023</prov:label>
+    <prov:type xsi:type="xsd:string">void:Dataset</prov:type>
+    <prov:description>CSV com os po&amp;#231;os perfurados no ano de 2023.</prov:description>
+    <prov:format>csv</prov:format>
+  </prov:entity>
+  <prov:entity prov:id="anp:tabela_levantamentos_geoquimica">
+    <prov:label>Tabela de levantamentos geoqu&amp;#237;micos 20/04/2022</prov:label>
+    <prov:type xsi:type="xsd:string">void:Dataset</prov:type>
+    <prov:description>Dados sobre levantamentos geoqu&amp;#237;micos.</prov:description>
+    <prov:format>csv</prov:format>
+  </prov:entity>
+  <prov:entity prov:id="anp:tabela_dados_geoquimica">
+    <prov:label>Tabela_dados_geoquimica 06/08/2021</prov:label>
+    <prov:type xsi:type="xsd:string">void:Dataset</prov:type>
+    <prov:description>Dados geoqu&amp;#237;micos.</prov:description>
+    <prov:format>csv</prov:format>
+  </prov:entity>
+  <prov:entity prov:id="anp:levantamento_sismico_2023">
+    <prov:label>Levantamento S&amp;#237;smico - 2023</prov:label>
+    <prov:type xsi:type="xsd:string">void:Dataset</prov:type>
+    <prov:description>CSV com dados de levantamentos s&amp;#237;smicos p&amp;#250;blicos.</prov:description>
+    <prov:format>csv</prov:format>
+  </prov:entity>
+  <prov:entity prov:id="anp:tabela_pocos_2024">
+    <prov:label>Tabela de Po&amp;#231;os - 2024</prov:label>
+    <prov:type xsi:type="xsd:string">void:Dataset</prov:type>
+    <prov:description>Tabela CSV com dados atualizados de po&amp;#231;os para 2024.</prov:description>
+    <prov:format>csv</prov:format>
+  </prov:entity>
+  <prov:entity prov:id="anp-dados_tec:dataset">
+    <prov:label>ANP Dataset de Dados T&amp;#233;cnicos</prov:label>
+    <prov:type xsi:type="xsd:string">void:Dataset</prov:type>
+    <prov:description>Dataset com dados t&amp;#233;cnicos dispon&amp;#237;veis publicamente.</prov:description>
+    <prov:format>csv</prov:format>
+  </prov:entity>
+  <prov:entity prov:id="ufrj:eda-ipyn">
+    <prov:label>Notebook Python utilizado no trabalho</prov:label>
+    <prov:type xsi:type="xsd:string">foaf:Document</prov:type>
+  </prov:entity>
+  <prov:entity prov:id="anp:github-eda">
+    <prov:label>Repositorio Eba da ANP</prov:label>
+    <prov:type>prov:Collection</prov:type>
+  </prov:entity>
   <prov:actedOnBehalfOf>
     <prov:delegate prov:ref="anp:ANP"/>
     <prov:responsible prov:ref="br:orgBr"/>
@@ -228,7 +302,7 @@
     <prov:activity prov:ref="ufrj:save-ipynb"/>
   </prov:wasGeneratedBy>
   <prov:activity prov:id="ufrj:track_system_and_packages">
-    <prov:startTime>2024-12-01T06:20:09.992739</prov:startTime>
+    <prov:startTime>2024-12-01T13:39:47.687316</prov:startTime>
     <prov:label>Track system and package provenance</prov:label>
   </prov:activity>
   <prov:wasAssociatedWith>
@@ -362,7 +436,7 @@
     <prov:activity prov:ref="ufrj:track_system_and_packages"/>
   </prov:wasGeneratedBy>
   <prov:activity prov:id="ufrj:save-ipynb">
-    <prov:startTime>2024-12-01T06:20:10.013751</prov:startTime>
+    <prov:startTime>2024-12-01T13:39:47.704315</prov:startTime>
     <prov:label>Salvar notebook EDA</prov:label>
   </prov:activity>
   <prov:wasAssociatedWith>
@@ -374,8 +448,8 @@
     <prov:activity prov:ref="ufrj:save-ipynb"/>
   </prov:wasGeneratedBy>
   <prov:activity prov:id="ufrj:carga_levantamento_sismico_2023">
-    <prov:startTime>2024-12-01T06:20:10.013751</prov:startTime>
-    <prov:endTime>2024-12-01T06:20:10.101436</prov:endTime>
+    <prov:startTime>2024-12-01T13:39:47.705314</prov:startTime>
+    <prov:endTime>2024-12-01T13:39:47.855695</prov:endTime>
   </prov:activity>
   <prov:wasAssociatedWith>
     <prov:activity prov:ref="ufrj:carga_levantamento_sismico_2023"/>
@@ -384,7 +458,7 @@
   <prov:entity prov:id="ufrj:levantamento_sismico_2023">
     <prov:label>Dataset carregado: levantamento_sismico_2023</prov:label>
     <prov:type xsi:type="xsd:string">void:Dataset</prov:type>
-    <prov:generatedAtTime>2024-12-01T06:20:10.101436</prov:generatedAtTime>
+    <prov:generatedAtTime>2024-12-01T13:39:47.855695</prov:generatedAtTime>
   </prov:entity>
   <prov:wasGeneratedBy>
     <prov:entity prov:ref="ufrj:levantamento_sismico_2023"/>
@@ -395,8 +469,8 @@
     <prov:entity prov:ref="anp:levantamento_sismico_2023"/>
   </prov:used>
   <prov:activity prov:id="ufrj:carga_tabela_pocos_2024">
-    <prov:startTime>2024-12-01T06:20:10.101436</prov:startTime>
-    <prov:endTime>2024-12-01T06:20:10.397237</prov:endTime>
+    <prov:startTime>2024-12-01T13:39:47.855695</prov:startTime>
+    <prov:endTime>2024-12-01T13:39:48.148214</prov:endTime>
   </prov:activity>
   <prov:wasAssociatedWith>
     <prov:activity prov:ref="ufrj:carga_tabela_pocos_2024"/>
@@ -405,7 +479,7 @@
   <prov:entity prov:id="ufrj:tabela_pocos_2024">
     <prov:label>Dataset carregado: tabela_pocos_2024</prov:label>
     <prov:type xsi:type="xsd:string">void:Dataset</prov:type>
-    <prov:generatedAtTime>2024-12-01T06:20:10.397237</prov:generatedAtTime>
+    <prov:generatedAtTime>2024-12-01T13:39:48.148214</prov:generatedAtTime>
   </prov:entity>
   <prov:wasGeneratedBy>
     <prov:entity prov:ref="ufrj:tabela_pocos_2024"/>
@@ -416,8 +490,8 @@
     <prov:entity prov:ref="anp:tabela_pocos_2024"/>
   </prov:used>
   <prov:activity prov:id="ufrj:carga_tabela_levantamentos_geoquimica">
-    <prov:startTime>2024-12-01T06:20:10.397237</prov:startTime>
-    <prov:endTime>2024-12-01T06:20:10.478557</prov:endTime>
+    <prov:startTime>2024-12-01T13:39:48.156221</prov:startTime>
+    <prov:endTime>2024-12-01T13:39:48.280200</prov:endTime>
   </prov:activity>
   <prov:wasAssociatedWith>
     <prov:activity prov:ref="ufrj:carga_tabela_levantamentos_geoquimica"/>
@@ -426,7 +500,7 @@
   <prov:entity prov:id="ufrj:tabela_levantamentos_geoquimica">
     <prov:label>Dataset carregado: tabela_levantamentos_geoquimica</prov:label>
     <prov:type xsi:type="xsd:string">void:Dataset</prov:type>
-    <prov:generatedAtTime>2024-12-01T06:20:10.478557</prov:generatedAtTime>
+    <prov:generatedAtTime>2024-12-01T13:39:48.280200</prov:generatedAtTime>
   </prov:entity>
   <prov:wasGeneratedBy>
     <prov:entity prov:ref="ufrj:tabela_levantamentos_geoquimica"/>
@@ -437,8 +511,8 @@
     <prov:entity prov:ref="anp:tabela_levantamentos_geoquimica"/>
   </prov:used>
   <prov:activity prov:id="ufrj:carga_tabela_dados_geoquimica">
-    <prov:startTime>2024-12-01T06:20:10.478557</prov:startTime>
-    <prov:endTime>2024-12-01T06:20:10.868500</prov:endTime>
+    <prov:startTime>2024-12-01T13:39:48.280200</prov:startTime>
+    <prov:endTime>2024-12-01T13:39:48.718835</prov:endTime>
   </prov:activity>
   <prov:wasAssociatedWith>
     <prov:activity prov:ref="ufrj:carga_tabela_dados_geoquimica"/>
@@ -447,7 +521,7 @@
   <prov:entity prov:id="ufrj:tabela_dados_geoquimica">
     <prov:label>Dataset carregado: tabela_dados_geoquimica</prov:label>
     <prov:type xsi:type="xsd:string">void:Dataset</prov:type>
-    <prov:generatedAtTime>2024-12-01T06:20:10.868500</prov:generatedAtTime>
+    <prov:generatedAtTime>2024-12-01T13:39:48.718835</prov:generatedAtTime>
   </prov:entity>
   <prov:wasGeneratedBy>
     <prov:entity prov:ref="ufrj:tabela_dados_geoquimica"/>
@@ -458,8 +532,8 @@
     <prov:entity prov:ref="anp:tabela_dados_geoquimica"/>
   </prov:used>
   <prov:activity prov:id="ufrj:carga_reservas_nacionais_hc">
-    <prov:startTime>2024-12-01T06:20:10.868500</prov:startTime>
-    <prov:endTime>2024-12-01T06:20:11.152710</prov:endTime>
+    <prov:startTime>2024-12-01T13:39:48.719834</prov:startTime>
+    <prov:endTime>2024-12-01T13:39:49.134066</prov:endTime>
   </prov:activity>
   <prov:wasAssociatedWith>
     <prov:activity prov:ref="ufrj:carga_reservas_nacionais_hc"/>
@@ -468,7 +542,7 @@
   <prov:entity prov:id="ufrj:reservas_nacionais_hc">
     <prov:label>Dataset carregado: reservas_nacionais_hc</prov:label>
     <prov:type xsi:type="xsd:string">void:Dataset</prov:type>
-    <prov:generatedAtTime>2024-12-01T06:20:11.152710</prov:generatedAtTime>
+    <prov:generatedAtTime>2024-12-01T13:39:49.134066</prov:generatedAtTime>
   </prov:entity>
   <prov:wasGeneratedBy>
     <prov:entity prov:ref="ufrj:reservas_nacionais_hc"/>
@@ -479,8 +553,8 @@
     <prov:entity prov:ref="anp:reservas_nacionais_hc"/>
   </prov:used>
   <prov:activity prov:id="ufrj:carga_pocos_perfurados_2023">
-    <prov:startTime>2024-12-01T06:20:11.152710</prov:startTime>
-    <prov:endTime>2024-12-01T06:20:11.255494</prov:endTime>
+    <prov:startTime>2024-12-01T13:39:49.134066</prov:startTime>
+    <prov:endTime>2024-12-01T13:39:49.304557</prov:endTime>
   </prov:activity>
   <prov:wasAssociatedWith>
     <prov:activity prov:ref="ufrj:carga_pocos_perfurados_2023"/>
@@ -489,7 +563,7 @@
   <prov:entity prov:id="ufrj:pocos_perfurados_2023">
     <prov:label>Dataset carregado: pocos_perfurados_2023</prov:label>
     <prov:type xsi:type="xsd:string">void:Dataset</prov:type>
-    <prov:generatedAtTime>2024-12-01T06:20:11.255494</prov:generatedAtTime>
+    <prov:generatedAtTime>2024-12-01T13:39:49.304557</prov:generatedAtTime>
   </prov:entity>
   <prov:wasGeneratedBy>
     <prov:entity prov:ref="ufrj:pocos_perfurados_2023"/>
@@ -500,18 +574,20 @@
     <prov:entity prov:ref="anp:pocos_perfurados_2023"/>
   </prov:used>
   <prov:activity prov:id="ufrj:carga_setores_sirgas">
-    <prov:startTime>2024-12-01T06:20:11.255494</prov:startTime>
-    <prov:endTime>2024-12-01T06:20:11.442242</prov:endTime>
-    <prov:label>Processamento do ZIP: setores_sirgas</prov:label>
+    <prov:startTime>2024-12-01T13:39:49.305557</prov:startTime>
   </prov:activity>
   <prov:wasAssociatedWith>
     <prov:activity prov:ref="ufrj:carga_setores_sirgas"/>
     <prov:agent prov:ref="ufrj:eda.ipynb"/>
   </prov:wasAssociatedWith>
+  <prov:used>
+    <prov:activity prov:ref="ufrj:carga_setores_sirgas"/>
+    <prov:entity prov:ref="anp:setores_sirgas"/>
+  </prov:used>
   <prov:entity prov:id="ufrj:setores_sirgas">
     <prov:label>Dataset processado: setores_sirgas</prov:label>
     <prov:type xsi:type="xsd:string">void:Dataset</prov:type>
-    <prov:generatedAtTime>2024-12-01T06:20:11.413634</prov:generatedAtTime>
+    <prov:generatedAtTime>2024-12-01T13:39:49.469178</prov:generatedAtTime>
   </prov:entity>
   <prov:wasGeneratedBy>
     <prov:entity prov:ref="ufrj:setores_sirgas"/>
@@ -520,83 +596,31 @@
   <prov:entity prov:id="ufrj:shp_SETORES_TODOS_SIRGAS.shp">
     <prov:label>Shapefile carregado: SETORES_TODOS_SIRGAS.shp</prov:label>
     <prov:type xsi:type="xsd:string">void:Dataset</prov:type>
-    <prov:generatedAtTime>2024-12-01T06:20:11.442242</prov:generatedAtTime>
+    <prov:generatedAtTime>2024-12-01T13:39:49.496217</prov:generatedAtTime>
   </prov:entity>
-  <prov:activity prov:id="ufrj:analyze_unknown_files">
-    <prov:startTime>2024-12-01T06:20:11.442242</prov:startTime>
-    <prov:label>An&amp;#225;lise de arquivos desconhecidos</prov:label>
-  </prov:activity>
-  <prov:wasAssociatedWith>
-    <prov:activity prov:ref="ufrj:analyze_unknown_files"/>
-    <prov:agent prov:ref="ufrj:eda.ipynb"/>
-  </prov:wasAssociatedWith>
-  <prov:entity prov:id="ufrj:unknown_SETORES_TODOS_SIRGAS.dbf">
-    <prov:label>Arquivo desconhecido: SETORES_TODOS_SIRGAS.dbf</prov:label>
-    <prov:location xsi:type="xsd:string">./dados/temp\SETORES_TODOS_SIRGAS.dbf</prov:location>
-    <prov:type xsi:type="xsd:string">void:Dataset</prov:type>
-  </prov:entity>
+  <prov:wasDerivedFrom>
+    <prov:generatedEntity prov:ref="ufrj:shp_SETORES_TODOS_SIRGAS.shp"/>
+    <prov:usedEntity prov:ref="ufrj:setores_sirgas"/>
+  </prov:wasDerivedFrom>
   <prov:wasGeneratedBy>
-    <prov:entity prov:ref="ufrj:unknown_SETORES_TODOS_SIRGAS.dbf"/>
-    <prov:activity prov:ref="ufrj:analyze_unknown_files"/>
-  </prov:wasGeneratedBy>
-  <prov:entity prov:id="ufrj:unknown_SETORES_TODOS_SIRGAS.prj">
-    <prov:label>Arquivo desconhecido: SETORES_TODOS_SIRGAS.prj</prov:label>
-    <prov:location xsi:type="xsd:string">./dados/temp\SETORES_TODOS_SIRGAS.prj</prov:location>
-    <prov:type xsi:type="xsd:string">void:Dataset</prov:type>
-  </prov:entity>
-  <prov:wasGeneratedBy>
-    <prov:entity prov:ref="ufrj:unknown_SETORES_TODOS_SIRGAS.prj"/>
-    <prov:activity prov:ref="ufrj:analyze_unknown_files"/>
-  </prov:wasGeneratedBy>
-  <prov:entity prov:id="ufrj:unknown_SETORES_TODOS_SIRGAS.sbn">
-    <prov:label>Arquivo desconhecido: SETORES_TODOS_SIRGAS.sbn</prov:label>
-    <prov:location xsi:type="xsd:string">./dados/temp\SETORES_TODOS_SIRGAS.sbn</prov:location>
-    <prov:type xsi:type="xsd:string">void:Dataset</prov:type>
-  </prov:entity>
-  <prov:wasGeneratedBy>
-    <prov:entity prov:ref="ufrj:unknown_SETORES_TODOS_SIRGAS.sbn"/>
-    <prov:activity prov:ref="ufrj:analyze_unknown_files"/>
-  </prov:wasGeneratedBy>
-  <prov:entity prov:id="ufrj:unknown_SETORES_TODOS_SIRGAS.sbx">
-    <prov:label>Arquivo desconhecido: SETORES_TODOS_SIRGAS.sbx</prov:label>
-    <prov:location xsi:type="xsd:string">./dados/temp\SETORES_TODOS_SIRGAS.sbx</prov:location>
-    <prov:type xsi:type="xsd:string">void:Dataset</prov:type>
-  </prov:entity>
-  <prov:wasGeneratedBy>
-    <prov:entity prov:ref="ufrj:unknown_SETORES_TODOS_SIRGAS.sbx"/>
-    <prov:activity prov:ref="ufrj:analyze_unknown_files"/>
-  </prov:wasGeneratedBy>
-  <prov:entity prov:id="ufrj:unknown_SETORES_TODOS_SIRGAS.shx">
-    <prov:label>Arquivo desconhecido: SETORES_TODOS_SIRGAS.shx</prov:label>
-    <prov:location xsi:type="xsd:string">./dados/temp\SETORES_TODOS_SIRGAS.shx</prov:location>
-    <prov:type xsi:type="xsd:string">void:Dataset</prov:type>
-  </prov:entity>
-  <prov:wasGeneratedBy>
-    <prov:entity prov:ref="ufrj:unknown_SETORES_TODOS_SIRGAS.shx"/>
-    <prov:activity prov:ref="ufrj:analyze_unknown_files"/>
-  </prov:wasGeneratedBy>
-  <prov:entity prov:id="ufrj:unknown_SETORES_TODOS_SIRGAS.xml">
-    <prov:label>Arquivo desconhecido: SETORES_TODOS_SIRGAS.xml</prov:label>
-    <prov:location xsi:type="xsd:string">./dados/temp\SETORES_TODOS_SIRGAS.xml</prov:location>
-    <prov:type xsi:type="xsd:string">void:Dataset</prov:type>
-  </prov:entity>
-  <prov:wasGeneratedBy>
-    <prov:entity prov:ref="ufrj:unknown_SETORES_TODOS_SIRGAS.xml"/>
-    <prov:activity prov:ref="ufrj:analyze_unknown_files"/>
+    <prov:entity prov:ref="ufrj:shp_SETORES_TODOS_SIRGAS.shp"/>
+    <prov:activity prov:ref="ufrj:carga_setores_sirgas"/>
   </prov:wasGeneratedBy>
   <prov:activity prov:id="ufrj:carga_blocos_exploratorios">
-    <prov:startTime>2024-12-01T06:20:11.442242</prov:startTime>
-    <prov:endTime>2024-12-01T06:20:11.723832</prov:endTime>
-    <prov:label>Processamento do ZIP: blocos_exploratorios</prov:label>
+    <prov:startTime>2024-12-01T13:39:49.498215</prov:startTime>
   </prov:activity>
   <prov:wasAssociatedWith>
     <prov:activity prov:ref="ufrj:carga_blocos_exploratorios"/>
     <prov:agent prov:ref="ufrj:eda.ipynb"/>
   </prov:wasAssociatedWith>
+  <prov:used>
+    <prov:activity prov:ref="ufrj:carga_blocos_exploratorios"/>
+    <prov:entity prov:ref="anp:blocos_exploratorios"/>
+  </prov:used>
   <prov:entity prov:id="ufrj:blocos_exploratorios">
     <prov:label>Dataset processado: blocos_exploratorios</prov:label>
     <prov:type xsi:type="xsd:string">void:Dataset</prov:type>
-    <prov:generatedAtTime>2024-12-01T06:20:11.692161</prov:generatedAtTime>
+    <prov:generatedAtTime>2024-12-01T13:39:50.567932</prov:generatedAtTime>
   </prov:entity>
   <prov:wasGeneratedBy>
     <prov:entity prov:ref="ufrj:blocos_exploratorios"/>
@@ -605,74 +629,31 @@
   <prov:entity prov:id="ufrj:shp_BLOCOS_EXPLORATORIOS_SIRGASPolygon.shp">
     <prov:label>Shapefile carregado: BLOCOS_EXPLORATORIOS_SIRGASPolygon.shp</prov:label>
     <prov:type xsi:type="xsd:string">void:Dataset</prov:type>
-    <prov:generatedAtTime>2024-12-01T06:20:11.722834</prov:generatedAtTime>
+    <prov:generatedAtTime>2024-12-01T13:39:50.615730</prov:generatedAtTime>
   </prov:entity>
-  <prov:activity prov:id="ufrj:analyze_unknown_files">
-    <prov:startTime>2024-12-01T06:20:11.722834</prov:startTime>
-    <prov:label>An&amp;#225;lise de arquivos desconhecidos</prov:label>
-  </prov:activity>
-  <prov:wasAssociatedWith>
-    <prov:activity prov:ref="ufrj:analyze_unknown_files"/>
-    <prov:agent prov:ref="ufrj:eda.ipynb"/>
-  </prov:wasAssociatedWith>
-  <prov:entity prov:id="ufrj:unknown_BLOCOS_EXPLORATORIOS_SIRGASPolygon.cst">
-    <prov:label>Arquivo desconhecido: BLOCOS_EXPLORATORIOS_SIRGASPolygon.cst</prov:label>
-    <prov:location xsi:type="xsd:string">./dados/temp\BLOCOS_EXPLORATORIOS_SIRGASPolygon.cst</prov:location>
-    <prov:type xsi:type="xsd:string">void:Dataset</prov:type>
-  </prov:entity>
+  <prov:wasDerivedFrom>
+    <prov:generatedEntity prov:ref="ufrj:shp_BLOCOS_EXPLORATORIOS_SIRGASPolygon.shp"/>
+    <prov:usedEntity prov:ref="ufrj:blocos_exploratorios"/>
+  </prov:wasDerivedFrom>
   <prov:wasGeneratedBy>
-    <prov:entity prov:ref="ufrj:unknown_BLOCOS_EXPLORATORIOS_SIRGASPolygon.cst"/>
-    <prov:activity prov:ref="ufrj:analyze_unknown_files"/>
-  </prov:wasGeneratedBy>
-  <prov:entity prov:id="ufrj:unknown_BLOCOS_EXPLORATORIOS_SIRGASPolygon.prj">
-    <prov:label>Arquivo desconhecido: BLOCOS_EXPLORATORIOS_SIRGASPolygon.prj</prov:label>
-    <prov:location xsi:type="xsd:string">./dados/temp\BLOCOS_EXPLORATORIOS_SIRGASPolygon.prj</prov:location>
-    <prov:type xsi:type="xsd:string">void:Dataset</prov:type>
-  </prov:entity>
-  <prov:wasGeneratedBy>
-    <prov:entity prov:ref="ufrj:unknown_BLOCOS_EXPLORATORIOS_SIRGASPolygon.prj"/>
-    <prov:activity prov:ref="ufrj:analyze_unknown_files"/>
-  </prov:wasGeneratedBy>
-  <prov:entity prov:id="ufrj:unknown_BLOCOS_EXPLORATORIOS_SIRGASPolygon.shx">
-    <prov:label>Arquivo desconhecido: BLOCOS_EXPLORATORIOS_SIRGASPolygon.shx</prov:label>
-    <prov:location xsi:type="xsd:string">./dados/temp\BLOCOS_EXPLORATORIOS_SIRGASPolygon.shx</prov:location>
-    <prov:type xsi:type="xsd:string">void:Dataset</prov:type>
-  </prov:entity>
-  <prov:wasGeneratedBy>
-    <prov:entity prov:ref="ufrj:unknown_BLOCOS_EXPLORATORIOS_SIRGASPolygon.shx"/>
-    <prov:activity prov:ref="ufrj:analyze_unknown_files"/>
-  </prov:wasGeneratedBy>
-  <prov:entity prov:id="ufrj:unknown_BLOCOS_EXPLORATORIOS_SIRGASPolygon.dbf">
-    <prov:label>Arquivo desconhecido: BLOCOS_EXPLORATORIOS_SIRGASPolygon.dbf</prov:label>
-    <prov:location xsi:type="xsd:string">./dados/temp\BLOCOS_EXPLORATORIOS_SIRGASPolygon.dbf</prov:location>
-    <prov:type xsi:type="xsd:string">void:Dataset</prov:type>
-  </prov:entity>
-  <prov:wasGeneratedBy>
-    <prov:entity prov:ref="ufrj:unknown_BLOCOS_EXPLORATORIOS_SIRGASPolygon.dbf"/>
-    <prov:activity prov:ref="ufrj:analyze_unknown_files"/>
-  </prov:wasGeneratedBy>
-  <prov:entity prov:id="ufrj:unknown_wfsrequest.txt">
-    <prov:label>Arquivo desconhecido: wfsrequest.txt</prov:label>
-    <prov:location xsi:type="xsd:string">./dados/temp\wfsrequest.txt</prov:location>
-    <prov:type xsi:type="xsd:string">void:Dataset</prov:type>
-  </prov:entity>
-  <prov:wasGeneratedBy>
-    <prov:entity prov:ref="ufrj:unknown_wfsrequest.txt"/>
-    <prov:activity prov:ref="ufrj:analyze_unknown_files"/>
+    <prov:entity prov:ref="ufrj:shp_BLOCOS_EXPLORATORIOS_SIRGASPolygon.shp"/>
+    <prov:activity prov:ref="ufrj:carga_blocos_exploratorios"/>
   </prov:wasGeneratedBy>
   <prov:activity prov:id="ufrj:carga_campos_producao">
-    <prov:startTime>2024-12-01T06:20:11.723832</prov:startTime>
-    <prov:endTime>2024-12-01T06:20:11.975268</prov:endTime>
-    <prov:label>Processamento do ZIP: campos_producao</prov:label>
+    <prov:startTime>2024-12-01T13:39:50.619341</prov:startTime>
   </prov:activity>
   <prov:wasAssociatedWith>
     <prov:activity prov:ref="ufrj:carga_campos_producao"/>
     <prov:agent prov:ref="ufrj:eda.ipynb"/>
   </prov:wasAssociatedWith>
+  <prov:used>
+    <prov:activity prov:ref="ufrj:carga_campos_producao"/>
+    <prov:entity prov:ref="anp:campos_producao"/>
+  </prov:used>
   <prov:entity prov:id="ufrj:campos_producao">
     <prov:label>Dataset processado: campos_producao</prov:label>
     <prov:type xsi:type="xsd:string">void:Dataset</prov:type>
-    <prov:generatedAtTime>2024-12-01T06:20:11.943113</prov:generatedAtTime>
+    <prov:generatedAtTime>2024-12-01T13:39:51.667046</prov:generatedAtTime>
   </prov:entity>
   <prov:wasGeneratedBy>
     <prov:entity prov:ref="ufrj:campos_producao"/>
@@ -681,59 +662,14 @@
   <prov:entity prov:id="ufrj:shp_CAMPOS_PRODUCAO_SIRGASPolygon.shp">
     <prov:label>Shapefile carregado: CAMPOS_PRODUCAO_SIRGASPolygon.shp</prov:label>
     <prov:type xsi:type="xsd:string">void:Dataset</prov:type>
-    <prov:generatedAtTime>2024-12-01T06:20:11.975268</prov:generatedAtTime>
+    <prov:generatedAtTime>2024-12-01T13:39:51.712045</prov:generatedAtTime>
   </prov:entity>
-  <prov:activity prov:id="ufrj:analyze_unknown_files">
-    <prov:startTime>2024-12-01T06:20:11.975268</prov:startTime>
-    <prov:label>An&amp;#225;lise de arquivos desconhecidos</prov:label>
-  </prov:activity>
-  <prov:wasAssociatedWith>
-    <prov:activity prov:ref="ufrj:analyze_unknown_files"/>
-    <prov:agent prov:ref="ufrj:eda.ipynb"/>
-  </prov:wasAssociatedWith>
-  <prov:entity prov:id="ufrj:unknown_CAMPOS_PRODUCAO_SIRGASPolygon.cst">
-    <prov:label>Arquivo desconhecido: CAMPOS_PRODUCAO_SIRGASPolygon.cst</prov:label>
-    <prov:location xsi:type="xsd:string">./dados/temp\CAMPOS_PRODUCAO_SIRGASPolygon.cst</prov:location>
-    <prov:type xsi:type="xsd:string">void:Dataset</prov:type>
-  </prov:entity>
+  <prov:wasDerivedFrom>
+    <prov:generatedEntity prov:ref="ufrj:shp_CAMPOS_PRODUCAO_SIRGASPolygon.shp"/>
+    <prov:usedEntity prov:ref="ufrj:campos_producao"/>
+  </prov:wasDerivedFrom>
   <prov:wasGeneratedBy>
-    <prov:entity prov:ref="ufrj:unknown_CAMPOS_PRODUCAO_SIRGASPolygon.cst"/>
-    <prov:activity prov:ref="ufrj:analyze_unknown_files"/>
-  </prov:wasGeneratedBy>
-  <prov:entity prov:id="ufrj:unknown_CAMPOS_PRODUCAO_SIRGASPolygon.prj">
-    <prov:label>Arquivo desconhecido: CAMPOS_PRODUCAO_SIRGASPolygon.prj</prov:label>
-    <prov:location xsi:type="xsd:string">./dados/temp\CAMPOS_PRODUCAO_SIRGASPolygon.prj</prov:location>
-    <prov:type xsi:type="xsd:string">void:Dataset</prov:type>
-  </prov:entity>
-  <prov:wasGeneratedBy>
-    <prov:entity prov:ref="ufrj:unknown_CAMPOS_PRODUCAO_SIRGASPolygon.prj"/>
-    <prov:activity prov:ref="ufrj:analyze_unknown_files"/>
-  </prov:wasGeneratedBy>
-  <prov:entity prov:id="ufrj:unknown_CAMPOS_PRODUCAO_SIRGASPolygon.dbf">
-    <prov:label>Arquivo desconhecido: CAMPOS_PRODUCAO_SIRGASPolygon.dbf</prov:label>
-    <prov:location xsi:type="xsd:string">./dados/temp\CAMPOS_PRODUCAO_SIRGASPolygon.dbf</prov:location>
-    <prov:type xsi:type="xsd:string">void:Dataset</prov:type>
-  </prov:entity>
-  <prov:wasGeneratedBy>
-    <prov:entity prov:ref="ufrj:unknown_CAMPOS_PRODUCAO_SIRGASPolygon.dbf"/>
-    <prov:activity prov:ref="ufrj:analyze_unknown_files"/>
-  </prov:wasGeneratedBy>
-  <prov:entity prov:id="ufrj:unknown_CAMPOS_PRODUCAO_SIRGASPolygon.shx">
-    <prov:label>Arquivo desconhecido: CAMPOS_PRODUCAO_SIRGASPolygon.shx</prov:label>
-    <prov:location xsi:type="xsd:string">./dados/temp\CAMPOS_PRODUCAO_SIRGASPolygon.shx</prov:location>
-    <prov:type xsi:type="xsd:string">void:Dataset</prov:type>
-  </prov:entity>
-  <prov:wasGeneratedBy>
-    <prov:entity prov:ref="ufrj:unknown_CAMPOS_PRODUCAO_SIRGASPolygon.shx"/>
-    <prov:activity prov:ref="ufrj:analyze_unknown_files"/>
-  </prov:wasGeneratedBy>
-  <prov:entity prov:id="ufrj:unknown_wfsrequest.txt">
-    <prov:label>Arquivo desconhecido: wfsrequest.txt</prov:label>
-    <prov:location xsi:type="xsd:string">./dados/temp\wfsrequest.txt</prov:location>
-    <prov:type xsi:type="xsd:string">void:Dataset</prov:type>
-  </prov:entity>
-  <prov:wasGeneratedBy>
-    <prov:entity prov:ref="ufrj:unknown_wfsrequest.txt"/>
-    <prov:activity prov:ref="ufrj:analyze_unknown_files"/>
+    <prov:entity prov:ref="ufrj:shp_CAMPOS_PRODUCAO_SIRGASPolygon.shp"/>
+    <prov:activity prov:ref="ufrj:carga_campos_producao"/>
   </prov:wasGeneratedBy>
 </prov:document>

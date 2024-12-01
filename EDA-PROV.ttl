@@ -95,31 +95,10 @@ anp:amostras_rochas_fluidos a prov:Entity,
     prov:format "zip"^^xsd:string ;
     prov:wasGeneratedBy anp:create-dataset .
 
-anp:blocos_exploratorios a prov:Entity,
-        "void:Dataset"^^xsd:string ;
-    rdfs:label "Blocos explorat&#243;rios"^^xsd:string ;
-    prov:description "Blocos explorat&#243;rios com dados geoespaciais."^^xsd:string ;
-    prov:format "zip"^^xsd:string ;
-    prov:wasGeneratedBy anp:create-dataset .
-
-anp:campos_producao a prov:Entity,
-        "void:Dataset"^^xsd:string ;
-    rdfs:label "Campos de Produ&#231;&#227;o"^^xsd:string ;
-    prov:description "Dados dos campos de produ&#231;&#227;o em formato SIRGAS."^^xsd:string ;
-    prov:format "zip"^^xsd:string ;
-    prov:wasGeneratedBy anp:create-dataset .
-
 anp:github-eda a prov:Entity,
         "prov:Collection"^^xsd:string ;
     rdfs:label "Repositorio Eba da ANP"^^xsd:string ;
     prov:wasGeneratedBy ufrj:save-ipynb .
-
-anp:setores_sirgas a prov:Entity,
-        "void:Dataset"^^xsd:string ;
-    rdfs:label "Setores SIRGAS"^^xsd:string ;
-    prov:description "Modelos explorat&#243;rios em formato SIRGAS."^^xsd:string ;
-    prov:format "zip"^^xsd:string ;
-    prov:wasGeneratedBy anp:create-dataset .
 
 ufrj:Jorge a prov:Agent,
         "prov:Person"^^xsd:string ;
@@ -132,18 +111,6 @@ ufrj:Sergio a prov:Agent,
     prov:actedOnBehalfOf ufrj:PPGI ;
     foaf:mbox "serra@ppgi.ufrj.br"^^xsd:string ;
     foaf:name "Sergio Serra"^^xsd:string .
-
-ufrj:blocos_exploratorios a prov:Entity,
-        "void:Dataset"^^xsd:string ;
-    rdfs:label "Dataset processado: blocos_exploratorios"^^xsd:string ;
-    prov:generatedAtTime "2024-12-01T06:20:11.692161"^^xsd:string ;
-    prov:wasGeneratedBy ufrj:carga_blocos_exploratorios .
-
-ufrj:campos_producao a prov:Entity,
-        "void:Dataset"^^xsd:string ;
-    rdfs:label "Dataset processado: campos_producao"^^xsd:string ;
-    prov:generatedAtTime "2024-12-01T06:20:11.943113"^^xsd:string ;
-    prov:wasGeneratedBy ufrj:carga_campos_producao .
 
 ufrj:create-ds-eda a prov:Activity ;
     rdfs:label "Cria&#231;&#227;o de datasets para EDA"^^xsd:string ;
@@ -158,149 +125,59 @@ ufrj:eda-ipyn a prov:Entity,
 ufrj:levantamento_sismico_2023 a prov:Entity,
         "void:Dataset"^^xsd:string ;
     rdfs:label "Dataset carregado: levantamento_sismico_2023"^^xsd:string ;
-    prov:generatedAtTime "2024-12-01T06:20:10.101436"^^xsd:string ;
+    prov:generatedAtTime "2024-12-01T13:39:47.855695"^^xsd:string ;
     prov:wasGeneratedBy ufrj:carga_levantamento_sismico_2023 .
 
 ufrj:pocos_perfurados_2023 a prov:Entity,
         "void:Dataset"^^xsd:string ;
     rdfs:label "Dataset carregado: pocos_perfurados_2023"^^xsd:string ;
-    prov:generatedAtTime "2024-12-01T06:20:11.255494"^^xsd:string ;
+    prov:generatedAtTime "2024-12-01T13:39:49.304557"^^xsd:string ;
     prov:wasGeneratedBy ufrj:carga_pocos_perfurados_2023 .
 
 ufrj:reservas_nacionais_hc a prov:Entity,
         "void:Dataset"^^xsd:string ;
     rdfs:label "Dataset carregado: reservas_nacionais_hc"^^xsd:string ;
-    prov:generatedAtTime "2024-12-01T06:20:11.152710"^^xsd:string ;
+    prov:generatedAtTime "2024-12-01T13:39:49.134066"^^xsd:string ;
     prov:wasGeneratedBy ufrj:carga_reservas_nacionais_hc .
-
-ufrj:setores_sirgas a prov:Entity,
-        "void:Dataset"^^xsd:string ;
-    rdfs:label "Dataset processado: setores_sirgas"^^xsd:string ;
-    prov:generatedAtTime "2024-12-01T06:20:11.413634"^^xsd:string ;
-    prov:wasGeneratedBy ufrj:carga_setores_sirgas .
 
 ufrj:shp_BLOCOS_EXPLORATORIOS_SIRGASPolygon.shp a prov:Entity,
         "void:Dataset"^^xsd:string ;
     rdfs:label "Shapefile carregado: BLOCOS_EXPLORATORIOS_SIRGASPolygon.shp"^^xsd:string ;
-    prov:generatedAtTime "2024-12-01T06:20:11.722834"^^xsd:string .
+    prov:generatedAtTime "2024-12-01T13:39:50.615730"^^xsd:string ;
+    prov:wasDerivedFrom ufrj:blocos_exploratorios ;
+    prov:wasGeneratedBy ufrj:carga_blocos_exploratorios .
 
 ufrj:shp_CAMPOS_PRODUCAO_SIRGASPolygon.shp a prov:Entity,
         "void:Dataset"^^xsd:string ;
     rdfs:label "Shapefile carregado: CAMPOS_PRODUCAO_SIRGASPolygon.shp"^^xsd:string ;
-    prov:generatedAtTime "2024-12-01T06:20:11.975268"^^xsd:string .
+    prov:generatedAtTime "2024-12-01T13:39:51.712045"^^xsd:string ;
+    prov:wasDerivedFrom ufrj:campos_producao ;
+    prov:wasGeneratedBy ufrj:carga_campos_producao .
 
 ufrj:shp_SETORES_TODOS_SIRGAS.shp a prov:Entity,
         "void:Dataset"^^xsd:string ;
     rdfs:label "Shapefile carregado: SETORES_TODOS_SIRGAS.shp"^^xsd:string ;
-    prov:generatedAtTime "2024-12-01T06:20:11.442242"^^xsd:string .
+    prov:generatedAtTime "2024-12-01T13:39:49.496217"^^xsd:string ;
+    prov:wasDerivedFrom ufrj:setores_sirgas ;
+    prov:wasGeneratedBy ufrj:carga_setores_sirgas .
 
 ufrj:tabela_dados_geoquimica a prov:Entity,
         "void:Dataset"^^xsd:string ;
     rdfs:label "Dataset carregado: tabela_dados_geoquimica"^^xsd:string ;
-    prov:generatedAtTime "2024-12-01T06:20:10.868500"^^xsd:string ;
+    prov:generatedAtTime "2024-12-01T13:39:48.718835"^^xsd:string ;
     prov:wasGeneratedBy ufrj:carga_tabela_dados_geoquimica .
 
 ufrj:tabela_levantamentos_geoquimica a prov:Entity,
         "void:Dataset"^^xsd:string ;
     rdfs:label "Dataset carregado: tabela_levantamentos_geoquimica"^^xsd:string ;
-    prov:generatedAtTime "2024-12-01T06:20:10.478557"^^xsd:string ;
+    prov:generatedAtTime "2024-12-01T13:39:48.280200"^^xsd:string ;
     prov:wasGeneratedBy ufrj:carga_tabela_levantamentos_geoquimica .
 
 ufrj:tabela_pocos_2024 a prov:Entity,
         "void:Dataset"^^xsd:string ;
     rdfs:label "Dataset carregado: tabela_pocos_2024"^^xsd:string ;
-    prov:generatedAtTime "2024-12-01T06:20:10.397237"^^xsd:string ;
+    prov:generatedAtTime "2024-12-01T13:39:48.148214"^^xsd:string ;
     prov:wasGeneratedBy ufrj:carga_tabela_pocos_2024 .
-
-ufrj:unknown_BLOCOS_EXPLORATORIOS_SIRGASPolygon.cst a prov:Entity,
-        "void:Dataset"^^xsd:string ;
-    rdfs:label "Arquivo desconhecido: BLOCOS_EXPLORATORIOS_SIRGASPolygon.cst"^^xsd:string ;
-    prov:atLocation "./dados/temp\\BLOCOS_EXPLORATORIOS_SIRGASPolygon.cst"^^xsd:string ;
-    prov:wasGeneratedBy ufrj:analyze_unknown_files .
-
-ufrj:unknown_BLOCOS_EXPLORATORIOS_SIRGASPolygon.dbf a prov:Entity,
-        "void:Dataset"^^xsd:string ;
-    rdfs:label "Arquivo desconhecido: BLOCOS_EXPLORATORIOS_SIRGASPolygon.dbf"^^xsd:string ;
-    prov:atLocation "./dados/temp\\BLOCOS_EXPLORATORIOS_SIRGASPolygon.dbf"^^xsd:string ;
-    prov:wasGeneratedBy ufrj:analyze_unknown_files .
-
-ufrj:unknown_BLOCOS_EXPLORATORIOS_SIRGASPolygon.prj a prov:Entity,
-        "void:Dataset"^^xsd:string ;
-    rdfs:label "Arquivo desconhecido: BLOCOS_EXPLORATORIOS_SIRGASPolygon.prj"^^xsd:string ;
-    prov:atLocation "./dados/temp\\BLOCOS_EXPLORATORIOS_SIRGASPolygon.prj"^^xsd:string ;
-    prov:wasGeneratedBy ufrj:analyze_unknown_files .
-
-ufrj:unknown_BLOCOS_EXPLORATORIOS_SIRGASPolygon.shx a prov:Entity,
-        "void:Dataset"^^xsd:string ;
-    rdfs:label "Arquivo desconhecido: BLOCOS_EXPLORATORIOS_SIRGASPolygon.shx"^^xsd:string ;
-    prov:atLocation "./dados/temp\\BLOCOS_EXPLORATORIOS_SIRGASPolygon.shx"^^xsd:string ;
-    prov:wasGeneratedBy ufrj:analyze_unknown_files .
-
-ufrj:unknown_CAMPOS_PRODUCAO_SIRGASPolygon.cst a prov:Entity,
-        "void:Dataset"^^xsd:string ;
-    rdfs:label "Arquivo desconhecido: CAMPOS_PRODUCAO_SIRGASPolygon.cst"^^xsd:string ;
-    prov:atLocation "./dados/temp\\CAMPOS_PRODUCAO_SIRGASPolygon.cst"^^xsd:string ;
-    prov:wasGeneratedBy ufrj:analyze_unknown_files .
-
-ufrj:unknown_CAMPOS_PRODUCAO_SIRGASPolygon.dbf a prov:Entity,
-        "void:Dataset"^^xsd:string ;
-    rdfs:label "Arquivo desconhecido: CAMPOS_PRODUCAO_SIRGASPolygon.dbf"^^xsd:string ;
-    prov:atLocation "./dados/temp\\CAMPOS_PRODUCAO_SIRGASPolygon.dbf"^^xsd:string ;
-    prov:wasGeneratedBy ufrj:analyze_unknown_files .
-
-ufrj:unknown_CAMPOS_PRODUCAO_SIRGASPolygon.prj a prov:Entity,
-        "void:Dataset"^^xsd:string ;
-    rdfs:label "Arquivo desconhecido: CAMPOS_PRODUCAO_SIRGASPolygon.prj"^^xsd:string ;
-    prov:atLocation "./dados/temp\\CAMPOS_PRODUCAO_SIRGASPolygon.prj"^^xsd:string ;
-    prov:wasGeneratedBy ufrj:analyze_unknown_files .
-
-ufrj:unknown_CAMPOS_PRODUCAO_SIRGASPolygon.shx a prov:Entity,
-        "void:Dataset"^^xsd:string ;
-    rdfs:label "Arquivo desconhecido: CAMPOS_PRODUCAO_SIRGASPolygon.shx"^^xsd:string ;
-    prov:atLocation "./dados/temp\\CAMPOS_PRODUCAO_SIRGASPolygon.shx"^^xsd:string ;
-    prov:wasGeneratedBy ufrj:analyze_unknown_files .
-
-ufrj:unknown_SETORES_TODOS_SIRGAS.dbf a prov:Entity,
-        "void:Dataset"^^xsd:string ;
-    rdfs:label "Arquivo desconhecido: SETORES_TODOS_SIRGAS.dbf"^^xsd:string ;
-    prov:atLocation "./dados/temp\\SETORES_TODOS_SIRGAS.dbf"^^xsd:string ;
-    prov:wasGeneratedBy ufrj:analyze_unknown_files .
-
-ufrj:unknown_SETORES_TODOS_SIRGAS.prj a prov:Entity,
-        "void:Dataset"^^xsd:string ;
-    rdfs:label "Arquivo desconhecido: SETORES_TODOS_SIRGAS.prj"^^xsd:string ;
-    prov:atLocation "./dados/temp\\SETORES_TODOS_SIRGAS.prj"^^xsd:string ;
-    prov:wasGeneratedBy ufrj:analyze_unknown_files .
-
-ufrj:unknown_SETORES_TODOS_SIRGAS.sbn a prov:Entity,
-        "void:Dataset"^^xsd:string ;
-    rdfs:label "Arquivo desconhecido: SETORES_TODOS_SIRGAS.sbn"^^xsd:string ;
-    prov:atLocation "./dados/temp\\SETORES_TODOS_SIRGAS.sbn"^^xsd:string ;
-    prov:wasGeneratedBy ufrj:analyze_unknown_files .
-
-ufrj:unknown_SETORES_TODOS_SIRGAS.sbx a prov:Entity,
-        "void:Dataset"^^xsd:string ;
-    rdfs:label "Arquivo desconhecido: SETORES_TODOS_SIRGAS.sbx"^^xsd:string ;
-    prov:atLocation "./dados/temp\\SETORES_TODOS_SIRGAS.sbx"^^xsd:string ;
-    prov:wasGeneratedBy ufrj:analyze_unknown_files .
-
-ufrj:unknown_SETORES_TODOS_SIRGAS.shx a prov:Entity,
-        "void:Dataset"^^xsd:string ;
-    rdfs:label "Arquivo desconhecido: SETORES_TODOS_SIRGAS.shx"^^xsd:string ;
-    prov:atLocation "./dados/temp\\SETORES_TODOS_SIRGAS.shx"^^xsd:string ;
-    prov:wasGeneratedBy ufrj:analyze_unknown_files .
-
-ufrj:unknown_SETORES_TODOS_SIRGAS.xml a prov:Entity,
-        "void:Dataset"^^xsd:string ;
-    rdfs:label "Arquivo desconhecido: SETORES_TODOS_SIRGAS.xml"^^xsd:string ;
-    prov:atLocation "./dados/temp\\SETORES_TODOS_SIRGAS.xml"^^xsd:string ;
-    prov:wasGeneratedBy ufrj:analyze_unknown_files .
-
-ufrj:unknown_wfsrequest.txt a prov:Entity,
-        "void:Dataset"^^xsd:string ;
-    rdfs:label "Arquivo desconhecido: wfsrequest.txt"^^xsd:string ;
-    prov:atLocation "./dados/temp\\wfsrequest.txt"^^xsd:string ;
-    prov:wasGeneratedBy ufrj:analyze_unknown_files .
 
 petrobras:Petrobras a prov:Agent,
         "prov:Organization"^^xsd:string ;
@@ -311,6 +188,20 @@ anp:ANP a prov:Agent,
         "prov:Organization"^^xsd:string ;
     prov:actedOnBehalfOf br:orgBr ;
     foaf:name "Ag&#234;ncia Nacional do Petr&#243;leo, G&#225;s Natural e Biocombust&#237;veis"^^xsd:string .
+
+anp:blocos_exploratorios a prov:Entity,
+        "void:Dataset"^^xsd:string ;
+    rdfs:label "Blocos explorat&#243;rios"^^xsd:string ;
+    prov:description "Blocos explorat&#243;rios com dados geoespaciais."^^xsd:string ;
+    prov:format "zip"^^xsd:string ;
+    prov:wasGeneratedBy anp:create-dataset .
+
+anp:campos_producao a prov:Entity,
+        "void:Dataset"^^xsd:string ;
+    rdfs:label "Campos de Produ&#231;&#227;o"^^xsd:string ;
+    prov:description "Dados dos campos de produ&#231;&#227;o em formato SIRGAS."^^xsd:string ;
+    prov:format "zip"^^xsd:string ;
+    prov:wasGeneratedBy anp:create-dataset .
 
 anp:levantamento_sismico_2023 a prov:Entity,
         "void:Dataset"^^xsd:string ;
@@ -331,6 +222,13 @@ anp:reservas_nacionais_hc a prov:Entity,
     rdfs:label "Reservas Nacionais de Hidrocarbonetos"^^xsd:string ;
     prov:description "Tabela com dados sobre reservas nacionais."^^xsd:string ;
     prov:format "xlsx"^^xsd:string ;
+    prov:wasGeneratedBy anp:create-dataset .
+
+anp:setores_sirgas a prov:Entity,
+        "void:Dataset"^^xsd:string ;
+    rdfs:label "Setores SIRGAS"^^xsd:string ;
+    prov:description "Modelos explorat&#243;rios em formato SIRGAS."^^xsd:string ;
+    prov:format "zip"^^xsd:string ;
     prov:wasGeneratedBy anp:create-dataset .
 
 anp:tabela_dados_geoquimica a prov:Entity,
@@ -371,63 +269,78 @@ ufrj:Ubirajara a prov:Agent,
     foaf:mbox "ubirajas@hotmail.com"^^xsd:string ;
     foaf:name "Ubirajara Sim&#245;es Santos"^^xsd:string .
 
-ufrj:carga_blocos_exploratorios a prov:Activity ;
-    rdfs:label "Processamento do ZIP: blocos_exploratorios"^^xsd:string ;
-    prov:endedAtTime "2024-12-01T06:20:11.723832"^^xsd:dateTime ;
-    prov:startedAtTime "2024-12-01T06:20:11.442242"^^xsd:dateTime ;
-    prov:wasAssociatedWith ufrj:eda.ipynb .
+ufrj:blocos_exploratorios a prov:Entity,
+        "void:Dataset"^^xsd:string ;
+    rdfs:label "Dataset processado: blocos_exploratorios"^^xsd:string ;
+    prov:generatedAtTime "2024-12-01T13:39:50.567932"^^xsd:string ;
+    prov:wasGeneratedBy ufrj:carga_blocos_exploratorios .
 
-ufrj:carga_campos_producao a prov:Activity ;
-    rdfs:label "Processamento do ZIP: campos_producao"^^xsd:string ;
-    prov:endedAtTime "2024-12-01T06:20:11.975268"^^xsd:dateTime ;
-    prov:startedAtTime "2024-12-01T06:20:11.723832"^^xsd:dateTime ;
-    prov:wasAssociatedWith ufrj:eda.ipynb .
+ufrj:campos_producao a prov:Entity,
+        "void:Dataset"^^xsd:string ;
+    rdfs:label "Dataset processado: campos_producao"^^xsd:string ;
+    prov:generatedAtTime "2024-12-01T13:39:51.667046"^^xsd:string ;
+    prov:wasGeneratedBy ufrj:carga_campos_producao .
 
 ufrj:carga_levantamento_sismico_2023 a prov:Activity ;
-    prov:endedAtTime "2024-12-01T06:20:10.101436"^^xsd:dateTime ;
-    prov:startedAtTime "2024-12-01T06:20:10.013751"^^xsd:dateTime ;
+    prov:endedAtTime "2024-12-01T13:39:47.855695"^^xsd:dateTime ;
+    prov:startedAtTime "2024-12-01T13:39:47.705314"^^xsd:dateTime ;
     prov:used anp:levantamento_sismico_2023 ;
     prov:wasAssociatedWith ufrj:eda.ipynb .
 
 ufrj:carga_pocos_perfurados_2023 a prov:Activity ;
-    prov:endedAtTime "2024-12-01T06:20:11.255494"^^xsd:dateTime ;
-    prov:startedAtTime "2024-12-01T06:20:11.152710"^^xsd:dateTime ;
+    prov:endedAtTime "2024-12-01T13:39:49.304557"^^xsd:dateTime ;
+    prov:startedAtTime "2024-12-01T13:39:49.134066"^^xsd:dateTime ;
     prov:used anp:pocos_perfurados_2023 ;
     prov:wasAssociatedWith ufrj:eda.ipynb .
 
 ufrj:carga_reservas_nacionais_hc a prov:Activity ;
-    prov:endedAtTime "2024-12-01T06:20:11.152710"^^xsd:dateTime ;
-    prov:startedAtTime "2024-12-01T06:20:10.868500"^^xsd:dateTime ;
+    prov:endedAtTime "2024-12-01T13:39:49.134066"^^xsd:dateTime ;
+    prov:startedAtTime "2024-12-01T13:39:48.719834"^^xsd:dateTime ;
     prov:used anp:reservas_nacionais_hc ;
     prov:wasAssociatedWith ufrj:eda.ipynb .
 
-ufrj:carga_setores_sirgas a prov:Activity ;
-    rdfs:label "Processamento do ZIP: setores_sirgas"^^xsd:string ;
-    prov:endedAtTime "2024-12-01T06:20:11.442242"^^xsd:dateTime ;
-    prov:startedAtTime "2024-12-01T06:20:11.255494"^^xsd:dateTime ;
-    prov:wasAssociatedWith ufrj:eda.ipynb .
-
 ufrj:carga_tabela_dados_geoquimica a prov:Activity ;
-    prov:endedAtTime "2024-12-01T06:20:10.868500"^^xsd:dateTime ;
-    prov:startedAtTime "2024-12-01T06:20:10.478557"^^xsd:dateTime ;
+    prov:endedAtTime "2024-12-01T13:39:48.718835"^^xsd:dateTime ;
+    prov:startedAtTime "2024-12-01T13:39:48.280200"^^xsd:dateTime ;
     prov:used anp:tabela_dados_geoquimica ;
     prov:wasAssociatedWith ufrj:eda.ipynb .
 
 ufrj:carga_tabela_levantamentos_geoquimica a prov:Activity ;
-    prov:endedAtTime "2024-12-01T06:20:10.478557"^^xsd:dateTime ;
-    prov:startedAtTime "2024-12-01T06:20:10.397237"^^xsd:dateTime ;
+    prov:endedAtTime "2024-12-01T13:39:48.280200"^^xsd:dateTime ;
+    prov:startedAtTime "2024-12-01T13:39:48.156221"^^xsd:dateTime ;
     prov:used anp:tabela_levantamentos_geoquimica ;
     prov:wasAssociatedWith ufrj:eda.ipynb .
 
 ufrj:carga_tabela_pocos_2024 a prov:Activity ;
-    prov:endedAtTime "2024-12-01T06:20:10.397237"^^xsd:dateTime ;
-    prov:startedAtTime "2024-12-01T06:20:10.101436"^^xsd:dateTime ;
+    prov:endedAtTime "2024-12-01T13:39:48.148214"^^xsd:dateTime ;
+    prov:startedAtTime "2024-12-01T13:39:47.855695"^^xsd:dateTime ;
     prov:used anp:tabela_pocos_2024 ;
+    prov:wasAssociatedWith ufrj:eda.ipynb .
+
+ufrj:setores_sirgas a prov:Entity,
+        "void:Dataset"^^xsd:string ;
+    rdfs:label "Dataset processado: setores_sirgas"^^xsd:string ;
+    prov:generatedAtTime "2024-12-01T13:39:49.469178"^^xsd:string ;
+    prov:wasGeneratedBy ufrj:carga_setores_sirgas .
+
+ufrj:carga_blocos_exploratorios a prov:Activity ;
+    prov:startedAtTime "2024-12-01T13:39:49.498215"^^xsd:dateTime ;
+    prov:used anp:blocos_exploratorios ;
+    prov:wasAssociatedWith ufrj:eda.ipynb .
+
+ufrj:carga_campos_producao a prov:Activity ;
+    prov:startedAtTime "2024-12-01T13:39:50.619341"^^xsd:dateTime ;
+    prov:used anp:campos_producao ;
+    prov:wasAssociatedWith ufrj:eda.ipynb .
+
+ufrj:carga_setores_sirgas a prov:Activity ;
+    prov:startedAtTime "2024-12-01T13:39:49.305557"^^xsd:dateTime ;
+    prov:used anp:setores_sirgas ;
     prov:wasAssociatedWith ufrj:eda.ipynb .
 
 ufrj:save-ipynb a prov:Activity ;
     rdfs:label "Salvar notebook EDA"^^xsd:string ;
-    prov:startedAtTime "2024-12-01T06:20:10.013751"^^xsd:dateTime ;
+    prov:startedAtTime "2024-12-01T13:39:47.704315"^^xsd:dateTime ;
     prov:wasAssociatedWith ufrj:eda.ipynb .
 
 br:orgBr a prov:Agent,
@@ -449,15 +362,8 @@ ufrj:eda.ipynb a prov:Agent,
     prov:actedOnBehalfOf ufrj:PPGI ;
     foaf:name "eda.ipynb"^^xsd:string .
 
-ufrj:analyze_unknown_files a prov:Activity ;
-    rdfs:label "An&#225;lise de arquivos desconhecidos"^^xsd:string ;
-    prov:startedAtTime "2024-12-01T06:20:11.442242"^^xsd:dateTime,
-        "2024-12-01T06:20:11.722834"^^xsd:dateTime,
-        "2024-12-01T06:20:11.975268"^^xsd:dateTime ;
-    prov:wasAssociatedWith ufrj:eda.ipynb .
-
 ufrj:track_system_and_packages a prov:Activity ;
     rdfs:label "Track system and package provenance"^^xsd:string ;
-    prov:startedAtTime "2024-12-01T06:20:09.992739"^^xsd:dateTime ;
+    prov:startedAtTime "2024-12-01T13:39:47.687316"^^xsd:dateTime ;
     prov:wasAssociatedWith ufrj:eda.ipynb .
 
