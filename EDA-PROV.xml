@@ -302,7 +302,7 @@
     <prov:activity prov:ref="ufrj:save-ipynb"/>
   </prov:wasGeneratedBy>
   <prov:activity prov:id="ufrj:track_system_and_packages">
-    <prov:startTime>2024-12-01T13:39:47.687316</prov:startTime>
+    <prov:startTime>2024-12-01T17:49:46.334129</prov:startTime>
     <prov:label>Track system and package provenance</prov:label>
   </prov:activity>
   <prov:wasAssociatedWith>
@@ -436,7 +436,7 @@
     <prov:activity prov:ref="ufrj:track_system_and_packages"/>
   </prov:wasGeneratedBy>
   <prov:activity prov:id="ufrj:save-ipynb">
-    <prov:startTime>2024-12-01T13:39:47.704315</prov:startTime>
+    <prov:startTime>2024-12-01T17:49:46.351227</prov:startTime>
     <prov:label>Salvar notebook EDA</prov:label>
   </prov:activity>
   <prov:wasAssociatedWith>
@@ -448,8 +448,8 @@
     <prov:activity prov:ref="ufrj:save-ipynb"/>
   </prov:wasGeneratedBy>
   <prov:activity prov:id="ufrj:carga_levantamento_sismico_2023">
-    <prov:startTime>2024-12-01T13:39:47.705314</prov:startTime>
-    <prov:endTime>2024-12-01T13:39:47.855695</prov:endTime>
+    <prov:startTime>2024-12-01T17:49:46.351227</prov:startTime>
+    <prov:endTime>2024-12-01T17:49:46.495139</prov:endTime>
   </prov:activity>
   <prov:wasAssociatedWith>
     <prov:activity prov:ref="ufrj:carga_levantamento_sismico_2023"/>
@@ -458,7 +458,7 @@
   <prov:entity prov:id="ufrj:levantamento_sismico_2023">
     <prov:label>Dataset carregado: levantamento_sismico_2023</prov:label>
     <prov:type xsi:type="xsd:string">void:Dataset</prov:type>
-    <prov:generatedAtTime>2024-12-01T13:39:47.855695</prov:generatedAtTime>
+    <prov:generatedAtTime>2024-12-01T17:49:46.495139</prov:generatedAtTime>
   </prov:entity>
   <prov:wasGeneratedBy>
     <prov:entity prov:ref="ufrj:levantamento_sismico_2023"/>
@@ -469,8 +469,8 @@
     <prov:entity prov:ref="anp:levantamento_sismico_2023"/>
   </prov:used>
   <prov:activity prov:id="ufrj:carga_tabela_pocos_2024">
-    <prov:startTime>2024-12-01T13:39:47.855695</prov:startTime>
-    <prov:endTime>2024-12-01T13:39:48.148214</prov:endTime>
+    <prov:startTime>2024-12-01T17:49:46.495139</prov:startTime>
+    <prov:endTime>2024-12-01T17:49:46.787707</prov:endTime>
   </prov:activity>
   <prov:wasAssociatedWith>
     <prov:activity prov:ref="ufrj:carga_tabela_pocos_2024"/>
@@ -479,7 +479,7 @@
   <prov:entity prov:id="ufrj:tabela_pocos_2024">
     <prov:label>Dataset carregado: tabela_pocos_2024</prov:label>
     <prov:type xsi:type="xsd:string">void:Dataset</prov:type>
-    <prov:generatedAtTime>2024-12-01T13:39:48.148214</prov:generatedAtTime>
+    <prov:generatedAtTime>2024-12-01T17:49:46.787707</prov:generatedAtTime>
   </prov:entity>
   <prov:wasGeneratedBy>
     <prov:entity prov:ref="ufrj:tabela_pocos_2024"/>
@@ -490,8 +490,8 @@
     <prov:entity prov:ref="anp:tabela_pocos_2024"/>
   </prov:used>
   <prov:activity prov:id="ufrj:carga_tabela_levantamentos_geoquimica">
-    <prov:startTime>2024-12-01T13:39:48.156221</prov:startTime>
-    <prov:endTime>2024-12-01T13:39:48.280200</prov:endTime>
+    <prov:startTime>2024-12-01T17:49:46.787707</prov:startTime>
+    <prov:endTime>2024-12-01T17:49:46.898920</prov:endTime>
   </prov:activity>
   <prov:wasAssociatedWith>
     <prov:activity prov:ref="ufrj:carga_tabela_levantamentos_geoquimica"/>
@@ -500,7 +500,7 @@
   <prov:entity prov:id="ufrj:tabela_levantamentos_geoquimica">
     <prov:label>Dataset carregado: tabela_levantamentos_geoquimica</prov:label>
     <prov:type xsi:type="xsd:string">void:Dataset</prov:type>
-    <prov:generatedAtTime>2024-12-01T13:39:48.280200</prov:generatedAtTime>
+    <prov:generatedAtTime>2024-12-01T17:49:46.898920</prov:generatedAtTime>
   </prov:entity>
   <prov:wasGeneratedBy>
     <prov:entity prov:ref="ufrj:tabela_levantamentos_geoquimica"/>
@@ -511,8 +511,8 @@
     <prov:entity prov:ref="anp:tabela_levantamentos_geoquimica"/>
   </prov:used>
   <prov:activity prov:id="ufrj:carga_tabela_dados_geoquimica">
-    <prov:startTime>2024-12-01T13:39:48.280200</prov:startTime>
-    <prov:endTime>2024-12-01T13:39:48.718835</prov:endTime>
+    <prov:startTime>2024-12-01T17:49:46.898920</prov:startTime>
+    <prov:endTime>2024-12-01T17:49:47.471624</prov:endTime>
   </prov:activity>
   <prov:wasAssociatedWith>
     <prov:activity prov:ref="ufrj:carga_tabela_dados_geoquimica"/>
@@ -521,7 +521,7 @@
   <prov:entity prov:id="ufrj:tabela_dados_geoquimica">
     <prov:label>Dataset carregado: tabela_dados_geoquimica</prov:label>
     <prov:type xsi:type="xsd:string">void:Dataset</prov:type>
-    <prov:generatedAtTime>2024-12-01T13:39:48.718835</prov:generatedAtTime>
+    <prov:generatedAtTime>2024-12-01T17:49:47.471624</prov:generatedAtTime>
   </prov:entity>
   <prov:wasGeneratedBy>
     <prov:entity prov:ref="ufrj:tabela_dados_geoquimica"/>
@@ -532,8 +532,8 @@
     <prov:entity prov:ref="anp:tabela_dados_geoquimica"/>
   </prov:used>
   <prov:activity prov:id="ufrj:carga_reservas_nacionais_hc">
-    <prov:startTime>2024-12-01T13:39:48.719834</prov:startTime>
-    <prov:endTime>2024-12-01T13:39:49.134066</prov:endTime>
+    <prov:startTime>2024-12-01T17:49:47.471624</prov:startTime>
+    <prov:endTime>2024-12-01T17:49:47.891492</prov:endTime>
   </prov:activity>
   <prov:wasAssociatedWith>
     <prov:activity prov:ref="ufrj:carga_reservas_nacionais_hc"/>
@@ -542,7 +542,7 @@
   <prov:entity prov:id="ufrj:reservas_nacionais_hc">
     <prov:label>Dataset carregado: reservas_nacionais_hc</prov:label>
     <prov:type xsi:type="xsd:string">void:Dataset</prov:type>
-    <prov:generatedAtTime>2024-12-01T13:39:49.134066</prov:generatedAtTime>
+    <prov:generatedAtTime>2024-12-01T17:49:47.891492</prov:generatedAtTime>
   </prov:entity>
   <prov:wasGeneratedBy>
     <prov:entity prov:ref="ufrj:reservas_nacionais_hc"/>
@@ -553,8 +553,8 @@
     <prov:entity prov:ref="anp:reservas_nacionais_hc"/>
   </prov:used>
   <prov:activity prov:id="ufrj:carga_pocos_perfurados_2023">
-    <prov:startTime>2024-12-01T13:39:49.134066</prov:startTime>
-    <prov:endTime>2024-12-01T13:39:49.304557</prov:endTime>
+    <prov:startTime>2024-12-01T17:49:47.892500</prov:startTime>
+    <prov:endTime>2024-12-01T17:49:48.072873</prov:endTime>
   </prov:activity>
   <prov:wasAssociatedWith>
     <prov:activity prov:ref="ufrj:carga_pocos_perfurados_2023"/>
@@ -563,7 +563,7 @@
   <prov:entity prov:id="ufrj:pocos_perfurados_2023">
     <prov:label>Dataset carregado: pocos_perfurados_2023</prov:label>
     <prov:type xsi:type="xsd:string">void:Dataset</prov:type>
-    <prov:generatedAtTime>2024-12-01T13:39:49.304557</prov:generatedAtTime>
+    <prov:generatedAtTime>2024-12-01T17:49:48.072873</prov:generatedAtTime>
   </prov:entity>
   <prov:wasGeneratedBy>
     <prov:entity prov:ref="ufrj:pocos_perfurados_2023"/>
@@ -574,7 +574,7 @@
     <prov:entity prov:ref="anp:pocos_perfurados_2023"/>
   </prov:used>
   <prov:activity prov:id="ufrj:carga_setores_sirgas">
-    <prov:startTime>2024-12-01T13:39:49.305557</prov:startTime>
+    <prov:startTime>2024-12-01T17:49:48.072873</prov:startTime>
   </prov:activity>
   <prov:wasAssociatedWith>
     <prov:activity prov:ref="ufrj:carga_setores_sirgas"/>
@@ -587,7 +587,7 @@
   <prov:entity prov:id="ufrj:setores_sirgas">
     <prov:label>Dataset processado: setores_sirgas</prov:label>
     <prov:type xsi:type="xsd:string">void:Dataset</prov:type>
-    <prov:generatedAtTime>2024-12-01T13:39:49.469178</prov:generatedAtTime>
+    <prov:generatedAtTime>2024-12-01T17:49:48.305852</prov:generatedAtTime>
   </prov:entity>
   <prov:wasGeneratedBy>
     <prov:entity prov:ref="ufrj:setores_sirgas"/>
@@ -596,7 +596,7 @@
   <prov:entity prov:id="ufrj:shp_SETORES_TODOS_SIRGAS.shp">
     <prov:label>Shapefile carregado: SETORES_TODOS_SIRGAS.shp</prov:label>
     <prov:type xsi:type="xsd:string">void:Dataset</prov:type>
-    <prov:generatedAtTime>2024-12-01T13:39:49.496217</prov:generatedAtTime>
+    <prov:generatedAtTime>2024-12-01T17:49:48.330270</prov:generatedAtTime>
   </prov:entity>
   <prov:wasDerivedFrom>
     <prov:generatedEntity prov:ref="ufrj:shp_SETORES_TODOS_SIRGAS.shp"/>
@@ -607,7 +607,7 @@
     <prov:activity prov:ref="ufrj:carga_setores_sirgas"/>
   </prov:wasGeneratedBy>
   <prov:activity prov:id="ufrj:carga_blocos_exploratorios">
-    <prov:startTime>2024-12-01T13:39:49.498215</prov:startTime>
+    <prov:startTime>2024-12-01T17:49:48.331187</prov:startTime>
   </prov:activity>
   <prov:wasAssociatedWith>
     <prov:activity prov:ref="ufrj:carga_blocos_exploratorios"/>
@@ -620,7 +620,7 @@
   <prov:entity prov:id="ufrj:blocos_exploratorios">
     <prov:label>Dataset processado: blocos_exploratorios</prov:label>
     <prov:type xsi:type="xsd:string">void:Dataset</prov:type>
-    <prov:generatedAtTime>2024-12-01T13:39:50.567932</prov:generatedAtTime>
+    <prov:generatedAtTime>2024-12-01T17:49:49.240286</prov:generatedAtTime>
   </prov:entity>
   <prov:wasGeneratedBy>
     <prov:entity prov:ref="ufrj:blocos_exploratorios"/>
@@ -629,7 +629,7 @@
   <prov:entity prov:id="ufrj:shp_BLOCOS_EXPLORATORIOS_SIRGASPolygon.shp">
     <prov:label>Shapefile carregado: BLOCOS_EXPLORATORIOS_SIRGASPolygon.shp</prov:label>
     <prov:type xsi:type="xsd:string">void:Dataset</prov:type>
-    <prov:generatedAtTime>2024-12-01T13:39:50.615730</prov:generatedAtTime>
+    <prov:generatedAtTime>2024-12-01T17:49:49.270127</prov:generatedAtTime>
   </prov:entity>
   <prov:wasDerivedFrom>
     <prov:generatedEntity prov:ref="ufrj:shp_BLOCOS_EXPLORATORIOS_SIRGASPolygon.shp"/>
@@ -640,7 +640,7 @@
     <prov:activity prov:ref="ufrj:carga_blocos_exploratorios"/>
   </prov:wasGeneratedBy>
   <prov:activity prov:id="ufrj:carga_campos_producao">
-    <prov:startTime>2024-12-01T13:39:50.619341</prov:startTime>
+    <prov:startTime>2024-12-01T17:49:49.270127</prov:startTime>
   </prov:activity>
   <prov:wasAssociatedWith>
     <prov:activity prov:ref="ufrj:carga_campos_producao"/>
@@ -653,7 +653,7 @@
   <prov:entity prov:id="ufrj:campos_producao">
     <prov:label>Dataset processado: campos_producao</prov:label>
     <prov:type xsi:type="xsd:string">void:Dataset</prov:type>
-    <prov:generatedAtTime>2024-12-01T13:39:51.667046</prov:generatedAtTime>
+    <prov:generatedAtTime>2024-12-01T17:49:50.298114</prov:generatedAtTime>
   </prov:entity>
   <prov:wasGeneratedBy>
     <prov:entity prov:ref="ufrj:campos_producao"/>
@@ -662,7 +662,7 @@
   <prov:entity prov:id="ufrj:shp_CAMPOS_PRODUCAO_SIRGASPolygon.shp">
     <prov:label>Shapefile carregado: CAMPOS_PRODUCAO_SIRGASPolygon.shp</prov:label>
     <prov:type xsi:type="xsd:string">void:Dataset</prov:type>
-    <prov:generatedAtTime>2024-12-01T13:39:51.712045</prov:generatedAtTime>
+    <prov:generatedAtTime>2024-12-01T17:49:50.341277</prov:generatedAtTime>
   </prov:entity>
   <prov:wasDerivedFrom>
     <prov:generatedEntity prov:ref="ufrj:shp_CAMPOS_PRODUCAO_SIRGASPolygon.shp"/>
@@ -672,4 +672,102 @@
     <prov:entity prov:ref="ufrj:shp_CAMPOS_PRODUCAO_SIRGASPolygon.shp"/>
     <prov:activity prov:ref="ufrj:carga_campos_producao"/>
   </prov:wasGeneratedBy>
+  <prov:activity prov:id="ufrj:carga_amostras_rochas_fluidos">
+    <prov:startTime>2024-12-01T17:49:50.341277</prov:startTime>
+  </prov:activity>
+  <prov:wasAssociatedWith>
+    <prov:activity prov:ref="ufrj:carga_amostras_rochas_fluidos"/>
+    <prov:agent prov:ref="ufrj:eda.ipynb"/>
+  </prov:wasAssociatedWith>
+  <prov:used>
+    <prov:activity prov:ref="ufrj:carga_amostras_rochas_fluidos"/>
+    <prov:entity prov:ref="anp:amostras_rochas_fluidos"/>
+  </prov:used>
+  <prov:entity prov:id="ufrj:amostras_rochas_fluidos">
+    <prov:label>Dataset processado: amostras_rochas_fluidos</prov:label>
+    <prov:type xsi:type="xsd:string">void:Dataset</prov:type>
+    <prov:generatedAtTime>2024-12-01T17:49:52.441114</prov:generatedAtTime>
+  </prov:entity>
+  <prov:wasGeneratedBy>
+    <prov:entity prov:ref="ufrj:amostras_rochas_fluidos"/>
+    <prov:activity prov:ref="ufrj:carga_amostras_rochas_fluidos"/>
+  </prov:wasGeneratedBy>
+  <prov:entity prov:id="ufrj:csv_consolidacao-daa-2023-calha.csv">
+    <prov:label>CSV carregado: consolidacao-daa-2023-calha.csv</prov:label>
+    <prov:type xsi:type="xsd:string">void:Dataset</prov:type>
+    <prov:generatedAtTime>2024-12-01T17:49:52.567893</prov:generatedAtTime>
+  </prov:entity>
+  <prov:wasGeneratedBy>
+    <prov:entity prov:ref="ufrj:csv_consolidacao-daa-2023-calha.csv"/>
+    <prov:activity prov:ref="ufrj:carga_amostras_rochas_fluidos"/>
+  </prov:wasGeneratedBy>
+  <prov:wasDerivedFrom>
+    <prov:generatedEntity prov:ref="ufrj:csv_consolidacao-daa-2023-calha.csv"/>
+    <prov:usedEntity prov:ref="ufrj:amostras_rochas_fluidos"/>
+  </prov:wasDerivedFrom>
+  <prov:entity prov:id="ufrj:csv_consolidacao-daa-2023-fluidos.csv">
+    <prov:label>CSV carregado: consolidacao-daa-2023-fluidos.csv</prov:label>
+    <prov:type xsi:type="xsd:string">void:Dataset</prov:type>
+    <prov:generatedAtTime>2024-12-01T17:49:52.594402</prov:generatedAtTime>
+  </prov:entity>
+  <prov:wasGeneratedBy>
+    <prov:entity prov:ref="ufrj:csv_consolidacao-daa-2023-fluidos.csv"/>
+    <prov:activity prov:ref="ufrj:carga_amostras_rochas_fluidos"/>
+  </prov:wasGeneratedBy>
+  <prov:wasDerivedFrom>
+    <prov:generatedEntity prov:ref="ufrj:csv_consolidacao-daa-2023-fluidos.csv"/>
+    <prov:usedEntity prov:ref="ufrj:amostras_rochas_fluidos"/>
+  </prov:wasDerivedFrom>
+  <prov:entity prov:id="ufrj:csv_consolidacao-daa-2023-laminas.csv">
+    <prov:label>CSV carregado: consolidacao-daa-2023-laminas.csv</prov:label>
+    <prov:type xsi:type="xsd:string">void:Dataset</prov:type>
+    <prov:generatedAtTime>2024-12-01T17:49:52.814452</prov:generatedAtTime>
+  </prov:entity>
+  <prov:wasGeneratedBy>
+    <prov:entity prov:ref="ufrj:csv_consolidacao-daa-2023-laminas.csv"/>
+    <prov:activity prov:ref="ufrj:carga_amostras_rochas_fluidos"/>
+  </prov:wasGeneratedBy>
+  <prov:wasDerivedFrom>
+    <prov:generatedEntity prov:ref="ufrj:csv_consolidacao-daa-2023-laminas.csv"/>
+    <prov:usedEntity prov:ref="ufrj:amostras_rochas_fluidos"/>
+  </prov:wasDerivedFrom>
+  <prov:entity prov:id="ufrj:csv_consolidacao-daa-2023-laterais.csv">
+    <prov:label>CSV carregado: consolidacao-daa-2023-laterais.csv</prov:label>
+    <prov:type xsi:type="xsd:string">void:Dataset</prov:type>
+    <prov:generatedAtTime>2024-12-01T17:49:52.861454</prov:generatedAtTime>
+  </prov:entity>
+  <prov:wasGeneratedBy>
+    <prov:entity prov:ref="ufrj:csv_consolidacao-daa-2023-laterais.csv"/>
+    <prov:activity prov:ref="ufrj:carga_amostras_rochas_fluidos"/>
+  </prov:wasGeneratedBy>
+  <prov:wasDerivedFrom>
+    <prov:generatedEntity prov:ref="ufrj:csv_consolidacao-daa-2023-laterais.csv"/>
+    <prov:usedEntity prov:ref="ufrj:amostras_rochas_fluidos"/>
+  </prov:wasDerivedFrom>
+  <prov:entity prov:id="ufrj:csv_consolidacao-daa-2023-plugues.csv">
+    <prov:label>CSV carregado: consolidacao-daa-2023-plugues.csv</prov:label>
+    <prov:type xsi:type="xsd:string">void:Dataset</prov:type>
+    <prov:generatedAtTime>2024-12-01T17:49:52.955973</prov:generatedAtTime>
+  </prov:entity>
+  <prov:wasGeneratedBy>
+    <prov:entity prov:ref="ufrj:csv_consolidacao-daa-2023-plugues.csv"/>
+    <prov:activity prov:ref="ufrj:carga_amostras_rochas_fluidos"/>
+  </prov:wasGeneratedBy>
+  <prov:wasDerivedFrom>
+    <prov:generatedEntity prov:ref="ufrj:csv_consolidacao-daa-2023-plugues.csv"/>
+    <prov:usedEntity prov:ref="ufrj:amostras_rochas_fluidos"/>
+  </prov:wasDerivedFrom>
+  <prov:entity prov:id="ufrj:csv_consolidacao-daa-2023-testemunhos.csv">
+    <prov:label>CSV carregado: consolidacao-daa-2023-testemunhos.csv</prov:label>
+    <prov:type xsi:type="xsd:string">void:Dataset</prov:type>
+    <prov:generatedAtTime>2024-12-01T17:49:53.000483</prov:generatedAtTime>
+  </prov:entity>
+  <prov:wasGeneratedBy>
+    <prov:entity prov:ref="ufrj:csv_consolidacao-daa-2023-testemunhos.csv"/>
+    <prov:activity prov:ref="ufrj:carga_amostras_rochas_fluidos"/>
+  </prov:wasGeneratedBy>
+  <prov:wasDerivedFrom>
+    <prov:generatedEntity prov:ref="ufrj:csv_consolidacao-daa-2023-testemunhos.csv"/>
+    <prov:usedEntity prov:ref="ufrj:amostras_rochas_fluidos"/>
+  </prov:wasDerivedFrom>
 </prov:document>

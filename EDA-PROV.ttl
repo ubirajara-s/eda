@@ -88,13 +88,6 @@ anp-dados_tec:dataset a prov:Entity,
     prov:format "csv"^^xsd:string ;
     prov:wasGeneratedBy anp:create-dataset .
 
-anp:amostras_rochas_fluidos a prov:Entity,
-        "void:Dataset"^^xsd:string ;
-    rdfs:label "Dataset com amostras de rochas e fluidos"^^xsd:string ;
-    prov:description "Consolidado 2023 de amostras dispon&#237;veis."^^xsd:string ;
-    prov:format "zip"^^xsd:string ;
-    prov:wasGeneratedBy anp:create-dataset .
-
 anp:github-eda a prov:Entity,
         "prov:Collection"^^xsd:string ;
     rdfs:label "Repositorio Eba da ANP"^^xsd:string ;
@@ -117,6 +110,48 @@ ufrj:create-ds-eda a prov:Activity ;
     prov:wasAssociatedWith ufrj:Ubirajara,
         ufrj:eda.ipynb .
 
+ufrj:csv_consolidacao-daa-2023-calha.csv a prov:Entity,
+        "void:Dataset"^^xsd:string ;
+    rdfs:label "CSV carregado: consolidacao-daa-2023-calha.csv"^^xsd:string ;
+    prov:generatedAtTime "2024-12-01T17:49:52.567893"^^xsd:string ;
+    prov:wasDerivedFrom ufrj:amostras_rochas_fluidos ;
+    prov:wasGeneratedBy ufrj:carga_amostras_rochas_fluidos .
+
+ufrj:csv_consolidacao-daa-2023-fluidos.csv a prov:Entity,
+        "void:Dataset"^^xsd:string ;
+    rdfs:label "CSV carregado: consolidacao-daa-2023-fluidos.csv"^^xsd:string ;
+    prov:generatedAtTime "2024-12-01T17:49:52.594402"^^xsd:string ;
+    prov:wasDerivedFrom ufrj:amostras_rochas_fluidos ;
+    prov:wasGeneratedBy ufrj:carga_amostras_rochas_fluidos .
+
+ufrj:csv_consolidacao-daa-2023-laminas.csv a prov:Entity,
+        "void:Dataset"^^xsd:string ;
+    rdfs:label "CSV carregado: consolidacao-daa-2023-laminas.csv"^^xsd:string ;
+    prov:generatedAtTime "2024-12-01T17:49:52.814452"^^xsd:string ;
+    prov:wasDerivedFrom ufrj:amostras_rochas_fluidos ;
+    prov:wasGeneratedBy ufrj:carga_amostras_rochas_fluidos .
+
+ufrj:csv_consolidacao-daa-2023-laterais.csv a prov:Entity,
+        "void:Dataset"^^xsd:string ;
+    rdfs:label "CSV carregado: consolidacao-daa-2023-laterais.csv"^^xsd:string ;
+    prov:generatedAtTime "2024-12-01T17:49:52.861454"^^xsd:string ;
+    prov:wasDerivedFrom ufrj:amostras_rochas_fluidos ;
+    prov:wasGeneratedBy ufrj:carga_amostras_rochas_fluidos .
+
+ufrj:csv_consolidacao-daa-2023-plugues.csv a prov:Entity,
+        "void:Dataset"^^xsd:string ;
+    rdfs:label "CSV carregado: consolidacao-daa-2023-plugues.csv"^^xsd:string ;
+    prov:generatedAtTime "2024-12-01T17:49:52.955973"^^xsd:string ;
+    prov:wasDerivedFrom ufrj:amostras_rochas_fluidos ;
+    prov:wasGeneratedBy ufrj:carga_amostras_rochas_fluidos .
+
+ufrj:csv_consolidacao-daa-2023-testemunhos.csv a prov:Entity,
+        "void:Dataset"^^xsd:string ;
+    rdfs:label "CSV carregado: consolidacao-daa-2023-testemunhos.csv"^^xsd:string ;
+    prov:generatedAtTime "2024-12-01T17:49:53.000483"^^xsd:string ;
+    prov:wasDerivedFrom ufrj:amostras_rochas_fluidos ;
+    prov:wasGeneratedBy ufrj:carga_amostras_rochas_fluidos .
+
 ufrj:eda-ipyn a prov:Entity,
         "foaf:Document"^^xsd:string ;
     rdfs:label "Notebook Python utilizado no trabalho"^^xsd:string ;
@@ -125,58 +160,58 @@ ufrj:eda-ipyn a prov:Entity,
 ufrj:levantamento_sismico_2023 a prov:Entity,
         "void:Dataset"^^xsd:string ;
     rdfs:label "Dataset carregado: levantamento_sismico_2023"^^xsd:string ;
-    prov:generatedAtTime "2024-12-01T13:39:47.855695"^^xsd:string ;
+    prov:generatedAtTime "2024-12-01T17:49:46.495139"^^xsd:string ;
     prov:wasGeneratedBy ufrj:carga_levantamento_sismico_2023 .
 
 ufrj:pocos_perfurados_2023 a prov:Entity,
         "void:Dataset"^^xsd:string ;
     rdfs:label "Dataset carregado: pocos_perfurados_2023"^^xsd:string ;
-    prov:generatedAtTime "2024-12-01T13:39:49.304557"^^xsd:string ;
+    prov:generatedAtTime "2024-12-01T17:49:48.072873"^^xsd:string ;
     prov:wasGeneratedBy ufrj:carga_pocos_perfurados_2023 .
 
 ufrj:reservas_nacionais_hc a prov:Entity,
         "void:Dataset"^^xsd:string ;
     rdfs:label "Dataset carregado: reservas_nacionais_hc"^^xsd:string ;
-    prov:generatedAtTime "2024-12-01T13:39:49.134066"^^xsd:string ;
+    prov:generatedAtTime "2024-12-01T17:49:47.891492"^^xsd:string ;
     prov:wasGeneratedBy ufrj:carga_reservas_nacionais_hc .
 
 ufrj:shp_BLOCOS_EXPLORATORIOS_SIRGASPolygon.shp a prov:Entity,
         "void:Dataset"^^xsd:string ;
     rdfs:label "Shapefile carregado: BLOCOS_EXPLORATORIOS_SIRGASPolygon.shp"^^xsd:string ;
-    prov:generatedAtTime "2024-12-01T13:39:50.615730"^^xsd:string ;
+    prov:generatedAtTime "2024-12-01T17:49:49.270127"^^xsd:string ;
     prov:wasDerivedFrom ufrj:blocos_exploratorios ;
     prov:wasGeneratedBy ufrj:carga_blocos_exploratorios .
 
 ufrj:shp_CAMPOS_PRODUCAO_SIRGASPolygon.shp a prov:Entity,
         "void:Dataset"^^xsd:string ;
     rdfs:label "Shapefile carregado: CAMPOS_PRODUCAO_SIRGASPolygon.shp"^^xsd:string ;
-    prov:generatedAtTime "2024-12-01T13:39:51.712045"^^xsd:string ;
+    prov:generatedAtTime "2024-12-01T17:49:50.341277"^^xsd:string ;
     prov:wasDerivedFrom ufrj:campos_producao ;
     prov:wasGeneratedBy ufrj:carga_campos_producao .
 
 ufrj:shp_SETORES_TODOS_SIRGAS.shp a prov:Entity,
         "void:Dataset"^^xsd:string ;
     rdfs:label "Shapefile carregado: SETORES_TODOS_SIRGAS.shp"^^xsd:string ;
-    prov:generatedAtTime "2024-12-01T13:39:49.496217"^^xsd:string ;
+    prov:generatedAtTime "2024-12-01T17:49:48.330270"^^xsd:string ;
     prov:wasDerivedFrom ufrj:setores_sirgas ;
     prov:wasGeneratedBy ufrj:carga_setores_sirgas .
 
 ufrj:tabela_dados_geoquimica a prov:Entity,
         "void:Dataset"^^xsd:string ;
     rdfs:label "Dataset carregado: tabela_dados_geoquimica"^^xsd:string ;
-    prov:generatedAtTime "2024-12-01T13:39:48.718835"^^xsd:string ;
+    prov:generatedAtTime "2024-12-01T17:49:47.471624"^^xsd:string ;
     prov:wasGeneratedBy ufrj:carga_tabela_dados_geoquimica .
 
 ufrj:tabela_levantamentos_geoquimica a prov:Entity,
         "void:Dataset"^^xsd:string ;
     rdfs:label "Dataset carregado: tabela_levantamentos_geoquimica"^^xsd:string ;
-    prov:generatedAtTime "2024-12-01T13:39:48.280200"^^xsd:string ;
+    prov:generatedAtTime "2024-12-01T17:49:46.898920"^^xsd:string ;
     prov:wasGeneratedBy ufrj:carga_tabela_levantamentos_geoquimica .
 
 ufrj:tabela_pocos_2024 a prov:Entity,
         "void:Dataset"^^xsd:string ;
     rdfs:label "Dataset carregado: tabela_pocos_2024"^^xsd:string ;
-    prov:generatedAtTime "2024-12-01T13:39:48.148214"^^xsd:string ;
+    prov:generatedAtTime "2024-12-01T17:49:46.787707"^^xsd:string ;
     prov:wasGeneratedBy ufrj:carga_tabela_pocos_2024 .
 
 petrobras:Petrobras a prov:Agent,
@@ -188,6 +223,13 @@ anp:ANP a prov:Agent,
         "prov:Organization"^^xsd:string ;
     prov:actedOnBehalfOf br:orgBr ;
     foaf:name "Ag&#234;ncia Nacional do Petr&#243;leo, G&#225;s Natural e Biocombust&#237;veis"^^xsd:string .
+
+anp:amostras_rochas_fluidos a prov:Entity,
+        "void:Dataset"^^xsd:string ;
+    rdfs:label "Dataset com amostras de rochas e fluidos"^^xsd:string ;
+    prov:description "Consolidado 2023 de amostras dispon&#237;veis."^^xsd:string ;
+    prov:format "zip"^^xsd:string ;
+    prov:wasGeneratedBy anp:create-dataset .
 
 anp:blocos_exploratorios a prov:Entity,
         "void:Dataset"^^xsd:string ;
@@ -272,75 +314,75 @@ ufrj:Ubirajara a prov:Agent,
 ufrj:blocos_exploratorios a prov:Entity,
         "void:Dataset"^^xsd:string ;
     rdfs:label "Dataset processado: blocos_exploratorios"^^xsd:string ;
-    prov:generatedAtTime "2024-12-01T13:39:50.567932"^^xsd:string ;
+    prov:generatedAtTime "2024-12-01T17:49:49.240286"^^xsd:string ;
     prov:wasGeneratedBy ufrj:carga_blocos_exploratorios .
 
 ufrj:campos_producao a prov:Entity,
         "void:Dataset"^^xsd:string ;
     rdfs:label "Dataset processado: campos_producao"^^xsd:string ;
-    prov:generatedAtTime "2024-12-01T13:39:51.667046"^^xsd:string ;
+    prov:generatedAtTime "2024-12-01T17:49:50.298114"^^xsd:string ;
     prov:wasGeneratedBy ufrj:carga_campos_producao .
 
 ufrj:carga_levantamento_sismico_2023 a prov:Activity ;
-    prov:endedAtTime "2024-12-01T13:39:47.855695"^^xsd:dateTime ;
-    prov:startedAtTime "2024-12-01T13:39:47.705314"^^xsd:dateTime ;
+    prov:endedAtTime "2024-12-01T17:49:46.495139"^^xsd:dateTime ;
+    prov:startedAtTime "2024-12-01T17:49:46.351227"^^xsd:dateTime ;
     prov:used anp:levantamento_sismico_2023 ;
     prov:wasAssociatedWith ufrj:eda.ipynb .
 
 ufrj:carga_pocos_perfurados_2023 a prov:Activity ;
-    prov:endedAtTime "2024-12-01T13:39:49.304557"^^xsd:dateTime ;
-    prov:startedAtTime "2024-12-01T13:39:49.134066"^^xsd:dateTime ;
+    prov:endedAtTime "2024-12-01T17:49:48.072873"^^xsd:dateTime ;
+    prov:startedAtTime "2024-12-01T17:49:47.892500"^^xsd:dateTime ;
     prov:used anp:pocos_perfurados_2023 ;
     prov:wasAssociatedWith ufrj:eda.ipynb .
 
 ufrj:carga_reservas_nacionais_hc a prov:Activity ;
-    prov:endedAtTime "2024-12-01T13:39:49.134066"^^xsd:dateTime ;
-    prov:startedAtTime "2024-12-01T13:39:48.719834"^^xsd:dateTime ;
+    prov:endedAtTime "2024-12-01T17:49:47.891492"^^xsd:dateTime ;
+    prov:startedAtTime "2024-12-01T17:49:47.471624"^^xsd:dateTime ;
     prov:used anp:reservas_nacionais_hc ;
     prov:wasAssociatedWith ufrj:eda.ipynb .
 
 ufrj:carga_tabela_dados_geoquimica a prov:Activity ;
-    prov:endedAtTime "2024-12-01T13:39:48.718835"^^xsd:dateTime ;
-    prov:startedAtTime "2024-12-01T13:39:48.280200"^^xsd:dateTime ;
+    prov:endedAtTime "2024-12-01T17:49:47.471624"^^xsd:dateTime ;
+    prov:startedAtTime "2024-12-01T17:49:46.898920"^^xsd:dateTime ;
     prov:used anp:tabela_dados_geoquimica ;
     prov:wasAssociatedWith ufrj:eda.ipynb .
 
 ufrj:carga_tabela_levantamentos_geoquimica a prov:Activity ;
-    prov:endedAtTime "2024-12-01T13:39:48.280200"^^xsd:dateTime ;
-    prov:startedAtTime "2024-12-01T13:39:48.156221"^^xsd:dateTime ;
+    prov:endedAtTime "2024-12-01T17:49:46.898920"^^xsd:dateTime ;
+    prov:startedAtTime "2024-12-01T17:49:46.787707"^^xsd:dateTime ;
     prov:used anp:tabela_levantamentos_geoquimica ;
     prov:wasAssociatedWith ufrj:eda.ipynb .
 
 ufrj:carga_tabela_pocos_2024 a prov:Activity ;
-    prov:endedAtTime "2024-12-01T13:39:48.148214"^^xsd:dateTime ;
-    prov:startedAtTime "2024-12-01T13:39:47.855695"^^xsd:dateTime ;
+    prov:endedAtTime "2024-12-01T17:49:46.787707"^^xsd:dateTime ;
+    prov:startedAtTime "2024-12-01T17:49:46.495139"^^xsd:dateTime ;
     prov:used anp:tabela_pocos_2024 ;
     prov:wasAssociatedWith ufrj:eda.ipynb .
 
 ufrj:setores_sirgas a prov:Entity,
         "void:Dataset"^^xsd:string ;
     rdfs:label "Dataset processado: setores_sirgas"^^xsd:string ;
-    prov:generatedAtTime "2024-12-01T13:39:49.469178"^^xsd:string ;
+    prov:generatedAtTime "2024-12-01T17:49:48.305852"^^xsd:string ;
     prov:wasGeneratedBy ufrj:carga_setores_sirgas .
 
 ufrj:carga_blocos_exploratorios a prov:Activity ;
-    prov:startedAtTime "2024-12-01T13:39:49.498215"^^xsd:dateTime ;
+    prov:startedAtTime "2024-12-01T17:49:48.331187"^^xsd:dateTime ;
     prov:used anp:blocos_exploratorios ;
     prov:wasAssociatedWith ufrj:eda.ipynb .
 
 ufrj:carga_campos_producao a prov:Activity ;
-    prov:startedAtTime "2024-12-01T13:39:50.619341"^^xsd:dateTime ;
+    prov:startedAtTime "2024-12-01T17:49:49.270127"^^xsd:dateTime ;
     prov:used anp:campos_producao ;
     prov:wasAssociatedWith ufrj:eda.ipynb .
 
 ufrj:carga_setores_sirgas a prov:Activity ;
-    prov:startedAtTime "2024-12-01T13:39:49.305557"^^xsd:dateTime ;
+    prov:startedAtTime "2024-12-01T17:49:48.072873"^^xsd:dateTime ;
     prov:used anp:setores_sirgas ;
     prov:wasAssociatedWith ufrj:eda.ipynb .
 
 ufrj:save-ipynb a prov:Activity ;
     rdfs:label "Salvar notebook EDA"^^xsd:string ;
-    prov:startedAtTime "2024-12-01T13:39:47.704315"^^xsd:dateTime ;
+    prov:startedAtTime "2024-12-01T17:49:46.351227"^^xsd:dateTime ;
     prov:wasAssociatedWith ufrj:eda.ipynb .
 
 br:orgBr a prov:Agent,
@@ -351,6 +393,17 @@ ufrj:PPGI a prov:Agent,
         "prov:Organization"^^xsd:string ;
     prov:actedOnBehalfOf ufrj:UFRJ ;
     foaf:name "Programa de P&#243;s Gradua&#231;&#227;o em Inform&#225;tica"^^xsd:string .
+
+ufrj:amostras_rochas_fluidos a prov:Entity,
+        "void:Dataset"^^xsd:string ;
+    rdfs:label "Dataset processado: amostras_rochas_fluidos"^^xsd:string ;
+    prov:generatedAtTime "2024-12-01T17:49:52.441114"^^xsd:string ;
+    prov:wasGeneratedBy ufrj:carga_amostras_rochas_fluidos .
+
+ufrj:carga_amostras_rochas_fluidos a prov:Activity ;
+    prov:startedAtTime "2024-12-01T17:49:50.341277"^^xsd:dateTime ;
+    prov:used anp:amostras_rochas_fluidos ;
+    prov:wasAssociatedWith ufrj:eda.ipynb .
 
 anp:create-dataset a prov:Activity ;
     rdfs:label "Cria&#231;&#227;o de datasets pela ANP"^^xsd:string ;
@@ -364,6 +417,6 @@ ufrj:eda.ipynb a prov:Agent,
 
 ufrj:track_system_and_packages a prov:Activity ;
     rdfs:label "Track system and package provenance"^^xsd:string ;
-    prov:startedAtTime "2024-12-01T13:39:47.687316"^^xsd:dateTime ;
+    prov:startedAtTime "2024-12-01T17:49:46.334129"^^xsd:dateTime ;
     prov:wasAssociatedWith ufrj:eda.ipynb .
 
