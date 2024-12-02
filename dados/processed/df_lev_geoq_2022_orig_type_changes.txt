@@ -1,9 +1,8 @@
 Column,Before,After
 Nome,object,object
-BACIA,Ausente,Adicionada
+Bacia,object,object
 Natureza da atividade,object,object
 Início Aquisição,object,datetime64[ns]
 Término Aquisição,object,datetime64[ns]
 Ambiente,object,object
 Confidencialidade,object,object
-Shape,object,Erro (Tipo 'object' não suportado.)

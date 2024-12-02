@@ -12,9 +12,9 @@
         "Tecnologia": "string",
         "Bloco": "string",
         "Campo": "string",
-        "BACIA": "string",
+        "Bacia": "string",
         "E.A.D": "string",
-        "OPERADORA": "string"
+        "Operadora": "string"
     },
     "df_pocos_orig": {
         "POCO": "string",
@@ -80,13 +80,12 @@
     },
     "df_lev_geoq_2022_orig": {
         "Nome": "string",
-        "BACIA": "string",
+        "Bacia": "string",
         "Natureza da atividade": "string",
         "Início Aquisição": "date",
         "Término Aquisição": "date",
         "Ambiente": "string",
-        "Confidencialidade": "string",
-        "Shape": "object"
+        "Confidencialidade": "string"
     },
     "df_geoq_2021_orig": {
         "Poço": "string",
@@ -131,8 +130,8 @@
     "df_reservas_orig": {
         "Ano": "int64",
         "Campo/Área de desenvolvimento": "string",
-        "BACIA": "string",
-        "ESTADO": "string",
+        "Bacia": "string",
+        "Estado": "string",
         "VOIP (bbl)": "float64",
         "VGIP (m³)": "float64",
         "Petróleo Acumulado (bbl)": "float64",

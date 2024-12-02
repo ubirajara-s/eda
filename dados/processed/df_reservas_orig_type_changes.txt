@@ -1,8 +1,8 @@
 Column,Before,After
 Ano,int64,int16
 Campo/Área de desenvolvimento,object,object
-BACIA,Ausente,Adicionada
-ESTADO,Ausente,Adicionada
+Bacia,object,object
+Estado,object,object
 VOIP (bbl),float64,float64
 VGIP (m³),float64,float64
 Petróleo Acumulado (bbl),float64,float64

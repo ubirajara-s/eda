@@ -14,5 +14,5 @@ DAT_INICIO,object,datetime64[ns]
 ETAPA,object,object
 MED_LAMINA,float64,float64
 FLUIDO_PRI,object,object
-ID,float64,int16
+ID,float64,int8
 AMBIENTE,object,object

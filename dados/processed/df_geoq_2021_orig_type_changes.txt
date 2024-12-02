@@ -4,7 +4,7 @@ Extensão do Arquivo,object,object
 Fonte dos dados,Ausente,Adicionada
 Tipo de Geoquímica,object,object
 Topo (m),object,float64
-Base (m),object,float64
+Base (m),object,int64
 Cromatografia Gasosa,object,object
 Cromatografia Líquida,object,object
 Relatório,object,object
@@ -27,7 +27,7 @@ Re/Os de Asfaltenos,object,object
 Litogeoquímica,object,object
 Reflectância de Vitrinita,object,object
 Viscosidade,object,object
-CADASTRO,int64,int64
+CADASTRO,int64,int8
 OPERADOR,object,object
 ESTADO,object,object
 BACIA,object,object

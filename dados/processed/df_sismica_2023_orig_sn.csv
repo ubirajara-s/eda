@@ -1,0 +1,53 @@
+nome,categoria,tipo,autorização,inicio,término_real,confidencialidade,público_em,ato_normativo,tecnologia,bloco,campo,bacia,e.a.d,operadora
+0263_3D_NODES_LIBRA_NW,Levantamento Geofísico,Exclusivo,nan,2017-10-07,2018-11-07,Confidencial,2023-11-07,Normal,Sísmica 3D,LIBRA     ,MERO,(não informada),Fairfield,Petrobras
+0264_2D_RECONCAVO_T_066_2018,Levantamento Geofísico,Exclusivo,nan,2018-07-08,2018-07-10,Confidencial,2023-07-10,Res. 1/2015,Sísmica 2D,REC-T-66  ,(não informado),(não informada),CGG,Imetame
+0264_2D_RECONCAVO_T_099_2018,Levantamento Geofísico,Exclusivo,nan,2018-06-12,2018-07-08,Confidencial,2023-07-08,Res. 1/2015,Sísmica 2D,REC-T-99  ,(não informado),(não informada),CGG,Imetame
+0264_4D_JUBARTE_MONITOR_01,Levantamento Geofísico,Exclusivo,nan,2018-08-15,2018-11-16,Confidencial,2023-11-16,Normal,Sísmica 3D,C-M-61    ,(múltiplos),Campos,CGG,Petrobras
+0317_3D_COPAIBA,Levantamento Geofísico,Exclusivo,nan,2017-12-22,2018-11-15,Confidencial,2023-11-15,Normal,Sísmica 3D,SOL-T-170 ,(não informado),Solimões,Geokinetics,Rosneft
+0372_NODES_LULA_MONITOR,Levantamento Geofísico,Exclusivo,nan,2017-10-19,2018-02-20,Confidencial,2023-02-20,Res. 11/2011,Sísmica 3D,(não informado),TUPI,(não informada),CGG,Petrobras
+0375_2D_CALIFORNIA,Levantamento Geofísico,Exclusivo,nan,2017-07-01,2018-07-22,Confidencial,2023-07-22,Res. 1/2015,Sísmica 2D,(múltiplos),(múltiplos),Parnaíba,Wellfield,Eneva
+R_0327_3D_BM_S_50,Reprocessamento,Exclusivo,nan,2017-09-22,2018-07-13,Confidencial,2023-07-13,Res. 1/2015,Reproc. de Dados Sísmicos 3D,(NÃO INFORMADO),(NÃO INFORMADO),(NÃO INFORMADA),Repsol Sinopec,Repsol Sinopec
+R0026_2D_RECONCAVO_SREC_T4_L2,Reprocessamento,Exclusivo,nan,2018-07-11,2018-08-07,Confidencial,2023-08-07,Res. 1/2015,PSTM 2D,(múltiplos),(múltiplos),Recôncavo,Petrobras,Petrobras
+R0026_2D_VILA_PIAUI,Reprocessamento,Exclusivo,nan,2017-12-11,2018-03-08,Confidencial,2023-03-08,Res. 1/2015,PSTM 2D,(NÃO INFORMADO),CANTO DO AMARO,(NÃO INFORMADA),Petrobras,Petrobras
+R0026_3D_PSDM_IBIRIBAS_CNC,Reprocessamento,Exclusivo,nan,2017-12-18,2018-03-20,Confidencial,2023-03-20,Res. 1/2015,Reproc. de Dados Sísmicos 3D,(múltiplos),(múltiplos),Espírito Santo,Petrobras,Petrobras
+R0026_3D_PSTM_HD_FAZ_STA_LUZIA,Reprocessamento,Exclusivo,nan,2018-07-25,2018-10-16,Confidencial,2023-10-16,Normal,(múltiplas),(NÃO INFORMADO),(múltiplos),Espírito Santo,Petrobras,Petrobras
+R0026_CANTAGALO_EX_PSDM,Reprocessamento,Exclusivo,nan,2017-12-26,2018-04-02,Confidencial,2023-04-02,Res. 1/2015,Reproc. de Dados Sísmicos 3D,(múltiplos),(múltiplos),(NÃO INFORMADA),Petrobras,Petrobras
+R0026_MERGE_RIN_CER_ROU,Reprocessamento,Exclusivo,nan,2018-04-02,2018-09-13,Confidencial,2023-09-13,Normal,Reproc. de Dados Sísmicos 3D,(múltiplos),(múltiplos),(NÃO INFORMADA),Petrobras,Petrobras
+R0026_POCO_VERDE_MERGE,Reprocessamento,Exclusivo,nan,2015-12-21,2018-12-28,Confidencial,2023-12-28,Res. 1/2015,Reproc. de Dados Sísmicos 3D,(NÃO INFORMADO),(múltiplos),(NÃO INFORMADA),Petrobras,Petrobras
+R0027_SERGIPE_ALAGOAS_BR08,Reprocessamento,Exclusivo,nan,2018-09-14,2018-11-19,Confidencial,2023-11-19,Normal,Reproc. de Dados Sísmicos 2D,(múltiplos),(NÃO INFORMADO),Alagoas,Petrobras,Petrobras
+R0059_PARNAIBA_45_PSTM_FASEII,Reprocessamento,Exclusivo,nan,2017-09-29,2018-01-16,Público,2023-01-16,Res. 1/2015,Reproc. de Dados Sísmicos 2D,(NÃO INFORMADO),(NÃO INFORMADO),Parnaíba,Petrobras,Petrobras
+R0059_PARNAIBA_45_PSTM_FASEIII,Reprocessamento,Exclusivo,nan,2018-08-07,2018-12-05,Confidencial,2023-12-05,Normal,Reproc. de Dados Sísmicos 2D,(NÃO INFORMADO),(NÃO INFORMADO),Parnaíba,Petrobras,Petrobras
+R0065_PARANA_2D_PSTM,Reprocessamento,Exclusivo,nan,2018-08-24,2018-12-06,Confidencial,2023-12-06,Normal,Reproc. de Dados Sísmicos 2D,PAR-T-175 ,(NÃO INFORMADO),Paraná,Petrobras,Petrobras
+R01.0307_4D_MALHADO_2002_2011,Reprocessamento,Exclusivo,nan,2015-07-15,2018-01-09,Público,2023-01-09,Res. 1/2015,Sísmica 4D/4C,(NÃO INFORMADO),(múltiplos),Campos,Petrobras,Petrobras
+R01.0321_MERGE_PSDM_BC_VOL01,Reprocessamento,Exclusivo,nan,2017-09-21,2018-07-10,Confidencial,2023-07-10,Res. 1/2015,PSDM 3D,(NÃO INFORMADO),(múltiplos),Campos,Petrobras,Petrobras
+R02.0306_MRL_MRLL_OBC_PP_PSDM,Reprocessamento,Exclusivo,nan,2018-06-20,2018-07-24,Confidencial,2023-07-24,Res. 1/2015,PSDM 3D,(NÃO INFORMADO),(múltiplos),Campos,Petrobras,Petrobras
+R0220_POTIGUAR_39_GPK,Reprocessamento,Exclusivo,nan,2018-04-17,2018-07-19,Confidencial,2023-07-19,Res. 1/2015,Reproc. de Dados Sísmicos 2D,POT-T-882 ,(NÃO INFORMADO),Potiguar,CPGeo,Geopark Brasil
+R0230_POTIGUAR_39_GPK,Reprocessamento,Exclusivo,nan,2018-04-17,2018-07-19,Confidencial,2023-07-19,Res. 1/2015,Reproc. de Dados Sísmicos 2D,POT-T-882 ,(NÃO INFORMADO),Potiguar,CPGeo,Geopark Brasil
+R0237_AGUA_GRANDE_CRS,Reprocessamento,Exclusivo,nan,2018-04-23,2018-06-28,Confidencial,2023-06-28,Res. 1/2015,Reproc. de Dados Sísmicos 3D,(múltiplos),(múltiplos),Recôncavo,Petrobras,Petrobras
+R0237_BAIXO_VERMELHO_2017,Reprocessamento,Exclusivo,nan,2017-03-07,2018-02-09,Confidencial,2023-02-09,Res. 1/2015,Reproc. de Dados Sísmicos 3D,POT-T-613 ,(NÃO INFORMADO),(NÃO INFORMADA),Petrobras,Petrobras
+R0241_SW_PARATI_ANEQUIM_PSDM,Reprocessamento,Exclusivo,nan,2015-10-10,2018-08-22,Confidencial,2023-08-22,Res. 1/2015,PSDM 3D,(múltiplos),(múltiplos),Campos,Petrobras,Petrobras
+R0251_3D_SW_TARTARUGA_PSDM,Reprocessamento,Exclusivo,nan,2017-03-12,2018-10-31,Confidencial,2023-10-31,Normal,PSDM 3D,(múltiplos),(múltiplos),Campos,Petrobras,Petrobras
+R0258_3D_BC_10_60_PSDM,Reprocessamento,Exclusivo,nan,2016-12-01,2018-11-09,Confidencial,2023-11-09,Normal,PSDM 3D,(múltiplos),(NÃO INFORMADO),Campos,Petrobras,Petrobras
+R0258_ITAPU_SAL_MOD,Reprocessamento,Exclusivo,nan,2016-10-03,2018-07-20,Confidencial,2023-07-20,Res. 1/2015,PSDM 3D,FLORIM    ,ITAPU,(NÃO INFORMADA),Petrobras,Petrobras
+R0258_LAPA_PSDM_BIAZIMUTE,Reprocessamento,Exclusivo,nan,2016-12-05,2018-05-25,Confidencial,2023-05-25,Res. 1/2015,PSDM 3D,(NÃO INFORMADO),LAPA,(NÃO INFORMADA),Petrobras,Petrobras
+R0258_SEPIA_SAL_MOD,Reprocessamento,Exclusivo,nan,2017-10-02,2018-09-14,Confidencial,2023-09-14,Normal,PSDM 3D,(NÃO INFORMADO),SÉPIA,(NÃO INFORMADA),Petrobras,Petrobras
+R0268_3D_PSDM_BAZ,Reprocessamento,Exclusivo,nan,2017-09-04,2018-03-15,Confidencial,2023-03-15,Res. 1/2015,PSDM 3D,BC-60     ,(múltiplos),(múltiplas),Petrobras,Petrobras
+R0268_3D_PSDM_BM_CAL_12,Reprocessamento,Exclusivo,nan,2017-01-28,2018-05-24,Confidencial,2023-05-24,Res. 1/2015,PSDM 3D,(múltiplos),(NÃO INFORMADO),(múltiplas),Petrobras,Petrobras
+R0268_3D_PSTM_HD_GOLFINHO,Reprocessamento,Exclusivo,nan,2018-06-30,2018-11-23,Confidencial,2023-11-23,Normal,PSTM 3D,(NÃO INFORMADO),(múltiplos),Espírito Santo,Petrobras,Petrobras
+R0268_3D_RONCADOR_BIAZI,Reprocessamento,Exclusivo,nan,2017-06-02,2018-10-15,Confidencial,2023-10-15,Normal,PSDM 3D,(NÃO INFORMADO),RONCADOR,Campos,PGS,Petrobras
+R0268_3D_SEAL100_SES92_MERGE,Reprocessamento,Exclusivo,nan,2017-09-14,2018-09-14,Confidencial,2023-09-14,Res. 1/2015,Reproc. de Dados Sísmicos 3D,BM-SEAL-9 ,(múltiplos),Sergipe,PGS,Petrobras
+R0268_3DHD_ALBACORARONCADOR,Reprocessamento,Exclusivo,nan,2015-02-02,2018-01-25,Confidencial,2023-02-02,Res. 1/2015,PSDM 3D,(NÃO INFORMADO),(múltiplos),Campos,Petrobras,Petrobras
+R0268_BAUNA_PSDM_2018,Reprocessamento,Exclusivo,nan,2018-03-19,2018-11-14,Confidencial,2023-11-14,Normal,PSDM 3D,(NÃO INFORMADO),BAÚNA,Santos,Petrobras,Petrobras
+R0268_BCAM-40-BM-CAL-4_MANATI,Reprocessamento,Exclusivo,nan,2017-09-15,2018-05-10,Confidencial,2023-05-10,Res. 1/2015,PSDM 3D,(NÃO INFORMADO),(múltiplos),Camamu,Petrobras,Petrobras
+R0284_3D_CATU_REC_T_165_MERGE,Reprocessamento,Exclusivo,nan,2017-12-26,2018-03-26,Confidencial,2023-03-26,Res. 1/2015,Reproc. de Dados Sísmicos 3D,(múltiplos),(múltiplos),(NÃO INFORMADA),Petrobras,Petrobras
+R0284_REC_T_165,Reprocessamento,Exclusivo,nan,2017-11-13,2018-01-10,Público,2023-01-10,Res. 1/2015,Reproc. de Dados Sísmicos 3D,REC-T-152 ,TAQUIPE,(NÃO INFORMADA),Petrobras,Petrobras
+R0284_REC_T_178,Reprocessamento,Exclusivo,nan,2017-11-13,2018-01-10,Público,2023-01-10,Res. 1/2015,Reproc. de Dados Sísmicos 3D,(múltiplos),CASSARONGONGO,(NÃO INFORMADA),Petrobras,Petrobras
+R0284_REC_T_192,Reprocessamento,Exclusivo,nan,2017-11-13,2018-01-10,Público,2023-01-10,Res. 1/2015,PSTM 3D,(NÃO INFORMADO),TAQUIPE,(NÃO INFORMADA),Petrobras,Petrobras
+R0302_BUZIOS_RASO_MOD2,Reprocessamento,Exclusivo,nan,2018-02-19,2018-08-01,Confidencial,2023-08-01,Res. 1/2015,Reproc. de Dados Sísmicos 3D,(NÃO INFORMADO),BÚZIOS,Santos,Petrobras,Petrobras
+R0302_IRACEMA_PSDM_BIAZIMUTE,Reprocessamento,Exclusivo,nan,2017-09-01,2018-08-01,Confidencial,2023-08-01,Res. 1/2015,Reproc. de Dados Sísmicos 3D,BM-S-11   ,(NÃO INFORMADO),(NÃO INFORMADA),Petrobras,Petrobras
+R0307_TARTARUGA_VERDE_MESTICA,Reprocessamento,Exclusivo,nan,2017-06-30,2018-05-21,Confidencial,2023-05-21,Res. 1/2015,PSDM 3D,(NÃO INFORMADO),TARTARUGA VERDE,Campos,Petrobras,Petrobras
+R0321_3D_PSTM_GOLFINHO_CANAPU,Reprocessamento,Exclusivo,nan,2015-07-22,2018-05-15,Confidencial,2023-05-15,Res. 1/2015,Reproc. de Dados Sísmicos 3D,ES-M-525  ,(múltiplos),Espírito Santo,Petrobras,Petrobras
+R0363_BMC33_GRT,Reprocessamento,Exclusivo,nan,2017-07-10,2018-01-29,Confidencial,2023-01-29,Res. 1/2015,Reproc. de Dados Sísmicos 3D,C-M-539   ,(NÃO INFORMADO),Campos,Equinor Brasil,Equinor Brasil
+R0374_2D_SOLIMOES_COPAIBA,Reprocessamento,Exclusivo,nan,2018-05-25,2018-06-26,Confidencial,2023-06-26,Res. 1/2015,Reproc. de Dados Sísmicos 2D,SOL-T-170 ,(NÃO INFORMADO),Solimões,CImaGeo,Rosneft
+R0389_SANTOS_CLUSTER_ST18,Reprocessamento,Exclusivo,nan,2017-01-01,2018-09-30,Confidencial,2023-09-30,Normal,Reproc. de Dados Sísmicos 3D,BM-S-8    ,(NÃO INFORMADO),(NÃO INFORMADA),Equinor Brasil,Equinor Brasil
+R0392_BC10_LOFS_2018_4D,Reprocessamento,Exclusivo,nan,2018-06-01,2018-06-20,Confidencial,2023-06-20,Normal,Sísmica 4D/4C,BC-10     ,ARGONAUTA,Campos,Shell Brasil,Shell Brasil

@@ -11,6 +11,6 @@ Ato Normativo,object,object
 Tecnologia,object,object
 Bloco,object,object
 Campo,object,object
-BACIA,Ausente,Adicionada
+Bacia,object,object
 E.A.D,object,object
-OPERADORA,Ausente,Adicionada
+Operadora,object,object
