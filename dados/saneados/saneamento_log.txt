@@ -1,0 +1,17 @@
+
+### Dataset: df_consolidacao-daa-2023-calha ###
+Original shape: (3, 4)
+Colunas removidas (vazias ou sem título): 1
+Colunas após renomeação: ['profundidade', 'código_do_poco', 'valor_a']
+Colunas com tipos mistos detectadas: {'valor_a': array([<class 'int'>, <class 'str'>], dtype=object)}
+Colunas numéricas validadas: ['profundidade']
+Dataset saneado salvo em: ./dados/saneados\df_consolidacao-daa-2023-calha_md.csv
+
+
+### Dataset: df_consolidacao-daa-2023-plugues ###
+Original shape: (3, 3)
+Colunas removidas (vazias ou sem título): 0
+Colunas após renomeação: ['cota_submarina', 'descricao', 'valor_b']
+Nenhuma coluna com tipos mistos detectada.
+Colunas numéricas validadas: ['cota_submarina']
+Dataset saneado salvo em: ./dados/saneados\df_consolidacao-daa-2023-plugues_md.csv

@@ -17,3 +17,5 @@ dependencies:
   - seaborn
   - numpy
   - python-graphviz
+  - contextily
+  - ipython
