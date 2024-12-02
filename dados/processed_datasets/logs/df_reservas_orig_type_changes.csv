@@ -1,0 +1,11 @@
+Column,Before,After
+Ano,Not Found (Added),int8
+Campo/Área de desenvolvimento,Not Found (Added),object
+BACIA,Not Found (Added),object
+ESTADO,Not Found (Added),object
+VOIP (bbl),Not Found (Added),int64
+VGIP (m³),Not Found (Added),int64
+Petróleo Acumulado (bbl),Not Found (Added),int64
+Gás Natural Acumulado,Not Found (Added),int64
+Fração Recuperada de Petróleo,Not Found (Added),int64
+Situação,Not Found (Added),object

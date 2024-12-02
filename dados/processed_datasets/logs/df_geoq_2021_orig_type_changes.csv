@@ -1,0 +1,39 @@
+Column,Before,After
+Poço,Not Found (Added),object
+Extensão do Arquivo,Not Found (Added),object
+Fonte dos dados,Not Found (Added),object
+Tipo de Geoquímica,Not Found (Added),object
+Topo (m),Not Found (Added),int64
+Base (m),Not Found (Added),int64
+Cromatografia Gasosa,Not Found (Added),object
+Cromatografia Líquida,Not Found (Added),object
+Relatório,Not Found (Added),object
+Análise de Óleo,Not Found (Added),object
+Análise de Gás,Not Found (Added),object
+Análise de Fluidos,Not Found (Added),object
+Análise de Água,Not Found (Added),object
+Biomarcadores,Not Found (Added),object
+Aromáticos,Not Found (Added),object
+Saturados,Not Found (Added),object
+Isótopos,Not Found (Added),object
+Espectrometria de Massas,Not Found (Added),object
+Diamantoides,Not Found (Added),object
+Carbono Orgânico Total,Not Found (Added),object
+Pirólise,Not Found (Added),Skipped (Unsupported Type 'object')
+Inclusões Fluidas,Not Found (Added),object
+Sumário de Óleo Cru,Not Found (Added),object
+PVT,Not Found (Added),object
+Re/Os de Asfaltenos,Not Found (Added),object
+Litogeoquímica,Not Found (Added),object
+Reflectância de Vitrinita,Not Found (Added),object
+Viscosidade,Not Found (Added),object
+CADASTRO,Not Found (Added),int8
+OPERADOR,Not Found (Added),object
+ESTADO,Not Found (Added),object
+BACIA,Not Found (Added),object
+CAMPO,Not Found (Added),object
+TITULARIDADE,Not Found (Added),object
+LATITUDE,Not Found (Added),object
+LONGITUDE,Not Found (Added),object
+DATUM,Not Found (Added),object
+DIRECAO,Not Found (Added),object

@@ -1,0 +1,9 @@
+Column,Before,After
+Nome,Not Found (Added),object
+BACIA,Not Found (Added),object
+Natureza da atividade,Not Found (Added),object
+Início Aquisição,Not Found (Added),datetime64[ns]
+Término Aquisição,Not Found (Added),datetime64[ns]
+Ambiente,Not Found (Added),object
+Confidencialidade,Not Found (Added),object
+Shape,Not Found (Added),Skipped (Unsupported Type 'object')

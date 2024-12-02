@@ -1,0 +1,16 @@
+Column,Before,After
+Nome,object,object
+Categoria,object,object
+Tipo,object,object
+Autorização,float64,object
+Inicio,object,datetime64[ns]
+Término Real,object,datetime64[ns]
+Confidencialidade,object,object
+Público em,object,datetime64[ns]
+Ato Normativo,object,object
+Tecnologia,object,object
+Bloco,object,object
+Campo,object,object
+BACIA,Ausente,Adicionada
+E.A.D,object,object
+OPERADORA,Ausente,Adicionada

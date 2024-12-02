@@ -1,0 +1,61 @@
+Column,Before,After
+POCO,Not Found (Added),object
+CADASTRO,Not Found (Added),int8
+OPERADOR,Not Found (Added),object
+POCO_OPERADOR,Not Found (Added),object
+ESTADO,Not Found (Added),object
+BACIA,Not Found (Added),object
+BLOCO,Not Found (Added),object
+SIG_CAMPO,Not Found (Added),object
+CAMPO,Not Found (Added),object
+TERRA_MAR,Not Found (Added),object
+POCO_POS_ANP,Not Found (Added),object
+TIPO,Not Found (Added),int8
+CATEGORIA,Not Found (Added),object
+RECLASSIFICACAO,Not Found (Added),object
+SITUACAO,Not Found (Added),object
+INÍCIO,Not Found (Added),datetime64[ns]
+TÉRMINO,Not Found (Added),datetime64[ns]
+CONCLUSAO,Not Found (Added),datetime64[ns]
+TITULARIDADE,Not Found (Added),Skipped (Unsupported Type 'object')
+LATITUDE_BASE_4C,Not Found (Added),object
+LONGITUDE_BASE_4C,Not Found (Added),object
+LATITUDE_BASE_DD,Not Found (Added),object
+LONGITUDE_BASE_DD,Not Found (Added),object
+DATUM_HORIZONTAL,Not Found (Added),Skipped (Unsupported Type 'object')
+TIPO_DE_COORDENADA_DE_BASE,Not Found (Added),Skipped (Unsupported Type 'object')
+DIRECAO,Not Found (Added),Skipped (Unsupported Type 'object')
+PROFUNDIDADE_VERTICAL_M,Not Found (Added),int64
+PROFUNDIDADE_SONDADOR_M,Not Found (Added),int64
+PROFUNDIDADE_MEDIDA_M,Not Found (Added),int64
+REFERENCIA_DE_PROFUNDIDADE,Not Found (Added),object
+MESA_ROTATIVA,Not Found (Added),int64
+COTA_ALTIMETRICA_M,Not Found (Added),int64
+LAMINA_D_AGUA_M,Not Found (Added),int64
+DATUM_VERTICAL,Not Found (Added),object
+UNIDADE_ESTRATIGRAFICA,Not Found (Added),object
+GEOLOGIA_GRUPO_FINAL,Not Found (Added),object
+GEOLOGIA_FORMACAO_FINAL,Not Found (Added),object
+GEOLOGIA_MEMBRO_FINAL,Not Found (Added),object
+CDPE,Not Found (Added),object
+AGP,Not Found (Added),object
+PC,Not Found (Added),object
+PAG,Not Found (Added),object
+PERFIS_CONVENCIONAIS,Not Found (Added),object
+DURANTE_PERFURACAO,Not Found (Added),object
+PERFIS_DIGITAIS,Not Found (Added),object
+PERFIS_PROCESSADOS,Not Found (Added),object
+PERFIS_ESPECIAIS,Not Found (Added),object
+AMOSTRA_LATERAL,Not Found (Added),object
+SISMICA,Not Found (Added),object
+TABELA_TEMPO_PROFUNDIDADE,Not Found (Added),object
+DADOS_DIRECIONAIS,Not Found (Added),object
+TESTE_A_CABO,Not Found (Added),object
+TESTE_DE_FORMACAO,Not Found (Added),object
+CANHONEIO,Not Found (Added),object
+TESTEMUNHO,Not Found (Added),object
+GEOQUIMICA,Not Found (Added),object
+SIG_SONDA,Not Found (Added),object
+NOM_SONDA,Not Found (Added),object
+ATINGIU_PRESAL,Not Found (Added),object
+DHA_ATUALIZACAO,Not Found (Added),datetime64[ns]

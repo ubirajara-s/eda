@@ -1,0 +1,398 @@
+
+=== Dataset: dataset ===
+Shape: (264, 1)
+Columns: ['Todas as Informações aqui contidas são relativas ao 5 dia util de outubro de 2023. Após essa data podem ter ocorrido mudanças e deslocamentos.;;;;;;;;;']
+Types:
+Todas as Informações aqui contidas são relativas ao 5 dia util de outubro de 2023. Após essa data podem ter ocorrido mudanças e deslocamentos.;;;;;;;;;    object
+dtype: object
+
+=== Dataset: df_consolidacao-daa-2023-calha ===
+Shape: (193949, 12)
+Columns: ['Bacia sedimentar', 'Código do poço (API)', 'Nome do poço (ANP)', 'Identificador da caixa', 'Total de caixas', 'Profundidade topo (m)', 'Profundidade base (m)', 'Data de conclusão do poço', 'Município/Estado', 'Depositária', 'Unnamed: 10', 'Unnamed: 11']
+Types:
+Bacia sedimentar              object
+Código do poço (API)          object
+Nome do poço (ANP)            object
+Identificador da caixa        object
+Total de caixas               object
+Profundidade topo (m)         object
+Profundidade base (m)         object
+Data de conclusão do poço     object
+Município/Estado              object
+Depositária                   object
+Unnamed: 10                  float64
+Unnamed: 11                  float64
+dtype: object
+
+=== Dataset: df_consolidacao-daa-2023-fluidos ===
+Shape: (3697, 12)
+Columns: ['Bacia sedimentar', 'Código do poço (API)', 'Nome do poço (ANP)', 'Tipo de fluido', 'Profundidade topo (m)', 'Profundidade base (m)', 'Quantidade de amostra', 'Tipo de container', 'Volume (L)', 'Data de conclusão do poço', 'Município/Estado', 'Depositária']
+Types:
+Bacia sedimentar             object
+Código do poço (API)         object
+Nome do poço (ANP)           object
+Tipo de fluido               object
+Profundidade topo (m)        object
+Profundidade base (m)        object
+Quantidade de amostra        object
+Tipo de container            object
+Volume (L)                   object
+Data de conclusão do poço    object
+Município/Estado             object
+Depositária                  object
+dtype: object
+
+=== Dataset: df_consolidacao-daa-2023-laminas ===
+Shape: (401955, 10)
+Columns: ['Bacia sedimentar', 'Código do poço (API)', 'Nome do poço (ANP)', 'Profundidade da lâmina (m)', 'Tipo de amostra de origem', 'Quantidade de lâminas delgadas', 'Quantidade de lâminas bioestratigráficas', 'Data de conclusão do poço', 'Município/Estado', 'Depositária']
+Types:
+Bacia sedimentar                            object
+Código do poço (API)                        object
+Nome do poço (ANP)                          object
+Profundidade da lâmina (m)                  object
+Tipo de amostra de origem                   object
+Quantidade de lâminas delgadas              object
+Quantidade de lâminas bioestratigráficas    object
+Data de conclusão do poço                   object
+Município/Estado                            object
+Depositária                                 object
+dtype: object
+
+=== Dataset: df_consolidacao-daa-2023-laterais ===
+Shape: (75284, 9)
+Columns: ['Bacia sedimentar', 'Código do poço (API)', 'Nome do poço (ANP)', 'Profundidade (m)', 'Identificador da caixa', 'Total de caixas', 'Data de conclusão do poço', 'Município/Estado', 'Depositária']
+Types:
+Bacia sedimentar             object
+Código do poço (API)         object
+Nome do poço (ANP)           object
+Profundidade (m)             object
+Identificador da caixa       object
+Total de caixas              object
+Data de conclusão do poço    object
+Município/Estado             object
+Depositária                  object
+dtype: object
+
+=== Dataset: df_consolidacao-daa-2023-plugues ===
+Shape: (182167, 11)
+Columns: ['Bacia sedimentar', 'Código do poço (API)', 'Nome do poço (ANP)', 'Número do testemunho', 'Profundidade do plugue (m)', 'Orientação do plugue (H ou V)', 'Identificador da caixa', 'Total de caixas', 'Data de conclusão do poço', 'Município/Estado', 'Depositária']
+Types:
+Bacia sedimentar                  object
+Código do poço (API)              object
+Nome do poço (ANP)                object
+Número do testemunho              object
+Profundidade do plugue (m)        object
+Orientação do plugue (H ou V)     object
+Identificador da caixa            object
+Total de caixas                  float64
+Data de conclusão do poço         object
+Município/Estado                  object
+Depositária                       object
+dtype: object
+
+=== Dataset: df_consolidacao-daa-2023-testemunhos ===
+Shape: (59425, 10)
+Columns: ['Bacia sedimentar', 'Código do poço (API)', 'Nome do poço (ANP)', 'Número do testemunho', 'Total de caixas', 'Profundidade topo (m)', 'Profundidade base (m)', 'Data de conclusão do poço', 'Município/Estado', 'Depositária']
+Types:
+Bacia sedimentar             object
+Código do poço (API)         object
+Nome do poço (ANP)           object
+Número do testemunho         object
+Total de caixas              object
+Profundidade topo (m)        object
+Profundidade base (m)        object
+Data de conclusão do poço    object
+Município/Estado             object
+Depositária                  object
+dtype: object
+
+=== Dataset: df_geoq_2021_orig ===
+Shape: (4665, 38)
+Columns: ['Poço', 'Extensão do Arquivo', 'Fonte dos Dados', 'Tipo de Geoquímica', 'Topo (m)', 'Base (m)', 'Cromatografia Gasosa', 'Cromatografia Líquida', 'Relatório', 'Análise de Óleo', 'Análise de Gás', 'Análise de Fluidos', 'Análise de Água', 'Biomarcadores', 'Aromáticos', 'Saturados', 'Isótopos', 'Espectrometria de Massas', 'Diamantoides', 'Carbono Orgânico Total', 'Pirólise', 'Inclusões Fluidas', 'Sumário de Óleo Cru', 'PVT', 'Re/Os de Asfaltenos', 'Litogeoquímica', 'Reflectância de Vitrinita', 'Viscosidade', 'CADASTRO', 'OPERADOR', 'ESTADO', 'BACIA', 'CAMPO', 'TITULARIDADE', 'LATITUDE', 'LONGITUDE', 'DATUM', 'DIRECAO']
+Types:
+Poço                         object
+Extensão do Arquivo          object
+Fonte dos Dados              object
+Tipo de Geoquímica           object
+Topo (m)                     object
+Base (m)                     object
+Cromatografia Gasosa         object
+Cromatografia Líquida        object
+Relatório                    object
+Análise de Óleo              object
+Análise de Gás               object
+Análise de Fluidos           object
+Análise de Água              object
+Biomarcadores                object
+Aromáticos                   object
+Saturados                    object
+Isótopos                     object
+Espectrometria de Massas     object
+Diamantoides                 object
+Carbono Orgânico Total       object
+Pirólise                     object
+Inclusões Fluidas            object
+Sumário de Óleo Cru          object
+PVT                          object
+Re/Os de Asfaltenos          object
+Litogeoquímica               object
+Reflectância de Vitrinita    object
+Viscosidade                  object
+CADASTRO                      int64
+OPERADOR                     object
+ESTADO                       object
+BACIA                        object
+CAMPO                        object
+TITULARIDADE                 object
+LATITUDE                     object
+LONGITUDE                    object
+DATUM                        object
+DIRECAO                      object
+dtype: object
+
+=== Dataset: df_lev_geoq_2022_orig ===
+Shape: (69, 8)
+Columns: ['Nome', 'Bacia', 'Natureza da atividade', 'Início Aquisição', 'Término Aquisição', 'Ambiente', 'Confidencialidade', 'Shape']
+Types:
+Nome                     object
+Bacia                    object
+Natureza da atividade    object
+Início Aquisição         object
+Término Aquisição        object
+Ambiente                 object
+Confidencialidade        object
+Shape                    object
+dtype: object
+
+=== Dataset: df_pocos_orig ===
+Shape: (30827, 60)
+Columns: ['POCO', 'CADASTRO', 'OPERADOR', 'POCO_OPERADOR', 'ESTADO', 'BACIA', 'BLOCO', 'SIG_CAMPO', 'CAMPO', 'TERRA_MAR', 'POCO_POS_ANP', 'TIPO', 'CATEGORIA', 'RECLASSIFICACAO', 'SITUACAO', 'INÍCIO', 'TÉRMINO', 'CONCLUSAO', 'TITULARIDADE', 'LATITUDE_BASE_4C', 'LONGITUDE_BASE_4C', 'LATITUDE_BASE_DD', 'LONGITUDE_BASE_DD', 'DATUM_HORIZONTAL', 'TIPO_DE_COORDENADA_DE_BASE', 'DIRECAO', 'PROFUNDIDADE_VERTICAL_M', 'PROFUNDIDADE_SONDADOR_M', 'PROFUNDIDADE_MEDIDA_M', 'REFERENCIA_DE_PROFUNDIDADE', 'MESA_ROTATIVA', 'COTA_ALTIMETRICA_M', 'LAMINA_D_AGUA_M', 'DATUM_VERTICAL', 'UNIDADE_ESTRATIGRAFICA', 'GEOLOGIA_GRUPO_FINAL', 'GEOLOGIA_FORMACAO_FINAL', 'GEOLOGIA_MEMBRO_FINAL', 'CDPE', 'AGP', 'PC', 'PAG', 'PERFIS_CONVENCIONAIS', 'DURANTE_PERFURACAO', 'PERFIS_DIGITAIS', 'PERFIS_PROCESSADOS', 'PERFIS_ESPECIAIS', 'AMOSTRA_LATERAL', 'SISMICA', 'TABELA_TEMPO_PROFUNDIDADE', 'DADOS_DIRECIONAIS', 'TESTE_A_CABO', 'TESTE_DE_FORMACAO', 'CANHONEIO', 'TESTEMUNHO', 'GEOQUIMICA', 'SIG_SONDA', 'NOM_SONDA', 'ATINGIU_PRESAL', 'DHA_ATUALIZACAO']
+Types:
+POCO                           object
+CADASTRO                        int64
+OPERADOR                       object
+POCO_OPERADOR                  object
+ESTADO                         object
+BACIA                          object
+BLOCO                          object
+SIG_CAMPO                      object
+CAMPO                          object
+TERRA_MAR                      object
+POCO_POS_ANP                   object
+TIPO                            int64
+CATEGORIA                      object
+RECLASSIFICACAO                object
+SITUACAO                       object
+INÍCIO                         object
+TÉRMINO                        object
+CONCLUSAO                      object
+TITULARIDADE                   object
+LATITUDE_BASE_4C               object
+LONGITUDE_BASE_4C              object
+LATITUDE_BASE_DD               object
+LONGITUDE_BASE_DD              object
+DATUM_HORIZONTAL               object
+TIPO_DE_COORDENADA_DE_BASE     object
+DIRECAO                        object
+PROFUNDIDADE_VERTICAL_M        object
+PROFUNDIDADE_SONDADOR_M        object
+PROFUNDIDADE_MEDIDA_M          object
+REFERENCIA_DE_PROFUNDIDADE     object
+MESA_ROTATIVA                  object
+COTA_ALTIMETRICA_M             object
+LAMINA_D_AGUA_M                object
+DATUM_VERTICAL                 object
+UNIDADE_ESTRATIGRAFICA        float64
+GEOLOGIA_GRUPO_FINAL           object
+GEOLOGIA_FORMACAO_FINAL        object
+GEOLOGIA_MEMBRO_FINAL          object
+CDPE                           object
+AGP                            object
+PC                             object
+PAG                            object
+PERFIS_CONVENCIONAIS           object
+DURANTE_PERFURACAO             object
+PERFIS_DIGITAIS                object
+PERFIS_PROCESSADOS             object
+PERFIS_ESPECIAIS               object
+AMOSTRA_LATERAL                object
+SISMICA                        object
+TABELA_TEMPO_PROFUNDIDADE      object
+DADOS_DIRECIONAIS              object
+TESTE_A_CABO                   object
+TESTE_DE_FORMACAO              object
+CANHONEIO                      object
+TESTEMUNHO                     object
+GEOQUIMICA                     object
+SIG_SONDA                      object
+NOM_SONDA                      object
+ATINGIU_PRESAL                 object
+DHA_ATUALIZACAO                object
+dtype: object
+
+=== Dataset: df_poco_2023_orig ===
+Shape: (106, 59)
+Columns: ['POCO', 'CADASTRO', 'OPERADOR', 'POCO_OPERADOR', 'ESTADO', 'BACIA', 'BLOCO', 'SIG_CAMPO', 'CAMPO', 'TERRA_MAR', 'POCO_POS_ANP', 'TIPO', 'CATEGORIA', 'RECLASSIFICACAO', 'SITUACAO', 'INICIO', 'TERMINO', 'CONCLUSAO', 'LATITUDE_BASE_4C', 'LONGITUDE_BASE_4C', 'LATITUDE_BASE_DD', 'LONGITUDE_BASE_DD', 'DATUM_HORIZONTAL', 'TIPO_DE_COORDENADA_DE_BASE', 'DIRECAO', 'PROFUNDIDADE_VERTICAL_M', 'PROFUNDIDADE_SONDADOR_M', 'PROFUNDIDADE_MEDIDA_M', 'REFERENCIA_DE_PROFUNDIDADE', 'MESA_ROTATIVA', 'COTA_ALTIMETRICA_M', 'LAMINA_D_AGUA_M', 'DATUM_VERTICAL', 'UNIDADE_ESTRATIGRAFICA', 'GEOLOGIA_GRUPO_FINAL', 'GEOLOGIA_FORMACAO_FINAL', 'GEOLOGIA_MEMBRO_FINAL', 'CDPE', 'AGP', 'PC', 'PAG', 'PERFIS_CONVENCIONAIS', 'DURANTE_PERFURACAO', 'PERFIS_DIGITAIS', 'PERFIS_PROCESSADOS', 'PERFIS_ESPECIAIS', 'AMOSTRA_LATERAL', 'SISMICA', 'TABELA_TEMPO_PROFUNDIDADE', 'DADOS_DIRECIONAIS', 'TESTE_A_CABO', 'TESTE_DE_FORMACAO', 'CANHONEIO', 'TESTEMUNHO', 'GEOQUIMICA', 'SIG_SONDA', 'NOM_SONDA', 'ATINGIU_PRESAL', 'DHA_ATUALIZACAO']
+Types:
+POCO                           object
+CADASTRO                        int64
+OPERADOR                       object
+POCO_OPERADOR                  object
+ESTADO                         object
+BACIA                          object
+BLOCO                          object
+SIG_CAMPO                      object
+CAMPO                          object
+TERRA_MAR                      object
+POCO_POS_ANP                   object
+TIPO                            int64
+CATEGORIA                      object
+RECLASSIFICACAO                object
+SITUACAO                       object
+INICIO                         object
+TERMINO                        object
+CONCLUSAO                      object
+LATITUDE_BASE_4C               object
+LONGITUDE_BASE_4C              object
+LATITUDE_BASE_DD               object
+LONGITUDE_BASE_DD              object
+DATUM_HORIZONTAL               object
+TIPO_DE_COORDENADA_DE_BASE     object
+DIRECAO                        object
+PROFUNDIDADE_VERTICAL_M        object
+PROFUNDIDADE_SONDADOR_M        object
+PROFUNDIDADE_MEDIDA_M          object
+REFERENCIA_DE_PROFUNDIDADE     object
+MESA_ROTATIVA                  object
+COTA_ALTIMETRICA_M             object
+LAMINA_D_AGUA_M               float64
+DATUM_VERTICAL                 object
+UNIDADE_ESTRATIGRAFICA        float64
+GEOLOGIA_GRUPO_FINAL           object
+GEOLOGIA_FORMACAO_FINAL        object
+GEOLOGIA_MEMBRO_FINAL          object
+CDPE                           object
+AGP                           float64
+PC                             object
+PAG                            object
+PERFIS_CONVENCIONAIS           object
+DURANTE_PERFURACAO             object
+PERFIS_DIGITAIS               float64
+PERFIS_PROCESSADOS             object
+PERFIS_ESPECIAIS               object
+AMOSTRA_LATERAL                object
+SISMICA                        object
+TABELA_TEMPO_PROFUNDIDADE      object
+DADOS_DIRECIONAIS              object
+TESTE_A_CABO                   object
+TESTE_DE_FORMACAO              object
+CANHONEIO                      object
+TESTEMUNHO                    float64
+GEOQUIMICA                    float64
+SIG_SONDA                      object
+NOM_SONDA                      object
+ATINGIU_PRESAL                 object
+DHA_ATUALIZACAO                object
+dtype: object
+
+=== Dataset: df_reservas_orig ===
+Shape: (419, 10)
+Columns: ['Ano', 'Campo/Área de desenvolvimento', 'Bacia', 'Estado', 'VOIP (bbl)', 'VGIP (m³)', 'Petróleo Acumulado (bbl)', 'Gás Natural Acumulado (m³)', 'Fração Recuperada de Petróleo', 'Situação']
+Types:
+Ano                                int64
+Campo/Área de desenvolvimento     object
+Bacia                             object
+Estado                            object
+VOIP (bbl)                       float64
+VGIP (m³)                        float64
+Petróleo Acumulado (bbl)         float64
+Gás Natural Acumulado (m³)       float64
+Fração Recuperada de Petróleo    float64
+Situação                          object
+dtype: object
+
+=== Dataset: df_sismica_2023_orig ===
+Shape: (52, 15)
+Columns: ['Nome', 'Categoria', 'Tipo', 'Autorização', 'Inicio', 'Término Real', 'Confidencialidade', 'Público em', 'Ato Normativo', 'Tecnologia', 'Bloco', 'Campo', 'Bacia', 'E.A.D', 'Operadora']
+Types:
+Nome                  object
+Categoria             object
+Tipo                  object
+Autorização          float64
+Inicio                object
+Término Real          object
+Confidencialidade     object
+Público em            object
+Ato Normativo         object
+Tecnologia            object
+Bloco                 object
+Campo                 object
+Bacia                 object
+E.A.D                 object
+Operadora             object
+dtype: object
+
+=== Dataset: gdf_bacias ===
+Shape: (188, 4)
+Columns: ['ID1', 'BACIA', 'NOME_SETOR', 'geometry']
+Types:
+ID1            int64
+BACIA         object
+NOME_SETOR    object
+geometry      object
+dtype: object
+
+=== Dataset: gdf_blocos_exploratorios ===
+Shape: (424, 15)
+Columns: ['COD_BLOCO', 'COD_FASE_C', 'DAT_ASSINA', 'DAT_TERMIN', 'NOM_BACIA', 'NOM_BLOCO', 'NOM_FANTAS', 'NUM_CONTRA', 'NUM_DESCOB', 'OPERADOR_C', 'RODADA', 'AREA_TOTAL', 'AMBIENTE', 'BLOCOS', 'geometry']
+Types:
+COD_BLOCO      object
+COD_FASE_C     object
+DAT_ASSINA     object
+DAT_TERMIN     object
+NOM_BACIA      object
+NOM_BLOCO      object
+NOM_FANTAS     object
+NUM_CONTRA     object
+NUM_DESCOB    float64
+OPERADOR_C     object
+RODADA         object
+AREA_TOTAL    float64
+AMBIENTE       object
+BLOCOS         object
+geometry       object
+dtype: object
+
+=== Dataset: gdf_campos_producao ===
+Shape: (432, 18)
+Columns: ['NUM_RODADA', 'NOM_CAMPO', 'AREA', 'OPERADOR_C', 'NUM_CONTRA', 'DAT_ASSINA', 'DAT_TERMIN', 'NOM_BACIA', 'COD_CAMPO', 'SIG_CAMPO', 'DAT_DESCOB', 'DAT_INICIO', 'ETAPA', 'MED_LAMINA', 'FLUIDO_PRI', 'ID', 'AMBIENTE', 'geometry']
+Types:
+NUM_RODADA     object
+NOM_CAMPO      object
+AREA          float64
+OPERADOR_C     object
+NUM_CONTRA     object
+DAT_ASSINA     object
+DAT_TERMIN     object
+NOM_BACIA      object
+COD_CAMPO     float64
+SIG_CAMPO      object
+DAT_DESCOB     object
+DAT_INICIO     object
+ETAPA          object
+MED_LAMINA    float64
+FLUIDO_PRI     object
+ID            float64
+AMBIENTE       object
+geometry       object
+dtype: object
+
+=== Dataset: gdf_setores_sirgas ===
+Shape: (188, 4)
+Columns: ['ID1', 'BACIA', 'NOME_SETOR', 'geometry']
+Types:
+ID1            int64
+BACIA         object
+NOME_SETOR    object
+geometry      object
+dtype: object

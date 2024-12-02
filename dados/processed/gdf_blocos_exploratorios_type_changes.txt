@@ -1,0 +1,15 @@
+Column,Before,After
+COD_BLOCO,object,object
+COD_FASE_C,object,object
+DAT_ASSINA,object,datetime64[ns]
+DAT_TERMIN,object,datetime64[ns]
+NOM_BACIA,object,object
+NOM_BLOCO,object,object
+NOM_FANTAS,object,object
+NUM_CONTRA,object,object
+NUM_DESCOB,float64,object
+OPERADOR_C,object,Erro (Tipo 'object' não suportado.)
+RODADA,object,Erro (Tipo 'object' não suportado.)
+AREA_TOTAL,float64,float64
+AMBIENTE,object,object
+BLOCOS,object,object

@@ -1,0 +1,4 @@
+Column,Before,After
+ID1,int64,int16
+BACIA,object,object
+NOME_SETOR,object,object

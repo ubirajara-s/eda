@@ -1,0 +1,18 @@
+Column,Before,After
+NUM_RODADA,Not Found (Added),object
+NOM_CAMPO,Not Found (Added),object
+AREA,Not Found (Added),int64
+OPERADOR_C,Not Found (Added),object
+NUM_CONTRA,Not Found (Added),object
+DAT_ASSINA,Not Found (Added),datetime64[ns]
+DAT_TERMIN,Not Found (Added),datetime64[ns]
+NOM_BACIA,Not Found (Added),object
+COD_CAMPO,Not Found (Added),object
+SIG_CAMPO,Not Found (Added),object
+DAT_DESCOB,Not Found (Added),datetime64[ns]
+DAT_INICIO,Not Found (Added),datetime64[ns]
+ETAPA,Not Found (Added),object
+MED_LAMINA,Not Found (Added),int64
+FLUIDO_PRI,Not Found (Added),object
+ID,Not Found (Added),int8
+AMBIENTE,Not Found (Added),object
