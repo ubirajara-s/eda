@@ -1,17 +1,114 @@
+Processando dataset 'df_sismica_2023_orig'...
+  Tipos antes do saneamento:
+    Nome: object
+    Categoria: object
+    Tipo: object
+    Autorização: object
+    Inicio: datetime64[ns]
+    Término Real: datetime64[ns]
+    Confidencialidade: object
+    Público em: datetime64[ns]
+    Ato Normativo: object
+    Tecnologia: object
+    Bloco: object
+    Campo: object
+    Bacia: object
+    E.A.D: object
+    Operadora: object
+  Tipos após o saneamento:
+    Nome: object
+    Categoria: object
+    Tipo: object
+    Autorização: object
+    Inicio: datetime64[ns]
+    Término Real: datetime64[ns]
+    Confidencialidade: object
+    Público em: datetime64[ns]
+    Ato Normativo: object
+    Tecnologia: object
+    Bloco: object
+    Campo: object
+    Bacia: object
+    E.A.D: object
+    Operadora: object
+  Shape original: (52, 15)
+  Shape final: (52, 15)
+  Colunas removidas: []
+  Dataset 'df_sismica_2023_orig' saneado salvo em: ./dados/saneados\df_sismica_2023_orig_sn.csv
 
-### Dataset: df_consolidacao-daa-2023-calha ###
-Original shape: (3, 4)
-Colunas removidas (vazias ou sem título): 1
-Colunas após renomeação: ['profundidade', 'código_do_poco', 'valor_a']
-Colunas com tipos mistos detectadas: {'valor_a': array([<class 'int'>, <class 'str'>], dtype=object)}
-Colunas numéricas validadas: ['profundidade']
-Dataset saneado salvo em: ./dados/saneados\df_consolidacao-daa-2023-calha_md.csv
+Processando dataset 'df_pocos_orig'...
+  Sem definições de tipo para 'df_pocos_orig'. Ignorando...
 
+Processando dataset 'df_lev_geoq_2022_orig'...
+  Sem definições de tipo para 'df_lev_geoq_2022_orig'. Ignorando...
 
-### Dataset: df_consolidacao-daa-2023-plugues ###
-Original shape: (3, 3)
-Colunas removidas (vazias ou sem título): 0
-Colunas após renomeação: ['cota_submarina', 'descricao', 'valor_b']
-Nenhuma coluna com tipos mistos detectada.
-Colunas numéricas validadas: ['cota_submarina']
-Dataset saneado salvo em: ./dados/saneados\df_consolidacao-daa-2023-plugues_md.csv
+Processando dataset 'df_geoq_2021_orig'...
+  Sem definições de tipo para 'df_geoq_2021_orig'. Ignorando...
+
+Processando dataset 'df_reservas_orig'...
+  Sem definições de tipo para 'df_reservas_orig'. Ignorando...
+
+Processando dataset 'df_poco_2023_orig'...
+  Sem definições de tipo para 'df_poco_2023_orig'. Ignorando...
+
+Processando dataset 'gdf_setores_sirgas'...
+  Sem definições de tipo para 'gdf_setores_sirgas'. Ignorando...
+
+Processando dataset 'gdf_blocos_exploratorios'...
+  Tipos antes do saneamento:
+    COD_BLOCO: object
+    COD_FASE_C: object
+    DAT_ASSINA: datetime64[ns]
+    DAT_TERMIN: datetime64[ns]
+    NOM_BACIA: object
+    NOM_BLOCO: object
+    NOM_FANTAS: object
+    NUM_CONTRA: object
+    NUM_DESCOB: float64
+    OPERADOR_C: object
+    RODADA: object
+    AREA_TOTAL: float64
+    AMBIENTE: object
+    BLOCOS: object
+    geometry: geometry
+  Tipos após o saneamento:
+    COD_BLOCO: object
+    COD_FASE_C: object
+    DAT_ASSINA: datetime64[ns]
+    DAT_TERMIN: datetime64[ns]
+    NOM_BACIA: object
+    NOM_BLOCO: object
+    NOM_FANTAS: object
+    NUM_CONTRA: object
+    NUM_DESCOB: float64
+    OPERADOR_C: object
+    RODADA: object
+    AREA_TOTAL: float64
+    AMBIENTE: object
+    BLOCOS: object
+    geometry: geometry
+  Shape original: (424, 15)
+  Shape final: (424, 15)
+  Colunas removidas: []
+  Dataset 'gdf_blocos_exploratorios' saneado salvo em: ./dados/saneados\gdf_blocos_exploratorios_sn.shp
+
+Processando dataset 'gdf_campos_producao'...
+  Sem definições de tipo para 'gdf_campos_producao'. Ignorando...
+
+Processando dataset 'df_consolidacao-daa-2023-calha.csv'...
+  Sem definições de tipo para 'df_consolidacao-daa-2023-calha.csv'. Ignorando...
+
+Processando dataset 'df_consolidacao-daa-2023-fluidos.csv'...
+  Sem definições de tipo para 'df_consolidacao-daa-2023-fluidos.csv'. Ignorando...
+
+Processando dataset 'df_consolidacao-daa-2023-laminas.csv'...
+  Sem definições de tipo para 'df_consolidacao-daa-2023-laminas.csv'. Ignorando...
+
+Processando dataset 'df_consolidacao-daa-2023-laterais.csv'...
+  Sem definições de tipo para 'df_consolidacao-daa-2023-laterais.csv'. Ignorando...
+
+Processando dataset 'df_consolidacao-daa-2023-plugues.csv'...
+  Sem definições de tipo para 'df_consolidacao-daa-2023-plugues.csv'. Ignorando...
+
+Processando dataset 'df_consolidacao-daa-2023-testemunhos.csv'...
+  Sem definições de tipo para 'df_consolidacao-daa-2023-testemunhos.csv'. Ignorando...
