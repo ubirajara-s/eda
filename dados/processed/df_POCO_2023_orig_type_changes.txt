@@ -1,2 +1,60 @@
 Column,Before,After
-N/A,Dataset não encontrado,N/A
+POCO,object,object
+CADASTRO,int64,int64
+OPERADOR,object,object
+POCO_OPERADOR,object,object
+ESTADO,object,object
+BACIA,object,object
+BLOCO,object,object
+SIG_CAMPO,object,object
+CAMPO,object,object
+TERRA_MAR,object,object
+POCO_POS_ANP,object,object
+TIPO,int64,int8
+CATEGORIA,object,object
+RECLASSIFICACAO,object,object
+SITUACAO,object,object
+INICIO,object,datetime64[ns]
+TERMINO,object,datetime64[ns]
+CONCLUSAO,object,datetime64[ns]
+LATITUDE_BASE_4C,object,object
+LONGITUDE_BASE_4C,object,object
+LATITUDE_BASE_DD,object,object
+LONGITUDE_BASE_DD,object,object
+DATUM_HORIZONTAL,object,object
+TIPO_DE_COORDENADA_DE_BASE,object,object
+DIRECAO,object,object
+PROFUNDIDADE_VERTICAL_M,object,float64
+PROFUNDIDADE_SONDADOR_M,object,int64
+PROFUNDIDADE_MEDIDA_M,object,float64
+REFERENCIA_DE_PROFUNDIDADE,object,object
+MESA_ROTATIVA,object,float64
+COTA_ALTIMETRICA_M,object,float64
+LAMINA_D_AGUA_M,float64,float64
+DATUM_VERTICAL,object,object
+UNIDADE_ESTRATIGRAFICA,float64,float64
+GEOLOGIA_GRUPO_FINAL,object,object
+GEOLOGIA_FORMACAO_FINAL,object,object
+GEOLOGIA_MEMBRO_FINAL,object,object
+CDPE,object,object
+AGP,float64,Erro (Can only use .str accessor with string values!)
+PC,object,object
+PAG,object,object
+PERFIS_CONVENCIONAIS,object,object
+DURANTE_PERFURACAO,object,object
+PERFIS_DIGITAIS,float64,Erro (Can only use .str accessor with string values!)
+PERFIS_PROCESSADOS,object,object
+PERFIS_ESPECIAIS,object,object
+AMOSTRA_LATERAL,object,object
+SISMICA,object,object
+TABELA_TEMPO_PROFUNDIDADE,object,object
+DADOS_DIRECIONAIS,object,object
+TESTE_A_CABO,object,object
+TESTE_DE_FORMACAO,object,object
+CANHONEIO,object,object
+TESTEMUNHO,float64,Erro (Can only use .str accessor with string values!)
+GEOQUIMICA,float64,Erro (Can only use .str accessor with string values!)
+SIG_SONDA,object,object
+NOM_SONDA,object,object
+ATINGIU_PRESAL,object,object
+DHA_ATUALIZACAO,object,datetime64[ns]

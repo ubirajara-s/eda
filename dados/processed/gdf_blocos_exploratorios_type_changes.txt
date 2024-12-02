@@ -7,9 +7,9 @@ NOM_BACIA,object,object
 NOM_BLOCO,object,object
 NOM_FANTAS,object,object
 NUM_CONTRA,object,object
-NUM_DESCOB,float64,object
+NUM_DESCOB,float64,Erro (Can only use .str accessor with string values!)
 OPERADOR_C,object,Erro (Tipo 'object' não suportado.)
 RODADA,object,Erro (Tipo 'object' não suportado.)
-AREA_TOTAL,float64,float64
+AREA_TOTAL,float64,int64
 AMBIENTE,object,object
 BLOCOS,object,object

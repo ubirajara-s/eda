@@ -2,7 +2,7 @@ Column,Before,After
 Nome,object,object
 Categoria,object,object
 Tipo,object,object
-Autorização,float64,object
+Autorização,float64,Erro (Can only use .str accessor with string values!)
 Inicio,object,datetime64[ns]
 Término Real,object,datetime64[ns]
 Confidencialidade,object,object

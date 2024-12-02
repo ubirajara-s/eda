@@ -17,14 +17,14 @@ SITUACAO,object,object
 INÍCIO,object,datetime64[ns]
 TÉRMINO,object,datetime64[ns]
 CONCLUSAO,object,datetime64[ns]
-TITULARIDADE,object,Erro (Tipo 'object' não suportado.)
+TITULARIDADE,object,object
 LATITUDE_BASE_4C,object,object
 LONGITUDE_BASE_4C,object,object
 LATITUDE_BASE_DD,object,object
 LONGITUDE_BASE_DD,object,object
-DATUM_HORIZONTAL,object,Erro (Tipo 'object' não suportado.)
-TIPO_DE_COORDENADA_DE_BASE,object,Erro (Tipo 'object' não suportado.)
-DIRECAO,object,Erro (Tipo 'object' não suportado.)
+DATUM_HORIZONTAL,object,object
+TIPO_DE_COORDENADA_DE_BASE,object,object
+DIRECAO,object,object
 PROFUNDIDADE_VERTICAL_M,object,float64
 PROFUNDIDADE_SONDADOR_M,object,float64
 PROFUNDIDADE_MEDIDA_M,object,float64
@@ -33,7 +33,7 @@ MESA_ROTATIVA,object,float64
 COTA_ALTIMETRICA_M,object,float64
 LAMINA_D_AGUA_M,object,float64
 DATUM_VERTICAL,object,object
-UNIDADE_ESTRATIGRAFICA,float64,object
+UNIDADE_ESTRATIGRAFICA,float64,Erro (Can only use .str accessor with string values!)
 GEOLOGIA_GRUPO_FINAL,object,object
 GEOLOGIA_FORMACAO_FINAL,object,object
 GEOLOGIA_MEMBRO_FINAL,object,object

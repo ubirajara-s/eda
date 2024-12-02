@@ -35,14 +35,14 @@
         "INÍCIO": "date",
         "TÉRMINO": "date",
         "CONCLUSAO": "date",
-        "TITULARIDADE": "object",
+        "TITULARIDADE": "string",
         "LATITUDE_BASE_4C": "string",
         "LONGITUDE_BASE_4C": "string",
         "LATITUDE_BASE_DD": "string",
         "LONGITUDE_BASE_DD": "string",
-        "DATUM_HORIZONTAL": "object",
-        "TIPO_DE_COORDENADA_DE_BASE": "object",
-        "DIRECAO": "object",
+        "DATUM_HORIZONTAL": "string",
+        "TIPO_DE_COORDENADA_DE_BASE": "string",
+        "DIRECAO": "string",
         "PROFUNDIDADE_VERTICAL_M": "float64",
         "PROFUNDIDADE_SONDADOR_M": "float64",
         "PROFUNDIDADE_MEDIDA_M": "float64",
@@ -139,7 +139,7 @@
         "Fração Recuperada de Petróleo": "float64",
         "Situação": "string"
     },
-    "df_POCO_2023_orig": {
+    "df_poco_2023_orig": {
         "POCO": "string",
         "CADASTRO": "int64",
         "OPERADOR": "string",
@@ -246,7 +246,7 @@
         "AMBIENTE": "string"
     },
     "df_consolidacao_daa_2023_calha.csv": {
-        "BACIA Sedimentar": "string",
+        "Bacia Sedimentar": "string",
         "Código do poço (API)": "string",
         "Nome do poço (ANP)": "string",
         "Identificador da caixa": "string",
@@ -274,7 +274,7 @@
         "Depositária": "string"
     },
     "df_consolidacao_daa_2023_laminas.csv": {
-        "BACIA Sedimentar": "string",
+        "Bacia Sedimentar": "string",
         "Código do poço (API)": "int64",
         "Nome do poço (ANP)": "string",
         "Profundidade da lâmina (m)": "float64",
@@ -286,7 +286,7 @@
         "Depositária": "string"
     },
     "df_consolidacao_daa_2023_laterais.csv": {
-        "BACIA sedimentar": "string",
+        "Bacia sedimentar": "string",
         "Código do poço (API)": "int64",
         "Nome do poço (ANP)": "string",
         "Profundidade (m)": "float64",
@@ -297,7 +297,7 @@
         "Depositária": "string"
     },
     "df_consolidacao_daa_2023_plugues.csv": {
-        "BACIA sedimentar": "string",
+        "Bacia sedimentar": "string",
         "Código do poço (API)": "int64",
         "Nome do poço (ANP)": "string",
         "Número do testemunho": "int64",
@@ -310,7 +310,7 @@
         "Depositária": "object"
     },
     "df_consolidacao_daa_2023_testemunhos.csv": {
-        "BACIA sedimentar": "string",
+        "Bacia sedimentar": "string",
         "Código do poço (API)": "int64",
         "Nome do poço (ANP)": "string",
         "Número do testemunho": "int64",
