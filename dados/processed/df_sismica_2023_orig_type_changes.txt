@@ -1,16 +1,16 @@
 Column,Before,After
-Nome,object,object
-Categoria,object,object
-Tipo,object,object
-Autorização,float64,Erro (Can only use .str accessor with string values!)
+Nome,object,string
+Categoria,object,string
+Tipo,object,string
+Autorização,float64,string
 Inicio,object,datetime64[ns]
 Término Real,object,datetime64[ns]
-Confidencialidade,object,object
+Confidencialidade,object,string
 Público em,object,datetime64[ns]
-Ato Normativo,object,object
-Tecnologia,object,object
-Bloco,object,object
-Campo,object,object
-Bacia,object,object
-E.A.D,object,object
-Operadora,object,object
+Ato Normativo,object,string
+Tecnologia,object,string
+Bloco,object,string
+Campo,object,string
+Bacia,object,string
+E.A.D,object,string
+Operadora,object,string

@@ -90,7 +90,7 @@
     "df_geoq_2021_orig": {
         "Poço": "string",
         "Extensão do Arquivo": "string",
-        "Fonte dos dados": "string",
+        "Fonte dos Dados": "string",
         "Tipo de Geoquímica": "string",
         "Topo (m)": "float64",
         "Base (m)": "float64",
@@ -108,7 +108,7 @@
         "Espectrometria de Massas": "string",
         "Diamantoides": "string",
         "Carbono Orgânico Total": "string",
-        "Pirólise": "object",
+        "Pirólise": "string",
         "Inclusões Fluidas": "string",
         "Sumário de Óleo Cru": "string",
         "PVT": "string",
@@ -135,7 +135,7 @@
         "VOIP (bbl)": "float64",
         "VGIP (m³)": "float64",
         "Petróleo Acumulado (bbl)": "float64",
-        "Gás Natural Acumulado": "float64",
+        "Gás Natural Acumulado (m³)": "float64",
         "Fração Recuperada de Petróleo": "float64",
         "Situação": "string"
     },
@@ -203,7 +203,7 @@
     "gdf_setores_sirgas": {
         "ID1": "int64",
         "BACIA": "string",
-        "Nome_SETOR": "string"
+        "NOME_SETOR": "string"
     },
     "gdf_bacias": {
         "ID1": "int64",
@@ -220,8 +220,8 @@
         "NOM_FANTAS": "string",
         "NUM_CONTRA": "string",
         "NUM_DESCOB": "string",
-        "OPERADOR_C": "object",
-        "RODADA": "object",
+        "OPERADOR_C": "string",
+        "RODADA": "string",
         "AREA_TOTAL": "float64",
         "AMBIENTE": "string",
         "BLOCOS": "string"
@@ -246,7 +246,7 @@
         "AMBIENTE": "string"
     },
     "df_consolidacao_daa_2023_calha.csv": {
-        "Bacia Sedimentar": "string",
+        "Bacia sedimentar": "string",
         "Código do poço (API)": "string",
         "Nome do poço (ANP)": "string",
         "Identificador da caixa": "string",
@@ -254,10 +254,10 @@
         "Profundidade topo (m)": "float64",
         "Profundidade base (m)": "float64",
         "Data de conclusão do poço": "string",
-        "Município/ESTADO": "string",
+        "Município/Estado": "string",
         "Depositária": "string",
-        "Unnamed:10": "object",
-        "Unnamed:11": "object"
+        "Unnamed:10": "string",
+        "Unnamed:11": "string"
     },
     "df_consolidacao_daa_2023_fluidos.csv": {
         "Bacia sedimentar": "string",
@@ -270,11 +270,11 @@
         "Tipo de container": "string",
         "Volume (L)": "string",
         "Data de conclusão do poço": "date",
-        "Município/ESTADO": "string",
+        "Município/Estado": "string",
         "Depositária": "string"
     },
     "df_consolidacao_daa_2023_laminas.csv": {
-        "Bacia Sedimentar": "string",
+        "Bacia sedimentar": "string",
         "Código do poço (API)": "int64",
         "Nome do poço (ANP)": "string",
         "Profundidade da lâmina (m)": "float64",
@@ -282,7 +282,7 @@
         "Quantidade de lâminas delgadas": "int64",
         "Quantidade de lâminas bioestratigráficas": "int64",
         "Data de conclusão do poço": "date",
-        "Município/ESTADO": "string",
+        "Município/Estado": "string",
         "Depositária": "string"
     },
     "df_consolidacao_daa_2023_laterais.csv": {
@@ -293,7 +293,7 @@
         "Identificador da caixa": "string",
         "Total de caixas": "int64",
         "Data de conclusão do poço": "date",
-        "Município/ESTADO": "string",
+        "Município/Estado": "string",
         "Depositária": "string"
     },
     "df_consolidacao_daa_2023_plugues.csv": {
@@ -306,8 +306,8 @@
         "Identificador da caixa": "string",
         "Total de caixas": "int64",
         "Data de conclusão do poço": "date",
-        "Município/ESTADO": "object",
-        "Depositária": "object"
+        "Município/Estado": "string",
+        "Depositária": "string"
     },
     "df_consolidacao_daa_2023_testemunhos.csv": {
         "Bacia sedimentar": "string",
@@ -318,7 +318,7 @@
         "Profundidade topo (m)": "float64",
         "Profundidade base (m)": "float64",
         "Data de conclusão do poço": "date",
-        "Município/ESTADO": "string",
+        "Município/Estado": "string",
         "Depositária": "string"
     }
 }

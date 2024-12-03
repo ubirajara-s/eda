@@ -1,4 +1,4 @@
 Column,Before,After
 ID1,int64,int16
-BACIA,object,object
-Nome_SETOR,Ausente,Adicionada
+BACIA,object,string
+NOME_SETOR,object,string

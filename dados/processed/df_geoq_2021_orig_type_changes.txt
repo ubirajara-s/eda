@@ -1,39 +1,39 @@
 Column,Before,After
-Poço,object,object
-Extensão do Arquivo,object,object
-Fonte dos dados,Ausente,Adicionada
-Tipo de Geoquímica,object,object
+Poço,object,string
+Extensão do Arquivo,object,string
+Fonte dos Dados,object,string
+Tipo de Geoquímica,object,string
 Topo (m),object,float64
 Base (m),object,float64
-Cromatografia Gasosa,object,object
-Cromatografia Líquida,object,object
-Relatório,object,object
-Análise de Óleo,object,object
-Análise de Gás,object,object
-Análise de Fluidos,object,object
-Análise de Água,object,object
-Biomarcadores,object,object
-Aromáticos,object,object
-Saturados,object,object
-Isótopos,object,object
-Espectrometria de Massas,object,object
-Diamantoides,object,object
-Carbono Orgânico Total,object,object
-Pirólise,object,Erro (Tipo 'object' não suportado.)
-Inclusões Fluidas,object,object
-Sumário de Óleo Cru,object,object
-PVT,object,object
-Re/Os de Asfaltenos,object,object
-Litogeoquímica,object,object
-Reflectância de Vitrinita,object,object
-Viscosidade,object,object
+Cromatografia Gasosa,object,string
+Cromatografia Líquida,object,string
+Relatório,object,string
+Análise de Óleo,object,string
+Análise de Gás,object,string
+Análise de Fluidos,object,string
+Análise de Água,object,string
+Biomarcadores,object,string
+Aromáticos,object,string
+Saturados,object,string
+Isótopos,object,string
+Espectrometria de Massas,object,string
+Diamantoides,object,string
+Carbono Orgânico Total,object,string
+Pirólise,object,string
+Inclusões Fluidas,object,string
+Sumário de Óleo Cru,object,string
+PVT,object,string
+Re/Os de Asfaltenos,object,string
+Litogeoquímica,object,string
+Reflectância de Vitrinita,object,string
+Viscosidade,object,string
 CADASTRO,int64,int64
-OPERADOR,object,object
-ESTADO,object,object
-BACIA,object,object
-CAMPO,object,object
-TITULARIDADE,object,object
-LATITUDE,object,object
-LONGITUDE,object,object
-DATUM,object,object
-DIRECAO,object,object
+OPERADOR,object,string
+ESTADO,object,string
+BACIA,object,string
+CAMPO,object,string
+TITULARIDADE,object,string
+LATITUDE,object,string
+LONGITUDE,object,string
+DATUM,object,string
+DIRECAO,object,string

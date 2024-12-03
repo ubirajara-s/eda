@@ -1,8 +1,8 @@
 Column,Before,After
-Nome,object,object
-Bacia,object,object
-Natureza da atividade,object,object
+Nome,object,string
+Bacia,object,string
+Natureza da atividade,object,string
 Início Aquisição,object,datetime64[ns]
 Término Aquisição,object,datetime64[ns]
-Ambiente,object,object
-Confidencialidade,object,object
+Ambiente,object,string
+Confidencialidade,object,string

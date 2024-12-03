@@ -1,15 +1,15 @@
 Column,Before,After
-COD_BLOCO,object,object
-COD_FASE_C,object,object
+COD_BLOCO,object,string
+COD_FASE_C,object,string
 DAT_ASSINA,object,datetime64[ns]
 DAT_TERMIN,object,datetime64[ns]
-NOM_BACIA,object,object
-NOM_BLOCO,object,object
-NOM_FANTAS,object,object
-NUM_CONTRA,object,object
-NUM_DESCOB,float64,Erro (Can only use .str accessor with string values!)
-OPERADOR_C,object,Erro (Tipo 'object' não suportado.)
-RODADA,object,Erro (Tipo 'object' não suportado.)
+NOM_BACIA,object,string
+NOM_BLOCO,object,string
+NOM_FANTAS,object,string
+NUM_CONTRA,object,string
+NUM_DESCOB,float64,string
+OPERADOR_C,object,string
+RODADA,object,string
 AREA_TOTAL,float64,int64
-AMBIENTE,object,object
-BLOCOS,object,object
+AMBIENTE,object,string
+BLOCOS,object,string
